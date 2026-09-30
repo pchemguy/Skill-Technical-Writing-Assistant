@@ -1,7 +1,5 @@
 # Style guidelines
 
-> Status: shared-guidance scaffold. Agreed style coverage and contextual qualifications are recorded; task-specific examples and behavioral acceptance cases remain to be implemented.
-
 ## Scope and boundary
 
 Supply shared editorial criteria for technical and professional writing. Apply relevant criteria through focused workflows. Style compliance does not establish factual correctness or authorize substantive changes.
@@ -9,6 +7,14 @@ Supply shared editorial criteria for technical and professional writing. Apply r
 ## Inputs and outputs
 
 Use the text, dialect, audience, register, and applicable house style. Return applicable criteria or a focused style review when directly requested. Resolve consequential conflicts with user requirements rather than impose every default.
+
+## Application procedure
+
+1. Extract applicable dialect, house style, audience, genre, and requested voice from the brief. Apply explicit requirements before these defaults; do not override technical meaning to satisfy a stylistic preference.
+2. Select relevant criteria below. For a focused parallelism check, examine lists and series without requiring a complete stylistic audit.
+3. Distinguish clear errors from choices and justified exceptions. Explain an exception when it matters; do not annotate every retained passive construction.
+4. Revise within authorized scope or report located findings if review-only was requested. Recheck surrounding sentences after local changes.
+5. Use the checklist for relevant dimensions and return unresolved conflicts. Mechanical counts can reveal patterns; they do not determine prose quality.
 
 ## Guidance
 
@@ -73,8 +79,14 @@ Apply only relevant checks. Style compliance does not establish factual correctn
 
 ## Optional handoffs
 
-Apply mechanics and sentence criteria through language-revision.md, terminology criteria through terminology-consistency.md, and compositional criteria through composition-analysis.md and structural-revision.md. Final checks belong to revision-verification.md. Load only relevant references.
+Apply mechanics and sentence criteria through [language revision](language-revision.md), terminology criteria through [terminology consistency](terminology-consistency.md), and compositional criteria through [composition analysis](composition-analysis.md) and [structural revision](structural-revision.md). Final checks belong to [revision verification](revision-verification.md). Load only relevant references.
 
-## Implementation work remaining
+## Examples and completion criteria
 
-Develop contextual examples, conflict-resolution procedures, and acceptance cases. Do not represent recorded guidance as behaviorally validated.
+- List lead-in “The process requires” with items “calibration,” “to validate,” and “operators record readings” mixes grammatical roles. Make the items parallel without changing which activities are required.
+- “Samples were stored at 4 °C” may appropriately emphasize the method. Retain the passive voice when adding an unspecified actor would distract or invent information.
+- Repeating “confidence interval” preserves a precise concept. Replacing it with “certainty range” for variation changes terminology and may mislead.
+- A one-sentence warning or transitional paragraph can be effective. Do not pad it to three sentences or add a forced topic sentence.
+- “This proves the method is safe” cannot be softened or strengthened silently when the source supports only a limited observation. Flag the claim issue separately from style.
+
+Finish when the relevant criteria have been applied consistently, necessary exceptions remain purposeful, and no style-driven change has altered meaning, protected material, or the requested voice. A checklist pass establishes editorial checking, not external factual verification.

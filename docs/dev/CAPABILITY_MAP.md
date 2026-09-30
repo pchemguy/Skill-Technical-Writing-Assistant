@@ -22,7 +22,7 @@ In development and critical-review work, the assistant helps explore composition
 
 The assistant also generates, reviews, validates, and revises structured outlines and maps as standalone deliverables or foundations for developed text. It adapts the general workflows to the task context, including specialized representations whose requirements must first be explored.
 
-This map records the agreed capability design and its rationale. The full project requirements and module order are recorded in [SPEC.md](SPEC.md) and [PLAN.md](PLAN.md). The accompanying package implements all named references with procedures, examples, failure handling, and completion criteria. Final package review and representative execution are in progress; implementation alone does not establish behavior across clients and models.
+This map records the agreed capability design and its rationale. The full project requirements and module order are recorded in [SPEC.md](SPEC.md) and [PLAN.md](PLAN.md). The accompanying package implements all named references with procedures, examples, failure handling, and completion criteria. Full package review and representative offline task execution are documented in [REVIEW.md](REVIEW.md); these checks do not establish behavior across all clients and models.
 
 ## Governing principles
 
@@ -299,4 +299,4 @@ Do not make every handoff an approval gate. Ordinary work proceeds within the us
 
 The package implements all 21 named references, including the four outline workflows, and directly routes to each from SKILL.md. The manager implements both evidence modes and all 17 composite recipes. The shared style guidance retains the supplied coverage and contextual qualifications; detailed composition and outline procedures apply the boundaries above.
 
-Structural validation and representative task execution assess different properties. Package checks demonstrate format and resource integrity; sample outputs can reveal behavior on the sampled tasks. Neither establishes universal writing quality, successful live research, installation, or behavior across hosts and models. Final full review is in progress. Subsequent work should extend evaluation from real use and repair observed weaknesses without replacing contextual judgment with a fixed profile catalogue.
+Structural validation and representative task execution assess different properties. Package checks demonstrate format and resource integrity; sample outputs can reveal behavior on the sampled tasks. Neither establishes universal writing quality, successful live research, installation, or behavior across hosts and models. The full review, resolved findings, and sample execution limits are recorded in [REVIEW.md](REVIEW.md). Subsequent work should extend evaluation from real use and repair observed weaknesses without replacing contextual judgment with a fixed profile catalogue.

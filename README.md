@@ -6,7 +6,7 @@ It also develops early notes into prose, explores composition, critiques reasoni
 
 ## Status
 
-**Workflow implementation complete; final review in progress.** The package contains 21 focused references and 17 manager recipes. Each reference includes usable procedures, handling of missing information, examples, and completion criteria. Structural checks and sample execution have distinct limits; implementation does not establish reliability across all models or clients. This repository does not install the skill into a client.
+**Implemented and reviewed.** The package contains 21 focused references and 17 manager recipes. Each reference includes usable procedures, handling of missing information, examples, and completion criteria. Structural checks passed and 11 offline sample tasks were reviewed; implementation does not establish reliability across all models or clients. This repository does not install the skill into a client.
 
 ## Use
 
@@ -29,6 +29,15 @@ Evidence work has exactly two modes: independent external research and verificat
 - [Manager](technical-writing-assistant/references/manager.md): evidence modes, workflow selection, iteration, and 17 composite recipes.
 - [Focused references](technical-writing-assistant/references/): independent procedures and shared guidance.
 - [Capability map](docs/dev/CAPABILITY_MAP.md): scope, boundaries, design rationale, and contextual outline adaptation.
+- [Full review and validation evidence](docs/dev/REVIEW.md): coverage, resolved findings, raw sample outputs, and verification limits.
 - [Specification](docs/dev/SPEC.md) and [implementation plan](docs/dev/PLAN.md): project requirements and the ordered module campaign.
 
 The skill preserves quotations, code, equations, identifiers, essential reasoning, numerical factors, and qualifications. Substantive proposals remain explicit. Drafting does not authorize sending messages, publishing, or changing software.
+
+Run local resource, routing, and presentation checks with Python 3.11 or newer:
+
+```console
+python tools/check_package.py
+```
+
+This development checker does not execute the skill or retrieve external sources.

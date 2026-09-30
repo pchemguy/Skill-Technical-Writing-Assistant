@@ -6,6 +6,7 @@
 - [Governing principles](#governing-principles)
 - [Package and routing model](#package-and-routing-model)
 - [Capability decomposition](#capability-decomposition)
+- [Structured outlines and maps](#structured-outlines-and-maps)
 - [Composition analysis coverage](#composition-analysis-coverage)
 - [Shared style policy](#shared-style-policy)
 - [Module contracts and coupling](#module-contracts-and-coupling)
@@ -18,6 +19,8 @@
 Develop an editing-first writing assistant covering software documentation and broader scientific, technical, and professional writing. Its primary purpose is improving existing material. It also supports major transformations from early bullets, fragments, and brainstorming into organized, developed text.
 
 In development and critical-review work, the assistant helps explore compositional options, identify prospective evidence and its intended use, critique or challenge arguments, and surface weaknesses, blind spots, unjustified assumptions, logical fallacies, and missing support. In review and revision, it improves clarity, structure, terminology, style, composition, and consistency while preserving technical meaning.
+
+The assistant also generates, reviews, validates, and revises structured outlines and maps as standalone deliverables or foundations for developed text. It adapts the general workflows to the task context, including specialized representations whose requirements must first be explored.
 
 This map records the agreed capability design and its rationale. It is not a complete implementation specification or implementation plan. The accompanying package is a skeleton: the references establish scope and contracts, but detailed procedures and behavioral acceptance testing are not complete.
 
@@ -56,6 +59,10 @@ The following filenames are package boundaries, not a requirement to execute eve
 | `style-guidelines.md` | Maintain authoritative style guidance and the checklist derived from the supplied guidelines, including contextual qualifications. | Provides shared editorial criteria; does not prescribe document organization or establish factual correctness. |
 | `composition-analysis.md` | Diagnose composition at sentence, paragraph, section, and document levels. Produce located findings, reader consequences, and proposed remedies. | Analyzes existing composition; does not automatically rewrite it or redesign its substantive argument. |
 | `composition-exploration.md` | Develop alternative framing, organizing principles, outlines, emphasis, and explanatory or argumentative sequences. Explain trade-offs and recommend an approach. | Explores alternatives before substantial restructuring or drafting; does not manufacture support for the selected approach. |
+| `outline-context-exploration.md` | Establish what an outline or map must represent, its purpose, audience, sources, organizing dimensions, relationships, detail, and success criteria. Propose alternatives when these are unclear. | Resolves contextual structural choices; reuses established information and does not require exploration for every task. |
+| `outline-generation.md` | Generate a structure using agreed contextual criteria. Support hierarchies, tables, relationship maps, or combinations; distinguish source-derived content from proposed additions. | Does not invent requirements, unsupported relationships, or established project scope; does not automatically develop full prose. |
+| `outline-review.md` | Critique coverage, grouping, boundaries, granularity, sequence, relationships, emphasis, and practical usefulness. Recommend repairs or alternative structures. | Evaluates conceptual and editorial quality; does not treat preferences as validation failures. |
+| `outline-validation.md` | Check conformity to the agreed structural contract, fidelity to supplied sources, internal consistency, and coverage of identified requirements. Report defects and validation limits. | Claims completeness only relative to identified sources and criteria; structural validity does not establish factual correctness. |
 | `argument-review.md` | Examine claims, premises, assumptions, inference, counterarguments, qualifications, contradictions, fallacies, and blind spots. Propose repairs and author decisions. | Assesses reasoning; empirical verification belongs to evidence work. Explain reasoning defects rather than merely attach fallacy labels. |
 | `evidence-review.md` | Identify claims requiring support, assess supplied evidence, examine whether sources support the actual claims, and identify gaps and prospective evidence. | Owns the relationship between claims and support; delegates independent retrieval and verification when the evidence mode permits it. |
 | `source-research.md` | Find and inspect external sources, fact-check claims, verify prospective references, compare conflicting evidence, and record attribution and verification limits. | Executes external research only in the research mode; does not silently revise the author's conclusions. |
@@ -69,6 +76,55 @@ The following filenames are package boundaries, not a requirement to execute eve
 | `revision-verification.md` | Compare the result with the brief and source material. Check meaning, completeness, evidence status, consistency, composition, and applicable style requirements. Report unresolved issues. | Verifies delivered work; does not imply independent factual verification when no research occurred. |
 
 Separating `source-research.md` and `draft-development.md` makes two capabilities explicit: researching support and developing prose. This prevents evidence review and structural revision from becoming overly broad. Similarly, composition analysis diagnoses the existing text, composition exploration proposes alternatives, and structural revision implements authorized changes.
+
+## Structured outlines and maps
+
+Structured outline work is an explicit capability covering generation, review, validation, and revision. An outline or map may be the final deliverable; the workflow must not automatically turn it into prose. Users can enter at any stage, including reviewing or repairing an existing structure without regenerating it.
+
+Specialization emerges from the task context rather than a predefined catalogue of cases. A skill capability map derived from project materials is one example of applying the general capability, not a limit on its scope or a required dedicated module. The agent facilitates contextual exploration when needed, defines the relevant representation and criteria, and adapts the general workflows accordingly. Do not require an `outline-profiles.md` catalogue or a separate workflow for every specialized map.
+
+### Contextual exploration and working contract
+
+Use the request, supplied materials, and established decisions first. When consequential choices remain unclear, explore alternatives and their trade-offs with the user. Establish a small task-specific working contract in ordinary prose or Markdown:
+
+- What is represented, for what purpose, and for which audience.
+- Which sources govern the content and what their authority and limitations are.
+- Which kinds of elements and relationships matter.
+- Which fields, hierarchy, or other representation serve the task.
+- What belongs within scope and what is excluded.
+- How completeness, consistency, and usefulness will be assessed.
+
+These are prompts for judgment, not mandatory fields or a questionnaire. An ordinary document outline may need only purpose and section sequence; a more complex map may need responsibilities, boundaries, dependencies, and status. Resolve material uncertainty without adding unnecessary process to a clear request.
+
+Adapt the representation to the relationships in the material. Do not force a hierarchy onto cross-cutting relationships, invent dependencies to fill a template, or imply exhaustive coverage when sources are incomplete. Use nested lists, tables, relationship maps, or combinations as appropriate; the capability is not tied to a rendering tool or format.
+
+### Generation and review coverage
+
+| Dimension | Questions and checks |
+|---|---|
+| Coverage | Are required topics represented? What is missing, excluded, or unnecessarily added? |
+| Hierarchy and relationships | Are parent–child relationships meaningful where hierarchy is used? Are levels distinguishable and other relationships explicit and justified? |
+| Granularity | Are nodes fragmented or overloaded? Is the decomposition sufficiently consistent for the task? |
+| Boundaries | Do responsibilities or topics overlap? Is coverage duplicated or ownership unclear? |
+| Sequence | Do prerequisites, dependencies, logical progression, and audience needs inform the order? |
+| Node quality | Are titles informative, purposes clear, and intended content sufficiently explained? |
+| Traceability | Can elements be related to supplied requirements and source materials? Are proposed additions distinguishable? |
+
+For substantial work, nodes may include purpose, scope, exclusions, source references, dependencies, and unresolved questions. Keep simple outlines lightweight. Review should produce located findings, consequences, suggested remedies, and any substantive decisions required; it should not automatically rewrite the structure.
+
+### Validation and source fidelity
+
+Distinguish structural validity, source fidelity, and coverage against requirements. A well-formed outline can still omit essential material or misrepresent its sources. Define the criteria before judging conformity and distinguish validation failures from editorial recommendations. Report checks performed, unresolved issues, and limitations, including incomplete sources or unsupported completeness claims.
+
+In a skill capability-map task, for example, inspect the available project materials and distinguish declared capabilities, procedures actually described in resources, proposed additions, and implementation or validation status established by evidence. Examine scope, boundaries, inputs, outputs, routing, dependencies, shared guidance, and composite workflows where relevant. Surface orphaned resources, routing gaps, overlapping responsibilities, or declared capabilities absent from the inspected package. Filenames alone do not establish implementation or successful behavior. These criteria illustrate contextual adaptation rather than define a mandatory schema for other maps.
+
+Apply the existing evidence modes when factual or external verification is involved. Reading supplied project material and validating its representation do not by themselves constitute independent external fact-checking.
+
+### Boundaries and coordination
+
+`composition-exploration.md` examines how a text could be organized and developed. `outline-context-exploration.md` determines what a structured representation must capture. They may cooperate when the outline will become prose, without duplicating their procedures. `writing-brief.md` supplies existing task context; outline exploration adds only representation-specific decisions.
+
+`outline-review.md` critiques the structure's conceptual and editorial quality. `outline-validation.md` checks explicit criteria and sources. `revision-verification.md` checks the final deliverable against the overall brief and original material, using relevant outline findings rather than repeating every specialized check. Authorized repairs proceed through the applicable outline workflows, revisiting context or generation only when findings justify it.
 
 ## Composition analysis coverage
 
@@ -185,12 +241,13 @@ The assistant should be generally proactive in identifying problems, proposing i
 
 | Decision | Options or considerations |
 |---|---|
-| Task objective | Review, revise, develop, explore alternatives, or a combination. |
+| Task objective | Review, revise, develop, explore alternatives, generate or assess structured outlines and maps, or a combination. |
 | Revision authority | Wording changes; structural changes; substantive proposals; substantive changes already authorized by the user. |
 | Evidence mode | External research and verification, or review without external research. |
 | Review coverage | Focused dimensions or broader editorial examination. |
 | Genre and audience | Applicable conventions, reader knowledge, purpose, and register. |
-| Deliverables | Findings, annotated text, clean revision, alternatives, outline, research results, or a combination. |
+| Deliverables | Findings, annotated text, clean revision, alternatives, structured outline or map, validation findings, research results, or a combination. |
+| Structured representation | Purpose, governing sources, elements and relationships, granularity, scope, representation, and review or validation criteria established from context. |
 
 ### External research and verification
 
@@ -228,6 +285,11 @@ These are adaptable recipes, not mandatory pipelines. Select an entry point from
 | Concision and executive-summary development | Identify indispensable content → select emphasis and structure → compress or develop summary → verify against source | Shorter text retaining reasoning and qualifications necessary to understand its conclusions. |
 | Software documentation review | Software guidance → inspect supplied implementation and documentation → composition and consistency review → revision → verification | Clearer documentation with discrepancies and unperformed behavior checks identified. |
 | Scientific manuscript revision | Scientific guidance → composition, argument, and evidence review → structural and language revision → verification | Better reporting and interpretation without unsupported methods, results, or certainty. |
+| Generate a structured outline or map | Brief and source assessment as needed → explore unresolved structural choices → establish contextual criteria → generation → review → validation | A context-appropriate standalone structure with proposed additions and unresolved gaps visible. |
+| Review an existing outline or map | Identify purpose, sources, and criteria → context exploration if needed → review → validation → prioritized findings | Conceptual recommendations distinguished from source or structural validation failures; no regeneration unless requested. |
+| Repair an outline or map | Review and validation → authorized revision through applicable outline workflows → repeat affected checks | A repaired structure with significant changes and unresolved issues recorded. |
+| Derive a specialized map from source materials | Inspect materials → explore needed elements and relationships → contextual contract → generation → review → source and coverage validation | A specialized map adapted to its context, such as a skill capability map, with source-derived content, proposals, and status distinguished. |
+| Outline to developed text | Review and validate the outline as needed → argument and evidence work where relevant → draft development → revision → verification | Developed prose grounded in the outline and sources, with missing support and qualifications retained. |
 
 The manager revisits earlier stages when findings justify it. An unsupported conclusion may require a narrower argument; a paragraph split may expose a missing explanation; external research may require changing the outline. Consolidate duplicate findings and resolve disagreements between workflows before presenting recommendations.
 
@@ -235,6 +297,6 @@ Do not make every handoff an approval gate. Ordinary work proceeds within the us
 
 ## Skeleton boundary and future work
 
-The current deliverable contains a routed entry point and all 17 named reference scaffolds, with scope, boundaries, contracts, and explicit implementation status. The manager includes both evidence modes and all 12 practical workflow recipes. Style coverage and composition dimensions are retained as development requirements and scaffold guidance.
+The current package contains a routed entry point and the original 17 reference scaffolds, with scope, boundaries, contracts, and explicit implementation status. The manager includes both evidence modes and all 12 practical workflow recipes. Style coverage and composition dimensions are retained as development requirements and scaffold guidance. This capability map additionally defines four outline references and five outline/map workflow recipes. Their package scaffolds and manager integration remain future work; the current package does not yet expose these new workflows.
 
 Future work includes a full specification, an ordered implementation plan, detailed module procedures, representative examples, positive and negative acceptance cases, and behavioral validation. Structural validation demonstrates package shape and resource integrity; it does not establish writing quality, successful research, installation, or host-specific behavior.

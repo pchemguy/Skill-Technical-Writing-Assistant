@@ -12,7 +12,7 @@
 - [Module contracts and coupling](#module-contracts-and-coupling)
 - [Manager decisions and evidence modes](#manager-decisions-and-evidence-modes)
 - [Practical composite workflows](#practical-composite-workflows)
-- [Skeleton boundary and future work](#skeleton-boundary-and-future-work)
+- [Implementation status and validation boundary](#implementation-status-and-validation-boundary)
 
 ## Purpose and status
 
@@ -22,7 +22,7 @@ In development and critical-review work, the assistant helps explore composition
 
 The assistant also generates, reviews, validates, and revises structured outlines and maps as standalone deliverables or foundations for developed text. It adapts the general workflows to the task context, including specialized representations whose requirements must first be explored.
 
-This map records the agreed capability design and its rationale. It is not a complete implementation specification or implementation plan. The accompanying package is a skeleton: the references establish scope and contracts, but detailed procedures and behavioral acceptance testing are not complete.
+This map records the agreed capability design and its rationale. The full project requirements and module order are recorded in [SPEC.md](SPEC.md) and [PLAN.md](PLAN.md). The accompanying package implements all named references with procedures, examples, failure handling, and completion criteria. Final package review and representative execution are in progress; implementation alone does not establish behavior across clients and models.
 
 ## Governing principles
 
@@ -295,8 +295,8 @@ The manager revisits earlier stages when findings justify it. An unsupported con
 
 Do not make every handoff an approval gate. Ordinary work proceeds within the user's authorized scope. Seek an author decision when a substantive choice is unresolved, not merely because the next module is ready to run.
 
-## Skeleton boundary and future work
+## Implementation status and validation boundary
 
-The current package contains a routed entry point and the original 17 reference scaffolds, with scope, boundaries, contracts, and explicit implementation status. The manager includes both evidence modes and all 12 practical workflow recipes. Style coverage and composition dimensions are retained as development requirements and scaffold guidance. This capability map additionally defines four outline references and five outline/map workflow recipes. Their package scaffolds and manager integration remain future work; the current package does not yet expose these new workflows.
+The package implements all 21 named references, including the four outline workflows, and directly routes to each from SKILL.md. The manager implements both evidence modes and all 17 composite recipes. The shared style guidance retains the supplied coverage and contextual qualifications; detailed composition and outline procedures apply the boundaries above.
 
-Future work includes a full specification, an ordered implementation plan, detailed module procedures, representative examples, positive and negative acceptance cases, and behavioral validation. Structural validation demonstrates package shape and resource integrity; it does not establish writing quality, successful research, installation, or host-specific behavior.
+Structural validation and representative task execution assess different properties. Package checks demonstrate format and resource integrity; sample outputs can reveal behavior on the sampled tasks. Neither establishes universal writing quality, successful live research, installation, or behavior across hosts and models. Final full review is in progress. Subsequent work should extend evaluation from real use and repair observed weaknesses without replacing contextual judgment with a fixed profile catalogue.

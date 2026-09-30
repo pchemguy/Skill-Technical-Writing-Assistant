@@ -1,6 +1,6 @@
 # Implementation plan
 
-Implement one module at a time. Check and commit each module before editing the next. Git commits are the durable checkpoints; resume by comparing this order with history and file contents. Do not treat a commit alone as behavioral verification.
+Implement one module at a time. Check, commit, and push each module before editing the next so progress is visible remotely. Git commits are the durable checkpoints; resume by comparing this order with history and file contents. Do not treat a commit alone as behavioral verification.
 
 ## Ordered modules
 

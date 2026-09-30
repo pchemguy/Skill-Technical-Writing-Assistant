@@ -1,18 +1,34 @@
 # Technical Writing Assistant
 
-A modular agent skill for scientific, technical, software, and professional writing. Its primary use is reviewing and revising existing material for clarity, structure, terminology, style, composition, and consistency while preserving technical meaning and authorial intent.
+A modular agent skill for software documentation and scientific, technical, and professional writing. It reviews and revises existing material for clarity, structure, terminology, style, composition, and consistency while preserving technical meaning and authorial intent.
 
-The planned skill also supports transforming bullets and early brainstorming into developed text, exploring compositional alternatives, challenging arguments and assumptions, and identifying evidence needs. Evidence work has two modes: independent external research and verification, or review using supplied material and model knowledge without external research.
+It also develops early notes into prose, explores composition, critiques reasoning, assesses evidence, and generates, reviews, validates, or repairs structured outlines and maps. Specialized maps emerge from contextual exploration rather than a fixed catalogue.
 
 ## Status
 
-**Design and skeleton stage.** The capability decomposition and composite workflows are documented. The standalone skill contains an entry point, 17 reference scaffolds, and optional OpenAI presentation metadata. Reference files establish scope and contracts; detailed procedures, behavioral acceptance cases, and end-to-end validation remain future work. This is not a fully implemented or behaviorally validated writing assistant.
+**Workflow implementation complete; final review in progress.** The package contains 21 focused references and 17 manager recipes. Each reference includes usable procedures, handling of missing information, examples, and completion criteria. Structural checks and sample execution have distinct limits; implementation does not establish reliability across all models or clients. This repository does not install the skill into a client.
+
+## Use
+
+Use `technical-writing-assistant/` as the standalone skill package in a host that supports Agent Skills. The core uses Markdown instructions and standard frontmatter; it requires no executable scripts or particular service. OpenAI presentation metadata under `agents/` is optional and separate from portable behavior.
+
+Focused requests load only relevant references; composite requests use the manager. Examples:
+
+- “Polish this paragraph while preserving its numbers and qualifications.”
+- “Audit the composition of this draft without rewriting it.”
+- “Develop these preliminary bullets into a report and identify missing support.”
+- “Review evidence using only the supplied contents, without external research.”
+- “Independently fact-check these claims and report source limitations.”
+- “Explore what this project map needs to represent, then generate and validate it against the supplied materials.”
+
+Evidence work has exactly two modes: independent external research and verification, or review using supplied material and model knowledge without external research. The assistant asks when relevant and unresolved, retains the choice, and does not treat remembered information as verified. External research and file-format operations depend on authorized facilities provided by the host.
 
 ## Project contents
 
-- [Capability map](docs/dev/CAPABILITY_MAP.md): design rationale, scope, boundaries, style policy, evidence modes, and practical composite workflows.
-- [Skill entry point](technical-writing-assistant/SKILL.md): invocation guidance and direct reference routing.
-- [Workflow manager](technical-writing-assistant/references/manager.md): evidence-mode selection and composite workflow scaffolding.
-- [Focused references](technical-writing-assistant/references/): independently loadable workflow contracts and shared editorial guidance.
+- [Skill entry point](technical-writing-assistant/SKILL.md): safeguards, execution, and direct routing to every reference.
+- [Manager](technical-writing-assistant/references/manager.md): evidence modes, workflow selection, iteration, and 17 composite recipes.
+- [Focused references](technical-writing-assistant/references/): independent procedures and shared guidance.
+- [Capability map](docs/dev/CAPABILITY_MAP.md): scope, boundaries, design rationale, and contextual outline adaptation.
+- [Specification](docs/dev/SPEC.md) and [implementation plan](docs/dev/PLAN.md): project requirements and the ordered module campaign.
 
-The standalone package is `technical-writing-assistant/`. Its core uses Markdown and standard Agent Skills frontmatter; `agents/openai.yaml` is optional client-specific presentation metadata. The repository does not install the skill into any client. External research requires suitable tools supplied by the host; no particular connector is required.
+The skill preserves quotations, code, equations, identifiers, essential reasoning, numerical factors, and qualifications. Substantive proposals remain explicit. Drafting does not authorize sending messages, publishing, or changing software.

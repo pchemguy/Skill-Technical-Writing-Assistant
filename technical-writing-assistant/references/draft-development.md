@@ -1,37 +1,35 @@
 # Draft development
 
-> Status: reference skeleton. Scope and contract are established; detailed procedures, examples, and behavioral acceptance cases remain to be implemented.
+## Scope and authority
 
-## Scope and activation
-
-Transform bullets, notes, fragments, or an agreed outline into developed prose.
-
-Use independently for a focused request or as a selected step in a composite workflow.
-
-## Boundary
-
-Develop text without inventing facts, findings, citations, commitments, or an authorial position.
+Transform bullets, notes, fragments, or an agreed outline into developed prose. Add supported explanation and connective material within authorized scope. Do not invent facts, methods, findings, citations, commitments, or an authorial position. If the user wants only an outline, stop at the structure.
 
 ## Inputs and missing information
 
-Source notes, brief, organizing approach, and evidence status.
+Use source notes, the brief, selected composition or outline, available evidence, and desired output. Separate source excerpts from author ideas and provisional hypotheses. If the intended conclusion is unresolved, explore it explicitly rather than select the strongest-sounding one. Reuse [writing brief](writing-brief.md) and [composition exploration](composition-exploration.md) only where needed.
 
-Develop explanations and connective material within scope; surface missing support and substantive choices.
+## Procedure
+
+1. Inventory indispensable ideas, numerical factors, conditions, source references, and open questions. Mark confirmed source content, provisional material, and proposed additions.
+2. Establish an organization appropriate to purpose and audience. Use [outline generation](outline-generation.md) for a needed structure, or proceed directly from a clear supplied outline. Do not treat all bullets as equally important or as already proven claims.
+3. Examine material reasoning and support gaps before turning them into assertive prose. Use [argument review](argument-review.md) and mode-aware [evidence review](evidence-review.md) where relevant; continue unaffected writing if a substantive choice is pending.
+4. Draft paragraphs around controlling ideas and sound topic sentences. Develop explanations, examples already supported by material, qualifications, and implications. State causal or inferential connections only when justified.
+5. Use explicit placeholders or a separate content-needs list for essential missing material. If a clean deliverable is requested, omit unsupported claims or use qualified wording within authorized meaning, and report what still needs author input. Do not hide invented content in polished prose.
+6. Preserve nuance while integrating fragments: distinguish observation from interpretation, possibility from commitment, example from general claim, and planned work from completed work.
+7. Apply relevant [style guidance](style-guidelines.md) and genre conventions. Keep technical terminology stable, reduce reader burden, and retain indispensable support in summaries.
+8. Compare the draft with the inventory and chosen organization. Use [revision verification](revision-verification.md) before delivery; disclose substantive proposals and unresolved evidence needs.
 
 ## Outputs
 
-Developed prose with clearly identified unresolved content needs.
+Return developed text in the requested form, plus significant assumptions, unresolved content needs, and proposed substantive additions. A short task may need only the prose and one caveat. Do not add administrative registers unless they help manage substantial material.
+
+## Examples and failure handling
+
+- Notes say “trial: 12 samples; maybe improved stability.” Draft a provisional observation with its scope, not a demonstrated universal improvement.
+- Notes say “possible Q4 launch; budget not agreed.” Do not write “We will launch in Q4” or invent an approved cost. Keep planning status visible.
+- Bullets contain a conclusion but no reasoning. Develop what is supported and flag the missing premise instead of adding an invented explanation.
+- Contradictory figures require reconciliation; do not average them without a justified basis. Unreadable source notes require clarification for affected content.
 
 ## Completion checks
 
-The draft traces to supplied ideas or explicit proposals and does not turn assumptions into facts.
-
-## Optional handoffs
-
-Use composition-exploration.md for organization, argument-review.md and evidence-review.md for weaknesses, and revision-verification.md before delivery.
-
-Load only relevant references. A handoff does not automatically require author approval; continue within authorized scope and ask when a substantive choice remains unresolved.
-
-## Implementation work remaining
-
-Develop the step-by-step procedure, representative examples, failure handling, and observable acceptance cases for this contract. Do not describe this scaffold as behaviorally validated.
+The draft develops supplied ideas coherently, preserves conditions and numerical reasoning, and exposes missing substance. Topic sentences reflect paragraph contents. The output matches scope and genre without fabricated facts, evidence, position, or commitments.

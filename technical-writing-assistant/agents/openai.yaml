@@ -1,0 +1,9 @@
+interface:
+  display_name: "Technical Writing Assistant"
+  short_description: "Review and develop scientific and professional text"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#245E78"
+  default_prompt: "Use $technical-writing-assistant to review this material for clarity, composition, terminology, and reasoning while preserving technical meaning. Clarify the evidence mode if needed."
+policy:
+  allow_implicit_invocation: true

@@ -1,65 +1,53 @@
 # Composition analysis
 
-> Status: reference skeleton. Diagnostic coverage and contract are defined; detailed procedures, examples, and behavioral acceptance cases remain to be implemented.
+## Scope and authority
 
-## Scope and boundary
-
-Diagnose sentence, paragraph, section, and document composition. Provide findings independently or within a composite workflow. Do not automatically rewrite the material or redesign its substantive argument.
+Diagnose composition at sentence, paragraph, section, and document levels. Use for a composition audit or selected dimensions within broader work. Analyze how the existing text works; do not automatically rewrite it or replace its substantive argument. Length is a diagnostic signal, not proof of a defect.
 
 ## Inputs and missing information
 
-Use the supplied text, purpose, audience, genre, and requested review coverage. Reuse known context; ask only when missing information changes the diagnosis. State relevant uncertainty.
+Use the inspected text, purpose, audience, genre, and requested coverage. For excerpts, analyze local composition and state which document-level judgments require more material. Load [style guidance](style-guidelines.md) only for relevant criteria.
 
-## Diagnostic coverage
+## Procedure
 
-Detailed compositional analysis examines small, fragmented, underdeveloped, or overloaded sentences, paragraphs, and sections. It considers whether to combine, split, expand, trim, or relocate material based on its function and reader consequences.
+1. Build a lightweight reverse outline: identify what each paragraph or section actually does. For a short passage, do this mentally rather than produce an administrative artifact.
+2. Compare the actual trajectory with the reader's needs. Identify where context, definitions, assumptions, results, or implications arrive too early or too late.
+3. Inspect the selected levels using the dimensions below. Locate representative evidence and distinguish local symptoms from their common structural cause.
+4. For each defect, explain its reader consequence and propose a remedy: combine, split, reorder, develop, trim, relocate, or rewrite. Do not recommend splitting merely because a unit is long.
+5. Examine proposed transitions for real logical relationships. Missing connective wording may be an editorial problem; a missing premise is substantive and requires a separate finding.
+6. Prioritize remedies by their effect on understanding and purpose. Consolidate duplicates; separate necessary repairs from optional approaches.
+7. Deliver diagnosis or proceed to authorized revision. Use [composition exploration](composition-exploration.md) when multiple organizing principles merit comparison and [structural revision](structural-revision.md) for implementation.
 
-| Level | Coverage |
+## Diagnostic dimensions
+
+| Level | Examine |
 |---|---|
-| Sentence | Fragmentation, overload, completeness, information order, emphasis, ambiguous references, excessive nesting, interruptions, and logical connections. |
-| Paragraph | A coherent controlling idea; sound topic sentences accurately reflecting contents; adequate development; size and density; sentence sequence; transitions; closure. |
-| Section | Clear purpose, meaningful boundaries, hierarchy, grouping, proportion, heading accuracy, internal progression, and transitions between sections. |
-| Document | Overall trajectory, continuity, prerequisites, distribution of material, redundancy, balance, openings and conclusions, navigation, and integration of examples, lists, tables, figures, equations, and quotations. |
+| Sentence | Conceptual fragmentation, overload, completeness, information order, ambiguous references, emphasis, nesting, interruptions, and connections to adjacent sentences. |
+| Paragraph | One coherent controlling idea; sound topic sentence; accurate announced scope; sufficient development; density; sequence; transitions; closure. |
+| Section | Clear purpose, boundaries, grouping, hierarchy, proportion, heading accuracy, internal progression, and connections to neighboring sections. |
+| Document | Trajectory, prerequisites, continuity, distribution, redundancy, balance, navigation, opening and conclusion, and integration of supporting material. |
 
-Across these levels, examine logical and semantic flow: missing steps, contradictions, scope shifts, topic drift, unexplained introductions, abrupt reappearances, and the burden placed on readers.
+Check these cross-level dimensions as relevant:
 
-| Dimension | Diagnostic questions |
-|---|---|
-| Unit size and load | Is a unit fragmented, underdeveloped, or overloaded? Would combining, splitting, expanding, or relocating improve it? |
-| Paragraph focus | Does the paragraph have a controlling idea? Are competing topics, digressions, or misplaced content present? |
-| Topic sentences | Does the topic sentence accurately reflect content, scope, and emphasis? Does the paragraph develop the announced idea? |
-| Internal development | Are assertions sufficiently explained, supported, exemplified, qualified, or interpreted? Are there unsupported jumps or premature conclusions? |
-| Transitions | Are relationships between sentences, paragraphs, and sections clear and accurate? Does a connective express a real relationship? |
-| Logical and semantic progression | Are reasoning steps missing? Are there contradictions, ambiguous relationships, topic drift, or meaning and scope changes? |
-| Information order | Do definitions, context, assumptions, and prerequisites appear before readers need them? Does familiar information prepare for new information? |
-| Hierarchy and grouping | Are major and subordinate ideas distinguishable? Is related material grouped? Do section boundaries reflect meaningful divisions? |
-| Emphasis and proportion | Do important ideas receive appropriate prominence and development? Are central points buried or minor details dominant? Are qualifications near their claims? |
-| Continuity and reference | Can readers trace concepts, entities, terminology, and pronouns? Are introductions or reappearances unexplained? |
-| Redundancy and distribution | Are explanations repeated, sections overlapping, or treatment scattered? Does useful repetition support orientation? |
-| Headings and signposting | Do headings describe their sections accurately? Do previews, summaries, and cross-references help navigation? |
-| Opening and closure | Do openings establish purpose and context? Do endings deliver the promised result without unsupported new conclusions? |
-| Reader burden | Are nesting, interruptions, parenthetical material, distant dependencies, or unnecessary retention demands excessive? |
-| Document trajectory | Does the sequence serve the purpose and genre: explanation, argument, procedure, research report, or decision brief? |
-| Supporting material | Are lists, examples, tables, figures, equations, and quotations introduced, appropriately placed, and connected to the discussion? |
+- **Topic and development:** Does the topic sentence reflect what follows? Do assertions receive explanation, examples, support, qualifications, or implications appropriate to the purpose?
+- **Logical and semantic flow:** Are reasoning steps missing, scopes shifting, claims contradicting one another, or relationships ambiguous? Distinguish topic drift from a purposeful shift.
+- **Continuity:** Can readers track entities, concepts, terminology, and pronouns? Are introductions or reappearances unexplained?
+- **Information order:** Are prerequisites available when needed? Does familiar information prepare readers for new material without burying the point?
+- **Emphasis and proportion:** Are central ideas prominent and adequately developed? Are minor details dominant or qualifications distant from their claims?
+- **Grouping and distribution:** Are related explanations scattered, sections overlapping, or repetitions redundant? Retain repetition that supports orientation.
+- **Headings and signposting:** Do titles accurately describe content? Do previews, summaries, and cross-references guide readers without unnecessary repetition?
+- **Opening and closure:** Is purpose established and the promised result delivered? Does the conclusion introduce an unsupported new claim?
+- **Reader burden:** Are dependencies distant, interruptions long, or retention demands unnecessary? Would changing order reduce effort?
+- **Supporting material:** Are lists, examples, tables, figures, equations, and quotations introduced, placed well, and interpreted in the surrounding text?
 
-Sound topic sentences in each expository paragraph are a strong default. Assess accuracy as well as presence: a polished topic sentence does not repair a paragraph that develops a different idea. A justified exception, such as a brief transitional paragraph, must serve the composition rather than excuse an unfocused paragraph.
+Prefer sound topic sentences in each expository paragraph and check their accuracy, not just presence. A brief transition or other justified exception may serve the composition. A grammatically complete sentence can be conceptually fragmented; a long paragraph can remain coherent; a short section can be appropriate.
 
-Length is a signal to investigate, not proof of a defect. A grammatically complete sentence can be conceptually fragmented; a long paragraph can remain coherent; a short section can be appropriate.
+## Outputs and failure handling
 
-Each actionable finding identifies its location and problem, the reader consequence, a proposed remedy, and any meaning implications or author decision. Distinguish cosmetic awkwardness from a structural defect or substantive gap.
+For each material finding, give location, problem, reader consequence, proposed remedy, and meaning implications. Use severity tied to reader consequence. If requested, add a reverse outline or priorities. Do not present unseen parts as reviewed or prescribe one universal organization for all genres.
 
-## Outputs
-
-Produce located findings with reader consequences, proposed remedies, and meaning implications. Prioritize consequential issues and distinguish structural problems from stylistic preferences. Recommend combining, splitting, expanding, trimming, reordering, or relocating as appropriate.
+A paragraph headed “Reliability” that discusses only installation has a topic/content mismatch. Recommend retitling or relocating based on purpose. “Accuracy improved. Therefore costs fell” may lack a demonstrated causal link; flag the missing argument rather than insert a smoother transition. Route reasoning defects to [argument review](argument-review.md) and support gaps to [evidence review](evidence-review.md).
 
 ## Completion checks
 
-Check all requested levels; verify topic sentences against actual contents. Do not treat length alone as a defect or insert transitions to hide missing reasoning. Apply relevant style-guidelines.md criteria without duplicating them.
-
-## Optional handoffs
-
-Use composition-exploration.md for alternatives, structural-revision.md for authorized changes, and argument-review.md when compositional trouble reveals a reasoning gap. A diagnosis-only request does not authorize rewriting.
-
-## Implementation work remaining
-
-Develop a scalable diagnostic procedure, representative examples at each level, and observable acceptance cases. Do not claim behavioral validation of this scaffold.
+Coverage matches the request. Findings are located and actionable, topic sentences are assessed against content, and all four levels are considered when the available material permits it. Cosmetic awkwardness is distinguished from structural defects and substantive gaps. No unrequested rewrite or invented reasoning is concealed in the recommendations.

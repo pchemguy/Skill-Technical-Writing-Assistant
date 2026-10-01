@@ -379,10 +379,10 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `README.md`.
 **Issues:** F12, O1.
 
-- [ ] State “19 focused references and a coordinating manager with 17 workflow recipes” for the consolidated package. Preserve the baseline 20-focused/21-total counts only where clearly describing the historical package; current total is 20 reference files.
-- [ ] Add one concise input/output example. Example input: “In a pilot that involved 12 devices, lower losses were observed only under dry conditions, and performance in humid conditions was not tested.” Example revision: “A 12-device pilot showed lower losses only under dry conditions. Performance in humid conditions was not tested.” Explain that sample size and conditions survive and broad applicability remains unestablished.
-- [ ] Optionally pair it with one located review-only finding: a heading promises reliability but content describes installation; state consequence and remedy without a full rewrite. Keep the entire orientation addition compact.
-- [ ] Label these as illustrative examples, not newly observed trial outputs. Check counts against actual routing and inventory; commit/push.
+- [x] State “19 focused references and a coordinating manager with 17 workflow recipes” for the consolidated package. Preserve the baseline 20-focused/21-total counts only where clearly describing the historical package; current total is 20 reference files.
+- [x] Add one concise input/output example. Example input: “In a pilot that involved 12 devices, lower losses were observed only under dry conditions, and performance in humid conditions was not tested.” Example revision: “A 12-device pilot showed lower losses only under dry conditions. Performance in humid conditions was not tested.” Explain that sample size and conditions survive and broad applicability remains unestablished.
+- [x] Optionally pair it with one located review-only finding: a heading promises reliability but content describes installation; state consequence and remedy without a full rewrite. Keep the entire orientation addition compact.
+- [x] Label these as illustrative examples, not newly observed trial outputs. Check counts against actual routing and inventory; commit/push.
 
 ### 19. Reconcile governing documents and record new evidence
 

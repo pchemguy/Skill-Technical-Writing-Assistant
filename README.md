@@ -6,7 +6,7 @@ It also develops early notes into prose, explores composition, critiques reasoni
 
 ## Status
 
-**Implemented and reviewed.** The package contains 21 focused references and 17 manager recipes. Each reference includes usable procedures, handling of missing information, examples, and completion criteria. Structural checks passed and 11 offline sample tasks were reviewed; implementation does not establish reliability across all models or clients. This repository does not install the skill into a client.
+**Implemented and reviewed.** The package contains 19 focused references and a coordinating manager with 17 workflow recipes (20 reference files total). Each reference includes usable procedures, handling of missing information, examples, and completion criteria. The initial implementation passed structural checks and 11 offline sample tasks were reviewed; implementation does not establish reliability across all models or clients. This repository does not install the skill into a client.
 
 ## Use
 
@@ -22,6 +22,14 @@ Focused requests load only relevant references; composite requests use the manag
 - “Explore what this project map needs to represent, then generate and validate it against the supplied materials.”
 
 Evidence work has exactly two modes: independent external research and verification, or review using supplied material and model knowledge without external research. The assistant asks when relevant and unresolved, retains the choice, and does not treat remembered information as verified. External research and file-format operations depend on authorized facilities provided by the host.
+
+### Illustrative revision
+
+Input: “In a pilot that involved 12 devices, lower losses were observed only under dry conditions, and performance in humid conditions was not tested.”
+
+Revision: “A 12-device pilot showed lower losses only under dry conditions. Performance in humid conditions was not tested.”
+
+The sample size and conditions survive; broader applicability remains unestablished. This is an illustrative example, not a new trial result. A review-only request instead receives located findings and remedies, without an automatic rewrite.
 
 ## Project contents
 

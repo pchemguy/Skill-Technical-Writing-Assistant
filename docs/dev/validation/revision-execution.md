@@ -41,3 +41,5 @@ Dependency inspection: manager → evidence/source/entry point share the two-mod
 - Task 16: Retire separate outline validation and reconcile package decomposition. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
 
 - Task 17: Broaden presentation summary to writing and contextual maps. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
+
+- Task 18: Correct README inventory and demonstrate a bounded revision. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.

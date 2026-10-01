@@ -4,11 +4,11 @@
 
 **Goal:** Resolve verified ambiguities and local inconsistencies identified in the attached editorial review while preserving the overall modular architecture, consolidating outline validation into outline review, and retaining meaning-preservation safeguards.
 
-**Architecture:** Retain the entry point, coordinating manager, and 17 composite recipes. Consolidate the outline-review and outline-validation references into one outline-review module, yielding 19 focused references and 20 reference files in total. Clarify shared policy in the manager, keep direct-invocation reminders locally sufficient, and reconcile governing documentation. Do not add new modules, a third evidence mode, or a universal status schema.
+**Architecture:** Retain the entry point, coordinating manager, and 17 composite recipes. Consolidate the outline-review and outline-validation references into one outline-review module, yielding 19 focused references and 20 reference files in total. Rename `revision-verification.md` to `revision-check.md` and narrow it to checking the quality and fidelity of the assistant's changes against the source and instructions. Clarify shared policy in the manager, keep direct-invocation reminders locally sufficient, and reconcile governing documentation. Do not add new modules, a third evidence mode, or a universal status schema.
 
 **Format and facilities:** Markdown instructions, optional OpenAI YAML/SVG presentation, and the existing Python 3.11+ development checker. The portable skill acquires no new executable dependency.
 
-**Requirements:** [SPEC.md](SPEC.md), [CAPABILITY_MAP.md](CAPABILITY_MAP.md), and the user-supplied attachment `technical-writing-assistant-review(2).md` (retained outside this repository). The user-directed outline consolidation amends the current decomposition. F01 proposes a deliberate amendment to the current acquisition policy; it is not already authorized by the specification merely because this plan recommends it.
+**Requirements:** [SPEC.md](SPEC.md), [CAPABILITY_MAP.md](CAPABILITY_MAP.md), and the user-supplied attachment `technical-writing-assistant-review(2).md` (retained outside this repository). The user-directed outline consolidation and revision-check rename/clarification amend the current decomposition. F01 proposes a deliberate amendment to the current acquisition policy; it is not already authorized by the specification merely because this plan recommends it.
 
 **Status:** Analysis and proposed revision plan only. No runtime skill instructions, metadata, specification, or historical review evidence have been revised by this planning change. Only this synthesized plan is published; the attached report is not included.
 
@@ -24,7 +24,7 @@ The review is editorial and policy-oriented. It establishes plausible instructio
 
 - Preserve technical meaning, authorial position, numerical factors, qualifications, quotations, identifiers, code, equations, and citation associations.
 - Retain exactly two evidence modes and the existing clarification/persistence rule. Target acquisition is a separate operation, not a third mode.
-- Preserve review-only and structure-only authority. Do not introduce routine approval gates for ordinary edits.
+- Preserve review-only and structure-only authority. Do not introduce routine approval gates for ordinary edits. Revision checking applies when there is revised or developed material to compare, not automatically to diagnosis-only work.
 - Preserve the strong preference for sound topic sentences in expository prose and its justified exceptions.
 - Keep outline adaptation contextual; no fixed profile catalogue, compulsory record, or mandatory reporting schema. Treat validation as a selectable activity within outline review, not a required separate workflow.
 - Preserve existing project docstring conventions. Google style remains the default for Python only when no governing convention exists.
@@ -79,13 +79,42 @@ Remediation:
 - Move all substantive validation procedures, source/criterion checks, cross-view consistency, outcome labels, examples, and limitations into dedicated subsections of `outline-review.md`.
 - Make review coverage explicit from the request: evaluative only, validation only, or both as relevant. Ask only when a consequential ambiguity cannot be resolved from context; do not add a mandatory mode questionnaire.
 - Build the source/artifact inventory once where practical. Report one issue with the relevant perspectives rather than duplicating it in two findings lists.
-- Keep `revision-verification.md` separate: it checks the final delivered work against the overall brief and original material, including omissions and meaning changes introduced by revision. Reuse relevant outline-review results instead of restarting source validation.
+- Keep revision checking separate, under the new name `revision-check.md`: it checks the effects of the assistant's edits or development against the source and instructions. Reuse earlier findings and relevant outline-review results instead of repeating comprehensive review or source validation.
 - Route validation-only requests directly to the corresponding subsection of `outline-review.md`. Update all live handoffs, manager recipes, entry-point routing, and governing documents before retiring the old file.
 - Delete `outline-validation.md` after its content has been accounted for. Do not keep a permanent forwarding stub: that would preserve the extra module while obscuring the simpler decomposition.
 
 Post-revision inventory: 19 focused references plus one manager (20 reference files), 19 focused routing-table rows plus the separate manager link, and 17 manager recipes. Combine the entry point's review/validation needs into one row, while retaining both activation intents in that row and module. Historical reviews and raw trial artifacts can retain the old filename and counts as evidence of their original snapshots.
 
 This supersedes the original task to refine `outline-validation.md` independently. F08's criterion-outcome clarification and O2's ordinary working-contract input become part of the merged review module. The consolidation is included in the plan; no runtime file is merged or deleted by this planning update.
+
+## User-directed rename and clarification: revision quality checking
+
+Rename `revision-verification.md` to `revision-check.md`. Its primary job is quality control of the assistant's revision: compare the original material, requested changes, authorized substantive decisions, and resulting artifact. It can also assess a supplied revision using the same comparison. The rename does not change inventory counts.
+
+The existing scope combines comparative checking with broad composition, style, and evidence review. Narrowing it makes the purpose clearer and prevents it becoming an automatic second comprehensive review.
+
+The revised contract should answer:
+
+- Were the requested changes made, and was the requested scope and output respected?
+- Was essential content retained, including reasoning, numerical factors, conditions, and qualifications?
+- Did edits unintentionally change meaning, certainty, scope, causality, quantities, commitments, or authorial position?
+- Did restructuring damage citations, cross-references, protected expressions, or procedural dependencies?
+- Are substantive additions and omissions authorized and disclosed?
+- Did the changes introduce local defects or leave relevant prior findings unresolved?
+
+Boundaries and handling:
+
+- General review evaluates the material; revision checking evaluates the effects and adequacy of the changes. It need not reassess every original claim or repeat a complete stylistic/compositional audit.
+- Check affected passages and consequential dependencies. Broad restructuring can justify checking the whole result, but scope follows the actual changes rather than a mandatory full-review recipe.
+- For development from notes, compare the draft with those notes, the brief, and authorized additions. Do not require a nonexistent original prose draft.
+- For review-only work with no revised artifact, do not invoke this module; the review workflow checks the accuracy and consistency of its own findings before delivery.
+- Without the source, report which fidelity and omission checks are unavailable. An internal-quality inspection cannot establish preservation of unseen material.
+- Preserve truthful reporting of evidence and execution status where changes affect it. Do not independently fact-check unchanged original claims merely to complete the comparison.
+- Repair ordinary introduced defects within existing authority and recheck affected content. Surface unresolved substantive choices rather than silently resolving them.
+
+Use explicit “revision check” wording in manager recipes and routing wherever this comparison is intended. General factual verification and outline validation remain named for their own activities; do not globally replace every occurrence of “verification” or “validation.”
+
+Acceptance examples: a revision that changes “12 of 20 samples improved under condition A” to “The samples improved” must flag the lost denominator and condition; a draft from notes must not turn an unapproved launch date into a commitment; a review-only request must receive no fabricated comparison pass. Retain the calculation-factor and citation-association examples already in the module.
 
 ## Recommended F01 policy
 
@@ -122,6 +151,7 @@ Use these exact inputs or equivalent fixtures carrying the same distinctions. Re
 | Contextual defaults and conventional headings | Inspect a coherent one-sentence warning, a brief transition, and accurate “Methods”/“Results” headings. Do not pad, force topic sentences, or rename headings solely for specificity. Separately flag an expository paragraph whose topic sentence misrepresents its content. | Structural/outline review |
 | Reasoning type | Compare “All tested units met X; this unit was tested; therefore it met X” with “The pilot pattern suggests A may help under the tested condition; further evidence is needed.” Test the first as a deductive inference and the second for support strength/scope, not deductive certainty. No unsupported causal conclusion receives a pass. | Argument review |
 | Selectable outline review coverage | Use the same outline for separate evaluative-only, validation-only, and comprehensive requests. Evaluative-only output stays within quality assessment; validation-only output checks stated criteria and available source fidelity without a full rewrite or unsolicited design alternatives. Comprehensive output covers both and consolidates a shared issue rather than reporting it twice. Retain uncertainty for unavailable sources and conventional headings where appropriate. | Merged outline review and its routing/handoffs |
+| Revision effects and scope | Compare “12 of 20 samples improved under condition A” with “The samples improved”; identify lost quantity/scope/condition. Separately compare source notes with a developed draft containing an unauthorized launch commitment, and run a findings-only review with no revised text. Check change fidelity in the first two, skip revision checking in the third, and do not independently research unchanged claims. | Revision check and manager routing |
 | Existing docstring convention | Supply a Python project using a consistent NumPy-style convention, plus a changed signature. Update relevant content in that convention; do not convert to Google style. A separate no-convention case uses Google style. Do not change or execute implementation. | Software documentation |
 
 Inspection checks suffice for F04, F10, F12, the O2 gloss, and metadata wording. Do not manufacture semantic tests that merely search for the implemented sentence, or rerun every historical sample after a one-word fix.
@@ -141,6 +171,7 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Replace “verified source contents” with precise inspection/claim-assessment reporting.
 - [ ] Add a compact optional terminology table for the four dimensions in F08. Keep provenance and support separate; no mandatory records.
 - [ ] Adapt outline recipes to use review with evaluative and/or validation activities as needed. Remove automatic review → separate validation passes and retain direct validation-only entry through the same module.
+- [ ] Name change-comparison stages “revision check.” Skip that stage for findings-only branches with no revised artifact; retain their own findings-consistency check. Do not convert the stage into a fresh full review.
 - [ ] Inspect recipe title/output agreement and the continued presence of 17 recipes. Commit and push this module.
 
 ### 2. Evidence review: acquisition role and source relationships
@@ -260,15 +291,18 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Gloss or link the working contract as agreed representation criteria in the input paragraph. Do not require loading exploration when the prompt already supplies the needed criteria.
 - [ ] Retain all source/proposal and relationship boundaries. Hand quality assessment and validation checks to the relevant activities of the merged `outline-review.md`; avoid requiring two duplicate passes. Commit/push after checking the handoff.
 
-### 14. Revision verification: reuse integrated outline review
+### 14. Revision check: rename and narrow the comparative procedure
 
-**Files:** `technical-writing-assistant/references/revision-verification.md`.
-**Issues:** User-directed consolidation and final-deliverable boundary.
+**Files:** rename `technical-writing-assistant/references/revision-verification.md` to `technical-writing-assistant/references/revision-check.md`. Update only the necessary live links and corresponding names in `technical-writing-assistant/SKILL.md`, calling references, `docs/dev/CAPABILITY_MAP.md`, `docs/dev/SPEC.md`, and `docs/dev/PLAN.md` as part of this migration.
+**Issues:** User-directed revision-check clarification, outline consolidation handoff, and change-fidelity boundary.
 
-- [ ] Replace the old outline-validation link with `outline-review.md#validation-checks`.
-- [ ] Retain final comparison against the brief and original source, including omissions and meaning changes introduced by revision. Outline validation is an input to this comparison, not a substitute for it.
-- [ ] Reuse completed outline checks when applicable; repeat affected checks only when the revision changes their basis. Confirm no redundant full source inventory is required.
-- [ ] Check the live link and commit/push this module.
+- [ ] Implement the comparative contract above in the reference: source/brief/change authority as inputs; requested-change completion, essential-content fidelity, unintended meaning shifts, protected material, introduced defects, and unresolved prior findings as checks.
+- [ ] Narrow general composition/style/evidence checks to the changed material and consequential dependencies. Reuse earlier findings; do not require independent fact-checking or a second comprehensive audit.
+- [ ] Handle drafts from notes, review-only work with no revised artifact, and unavailable source material explicitly. Keep outcomes proportional to the available comparison rather than claiming universal quality.
+- [ ] Use `outline-review.md#validation-checks` for relevant prior outline checks while retaining the distinct comparison against the brief and original material.
+- [ ] Rename the file, heading, routing description, live hyperlinks, and governing module entries atomically. Caller changes in this task are migration maintenance, not unrelated procedural revisions; do not publish a commit with dangling old links. Preserve historical review/trial filenames as snapshot evidence.
+- [ ] Run the source/revision, notes/draft, and findings-only scenarios. Check calculation factors, citation associations, and commitment status; do not treat plausible unchanged claims as newly verified.
+- [ ] Run local link/routing/map checks. This rename alone preserves inventory; outline file retirement in task 15 changes it. Commit/push the completed module and migration links.
 
 ### 15. Retire the redundant file and reconcile decomposition
 
@@ -311,12 +345,12 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Add a compact pointer from the full implementation plan to this revision campaign; do not replace its whole-project scope with a feature-only account.
 - [ ] Record actual new scenarios, results, repairs, unrun branches, and limits in the revision review. Preserve the historical REVIEW.md as the prior campaign record; add a dated pointer if useful.
 - [ ] Run `python tools/check_package.py`, an available offline skill validator/inventory, and `git diff --check`. Confirm 19 focused references, one manager, 19 focused routes, and 17 recipes. Do not turn link counts into fixed acceptance constants.
-- [ ] Perform a whole-boundary editorial check of revised acquisition rules, authority, vocabulary, topic-sentence exceptions, docstring precedence, standalone usability, selectable outline-review coverage, and the distinct final revision-verification role.
+- [ ] Perform a whole-boundary editorial check of revised acquisition rules, authority, vocabulary, topic-sentence exceptions, docstring precedence, standalone usability, selectable outline-review coverage, and the distinct change-comparison role of `revision-check.md`.
 - [ ] Commit/push the final reconciliation and evidence. Verify that remote `main` matches local HEAD and the working tree is clean.
 
 ## Completion criteria and excluded work
 
-The revision is complete when every accepted issue has its scoped remediation and relevant check, cross-file policies agree, all validation responsibilities survive consolidation, no live caller references the retired module, and actual validation evidence supports the bounded completion report. O4 must remain recorded as deliberately deferred, not accidentally omitted. Failed or unavailable scenarios must be disclosed rather than counted as passes.
+The revision is complete when every accepted issue has its scoped remediation and relevant check, cross-file policies agree, all validation responsibilities survive consolidation, revision checking is scoped to the assistant's changes, and no live caller references the retired validation module or old revision filename, and actual validation evidence supports the bounded completion report. O4 must remain recorded as deliberately deferred, not accidentally omitted. Failed or unavailable scenarios must be disclosed rather than counted as passes.
 
 Excluded: implementing this plan during the planning turn; redesigning the package beyond the specified outline consolidation; adding a status enum, new special-case outline profiles, or mandatory records; expanding a style pass into independent factual research; installation or universal client-support claims; and blanket rewording of all headings, slashes, punctuation, or safeguards.
 

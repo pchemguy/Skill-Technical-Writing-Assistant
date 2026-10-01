@@ -301,9 +301,9 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/argument-review.md`.
 **Issues:** F09.
 
-- [ ] Replace the universal entailment framing with deductive validity for necessary claims and proportionate support for probabilistic/provisional inference.
-- [ ] Retain unstated premises, term/scope shifts, causal alternatives, certainty, counterarguments, and absence-of-evidence checks.
-- [ ] Run the deductive/provisional comparison scenario; ensure unsupported certainty remains a defect. Commit/push.
+- [x] Replace the universal entailment framing with deductive validity for necessary claims and proportionate support for probabilistic/provisional inference.
+- [x] Retain unstated premises, term/scope shifts, causal alternatives, certainty, counterarguments, and absence-of-evidence checks.
+- [x] Run the deductive/provisional comparison scenario; ensure unsupported certainty remains a defect. Commit/push.
 
 ### 11. Language revision: local actor wording
 

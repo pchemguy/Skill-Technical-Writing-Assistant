@@ -25,3 +25,5 @@ Dependency inspection: manager → evidence/source/entry point share the two-mod
 - Task 8: Preserve contextual exceptions to expository topic sentences. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
 
 - Task 9: Integrate outline validation into selectable outline review. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
+
+- Task 10: Apply reasoning standards suited to the conclusion type. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.

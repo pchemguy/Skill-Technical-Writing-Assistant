@@ -218,10 +218,10 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/evidence-review.md`.
 **Issues:** F01, F08.
 
-- [ ] Reconcile the URL rule with the manager: explicit target acquisition is allowed within the approved scope; citation-only support retrieval remains prohibited in non-research mode.
-- [ ] Distinguish source access/inspection from support relationship and overall claim outcome. Keep “not assessed” meaningful for unavailable contents.
-- [ ] Include the linked-target/citation-only distinction in an example or boundary note; preserve direct-invocation mode handling.
-- [ ] Check agreement with the manager and commit/push. Do not run the cross-file behavior trial until the entry-point policy is also reconciled.
+- [x] Reconcile the URL rule with the manager: explicit target acquisition is allowed within the approved scope; citation-only support retrieval remains prohibited in non-research mode.
+- [x] Distinguish source access/inspection from support relationship and overall claim outcome. Keep “not assessed” meaningful for unavailable contents.
+- [x] Include the linked-target/citation-only distinction in an example or boundary note; preserve direct-invocation mode handling.
+- [x] Check agreement with the manager and commit/push. Do not run the cross-file behavior trial until the entry-point policy is also reconciled.
 
 ### 3. Source research: scope and aggregate claim labels
 

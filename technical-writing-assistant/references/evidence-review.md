@@ -8,7 +8,7 @@ Assess the relationship between claims and support, identify evidence gaps, and 
 
 Use claims, supplied source contents or references, the brief, and the selected evidence mode. Apply [manager mode selection](manager.md#evidence-modes-and-selection) when evidence work is relevant and the choice is unresolved, including direct invocation. Explicit requests for fact-checking or independent source verification establish research intent; explicit no-research instructions establish the other mode. While awaiting an answer, continue internal work only.
 
-In review without external research, inspect supplied material and use model knowledge only to identify concerns, evidence types, and prospective sources. Do not independently open a supplied URL to retrieve its contents in that mode; a URL alone is an uninspected reference. Ask for pasted content or offer research mode. Already supplied source contents can be assessed without independent retrieval.
+In review without external research, inspect supplied material and use model knowledge only to identify concerns, evidence types, and prospective sources. Acquire explicitly identified task targets through permitted access, including relevant repository files or expressly requested appendices. Target acquisition permits inspection, not independent corroboration. Do not retrieve citation-only support or follow source links merely because they appear in the target; a supporting URL alone remains uninspected. Explicit no-network, no-retrieval, or pasted-content-only restrictions control even target acquisition. Clarify a consequentially ambiguous URL role, and report unavailable target contents rather than infer them. Available source contents can be assessed in either mode.
 
 ## Procedure
 
@@ -23,12 +23,13 @@ In review without external research, inspect supplied material and use model kno
 
 ## Outputs
 
-For a small task, return claim-linked findings in prose. For substantial work, use claim/location, supplied support, inspection basis, support relationship, limitation, and next action. Keep provenance separate from support strength: an externally inspected source can still contradict or fail to support a claim.
+For a small task, return claim-linked findings in prose. For substantial work, use claim/location, supplied support, inspection basis, support relationship, limitation, and next action. Keep provenance/access, the source-to-claim relationship, the researched-claim outcome, and criterion outcomes distinct as explained in the manager. An inspected source can contradict or not address a claim; unavailable content is not assessed. An unresolved overall claim is not automatically false, and a failed requirement is not a source-support label.
 
 ## Examples and failure handling
 
 - "The process cuts costs by 40%" with a source reporting 40% lower processing time has a quantity mismatch, not verified cost savings.
 - A remembered report may be a prospective lead; do not fabricate its title, DOI, quotation, or page number.
+- “Review this linked README without fact checking” permits acquiring that target; a citation attached to “cost falls 40%” does not authorize retrieving supporting evidence in non-research mode. “No network” overrides both.
 - An inaccessible citation remains uninspected. Report what could not be assessed and request content or permitted retrieval rather than infer its support from the title.
 - A study with mixed results should not be selectively summarized as definitive. Preserve limitations and identify conflicting evidence when supplied.
 

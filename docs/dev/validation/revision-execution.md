@@ -9,3 +9,5 @@ Dependency inspection: manager → evidence/source/entry point share the two-mod
 ## Completed modules
 
 - Task 1: Clarify manager acquisition, review authority, and reporting. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
+
+- Task 2: Separate target acquisition from supporting-source retrieval. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.

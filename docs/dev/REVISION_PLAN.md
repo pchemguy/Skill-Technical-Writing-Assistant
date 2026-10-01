@@ -228,10 +228,10 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/source-research.md`.
 **Issues:** F08; consequential consistency check for F01.
 
-- [ ] Use “partially supported” for aggregate claim outcomes rather than the alternate “partly supported.” Explain that outcomes summarize the scoped inspected evidence, not universal truth.
-- [ ] Clarify that unavailable or non-addressing evidence can leave a claim unresolved rather than contradicted. Preserve the source-level distinctions owned by evidence review.
-- [ ] Ensure the no-research handoff does not reimpose a blanket ban on acquiring explicitly requested target material. Target acquisition remains intake/inspection, not execution of this research workflow.
-- [ ] Inspect stopping conditions and provenance requirements, then commit/push.
+- [x] Use “partially supported” for aggregate claim outcomes rather than the alternate “partly supported.” Explain that outcomes summarize the scoped inspected evidence, not universal truth.
+- [x] Clarify that unavailable or non-addressing evidence can leave a claim unresolved rather than contradicted. Preserve the source-level distinctions owned by evidence review.
+- [x] Ensure the no-research handoff does not reimpose a blanket ban on acquiring explicitly requested target material. Target acquisition remains intake/inspection, not execution of this research workflow.
+- [x] Inspect stopping conditions and provenance requirements, then commit/push.
 
 ### 4. Entry point: reconcile F01 compactly
 

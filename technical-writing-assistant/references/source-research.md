@@ -6,7 +6,7 @@ Find and inspect external sources, fact-check specified claims, verify prospecti
 
 ## Inputs and prerequisites
 
-Use the selected claims, scope, relevant dates, supplied leads, and research mode. Resolve an unclear choice through [manager mode selection](manager.md#evidence-modes-and-selection). If the user explicitly prohibits external research, return to [evidence review](evidence-review.md) without tool retrieval. If suitable host tools are unavailable, disclose the limitation and offer supplied-content assessment or a verification plan; do not silently downgrade the mode.
+Use the selected claims, scope, relevant dates, supplied leads, and research mode. Resolve an unclear choice through [manager mode selection](manager.md#evidence-modes-and-selection). If the user explicitly prohibits external research, return to [evidence review](evidence-review.md) without corroborating retrieval. Bounded acquisition of an explicitly requested review target belongs to intake under the manager's policy, not this research workflow; explicit no-network/no-retrieval restrictions still control. If suitable host tools are unavailable, disclose the limitation and offer supplied-content assessment or a verification plan; do not silently downgrade the mode.
 
 ## Procedure
 
@@ -17,7 +17,7 @@ Use the selected claims, scope, relevant dates, supplied leads, and research mod
 5. Evaluate fit and limitations: relevance, method, population, comparators, currency, uncertainty, and whether sources are independent or merely repeating one origin. Compare event dates with publication/update dates for changing facts.
 6. Check numerical reasoning separately from source retrieval. Verify units, denominators, conversion factors, baselines, rounding, and arithmetic using available calculation tools when useful. A supported input does not prove a derived conclusion.
 7. Compare conflicts by definitions, dates, scope, method, and evidential weight. Do not average incompatible quantities or resolve disagreement by counting copied reports. Preserve unresolved conflicts.
-8. Report each researched claim as supported, partly supported, contradicted, or unresolved within the inspected evidence. Pass results to evidence review with provenance and limitations, then propose explicit corrections rather than rewriting the position silently.
+8. Report each researched claim as supported, partially supported, contradicted, or unresolved within the scoped inspected evidence, not as a universal truth judgment. Unavailable or non-addressing evidence may leave the claim unresolved; neither is itself contradiction. Keep aggregate outcomes separate from provenance/access and each source-to-claim relationship reported by evidence review. Pass results to evidence review with provenance and limitations, then propose explicit corrections rather than rewriting the position silently.
 9. Stop when the scoped questions have defensible answers or remaining limits are clear. Do not continue research solely to erase every uncertainty or imply that no contrary source exists.
 
 ## Outputs

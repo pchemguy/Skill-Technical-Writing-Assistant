@@ -16,8 +16,14 @@ Use the documentation, intended users, code/configuration/API/version where supp
 4. Check procedures and examples for complete context, coherent order, valid names, and described outcomes. Static inspection is not execution. Run examples only if execution is separately authorized, facilities are available, and effects are appropriate; record exact checks and results. Do not claim examples were run from textual plausibility.
 5. Apply genre-specific criteria below, then selected [composition](composition-analysis.md), [terminology](terminology-consistency.md), and [language](language-revision.md) workflows.
 6. Preserve code blocks, identifiers, command flags, paths, and machine-readable syntax. Propose technical corrections separately when authority or behavior is unclear. Do not repair the implementation under the guise of editing its description.
-7. After substantive documentation or supplied-code changes, recheck affected docstrings for semantic drift and completeness. Use Google-style Python docstrings by default unless the project specifies another style, including an established convention evident in its code; preserve that convention rather than reformatting focused edits. Use the predominant language/project convention elsewhere. Document parameters, returns, raises, side effects, and constraints where applicable, without repeating obvious names or inventing exceptions.
+7. After substantive documentation changes, or supplied-code changes made under separate authority, recheck affected docstrings using the sequence below. This workflow does not authorize implementing or executing software.
 8. Verify revised claims against inspected material and report unresolved behavior, version, or execution questions through [revision verification](revision-verification.md).
+
+## Docstring maintenance
+
+1. Identify affected callables and check semantic drift and completeness against inspected signatures and behavior.
+2. Follow the project's declared style or consistently established convention. For Python without a governing convention, use Google style. Use the predominant language/project convention elsewhere; preserve established formatting during focused edits.
+3. Cover parameters, returns, raises, side effects, and constraints where applicable. Use meaningful summaries and appropriate detail without repeating obvious names or inventing behavior or exceptions.
 
 ## Genre checks
 

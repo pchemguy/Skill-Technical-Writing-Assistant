@@ -29,3 +29,5 @@ Dependency inspection: manager → evidence/source/entry point share the two-mod
 - Task 10: Apply reasoning standards suited to the conclusion type. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
 
 - Task 11: Clarify unknown actor wording in language revision. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
+
+- Task 12: Separate docstring maintenance, style precedence, and coverage. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.

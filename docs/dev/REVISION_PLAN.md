@@ -318,10 +318,10 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/software-documentation.md`.
 **Issues:** F11.
 
-- [ ] Separate when affected docstrings need checking, which style governs, and which interface/behavior details need coverage.
-- [ ] State that supplied-code changes may have occurred under separate authority; this documentation workflow does not authorize implementation or execution.
-- [ ] Put declared or consistently established project style before the Google-style Python default. Preserve predominant conventions for other languages.
-- [ ] Run established-NumPy/no-convention cases and verify content alignment without format churn or invented behavior. Commit/push.
+- [x] Separate when affected docstrings need checking, which style governs, and which interface/behavior details need coverage.
+- [x] State that supplied-code changes may have occurred under separate authority; this documentation workflow does not authorize implementation or execution.
+- [x] Put declared or consistently established project style before the Google-style Python default. Preserve predominant conventions for other languages.
+- [x] Run established-NumPy/no-convention cases and verify content alignment without format churn or invented behavior. Commit/push.
 
 ### 13. Outline context exploration: gloss the working contract
 

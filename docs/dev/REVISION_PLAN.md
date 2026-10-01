@@ -288,13 +288,13 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/outline-review.md`; read `outline-validation.md` as migration input without changing or deleting it in this task.
 **Issues:** User-directed consolidation, F07, F08 criterion labels, O2 input criteria.
 
-- [ ] Integrate all validation responsibilities under `## Validation checks` in outline review, with evaluative analysis clearly identified separately: explicit criteria, structural validity, source fidelity, requirement coverage, cross-view consistency, outcomes, repair/recheck, and assessment limits.
-- [ ] Define coverage selection from the request: evaluative only, validation only, or both as appropriate. Preserve findings-only authority and no automatic rewrite.
-- [ ] Share intake, source inspection, and issue consolidation across activities; distinguish editorial recommendations from criterion failures. Preserve standalone validation-only use without mandatory forms or records.
-- [ ] Judge heading usefulness and content fit rather than genericness alone. Retain conventional genre headings and checks for misleading titles.
-- [ ] Consume the working contract as ordinary agreed representation criteria. Distinguish criterion labels from source provenance and claim support using F08's existing four-question model.
-- [ ] Account for every substantive section of the old validation module before retirement. Test the three coverage requests and the four-dimension scenario; check “Methods”/“Results” and a misleading “Reliability” heading.
-- [ ] Check module length after consolidation; add a contents list if it improves navigation. Commit/push the completed merged module. Leave the old file present until all live callers and governing inventory are migrated.
+- [x] Integrate all validation responsibilities under `## Validation checks` in outline review, with evaluative analysis clearly identified separately: explicit criteria, structural validity, source fidelity, requirement coverage, cross-view consistency, outcomes, repair/recheck, and assessment limits.
+- [x] Define coverage selection from the request: evaluative only, validation only, or both as appropriate. Preserve findings-only authority and no automatic rewrite.
+- [x] Share intake, source inspection, and issue consolidation across activities; distinguish editorial recommendations from criterion failures. Preserve standalone validation-only use without mandatory forms or records.
+- [x] Judge heading usefulness and content fit rather than genericness alone. Retain conventional genre headings and checks for misleading titles.
+- [x] Consume the working contract as ordinary agreed representation criteria. Distinguish criterion labels from source provenance and claim support using F08's existing four-question model.
+- [x] Account for every substantive section of the old validation module before retirement. Test the three coverage requests and the four-dimension scenario; check “Methods”/“Results” and a misleading “Reliability” heading.
+- [x] Check module length after consolidation; add a contents list if it improves navigation. Commit/push the completed merged module. Leave the old file present until all live callers and governing inventory are migrated.
 
 ### 10. Argument review: reasoning-type standards
 

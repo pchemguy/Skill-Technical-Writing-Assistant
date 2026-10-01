@@ -59,3 +59,5 @@ Final reviewer: fresh context, read-only whole-package review against baseline 1
 - Final module repair: Match revision comparison examples to package quotation style. Local package and whitespace checks passed; meaning and authority unchanged.
 
 - Task 19: Reconcile governing documents and record comprehensive revision review. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
+
+- Archive: completed plan moved to docs/dev/revision_plans/REVISION_PLAN_1cc08a2.md after the post-revision review. Relative links and governing pointers updated; all task boxes complete.

@@ -1,6 +1,6 @@
-# Technical Writing Assistant Revision Plan
+# Technical Writing Assistant Revision Plan — baseline 1cc08a2
 
-> **For agentic workers:** Execute this plan task by task using the existing native, one-module-at-a-time workflow. Commit and push each completed module before proceeding to the next. Use `superpowers:executing-plans` when available; the plan and repository requirements remain sufficient outside that host. All execution checkboxes below are pending.
+> **Archived completed campaign:** Applied to baseline `1cc08a2` on 2026-10-01. All module tasks below are complete. The approved plan's prospective descriptions are retained as the execution contract; current outcomes and limits are in [REVISION_REVIEW.md](../REVISION_REVIEW.md). Each runtime module was committed and pushed before proceeding to the next.
 
 **Goal:** Resolve verified ambiguities and local inconsistencies identified in the attached editorial review while preserving the overall modular architecture, consolidating outline validation into outline review, and retaining meaning-preservation safeguards.
 
@@ -8,9 +8,9 @@
 
 **Format and facilities:** Markdown instructions, optional OpenAI YAML/SVG presentation, and the existing Python 3.11+ development checker. The portable skill acquires no new executable dependency.
 
-**Requirements:** [SPEC.md](SPEC.md), [CAPABILITY_MAP.md](CAPABILITY_MAP.md), and the user-supplied attachment `technical-writing-assistant-review(2).md` (retained outside this repository). The user-directed outline consolidation and revision-check rename/clarification amend the current decomposition. The contextual-reference check below adds explicit compositional and revision-quality coverage within existing modules. F01 proposes a deliberate amendment to the current acquisition policy; it is not already authorized by the specification merely because this plan recommends it.
+**Requirements:** [SPEC.md](../SPEC.md), [CAPABILITY_MAP.md](../CAPABILITY_MAP.md), and the user-supplied attachment `technical-writing-assistant-review(2).md` (retained outside this repository). The user-directed outline consolidation and revision-check rename/clarification amend the current decomposition. The contextual-reference check below adds explicit compositional and revision-quality coverage within existing modules. F01 amends the baseline acquisition policy; the user's implementation instruction approved that amendment.
 
-**Status:** Analysis and proposed revision plan only. No runtime skill instructions, metadata, specification, or historical review evidence have been revised by this planning change. Only this synthesized plan is published; the attached report is not included.
+**Status:** Implemented, comprehensively reviewed, and archived. F01 was approved by the user's instruction to implement all revisions. Accepted remediations and user-directed additions are complete; O4 remains deliberately deferred. The original attached review and historical trial records were not republished or rewritten. See the revision review for sample deviations and unrun branches.
 
 ## Baseline and analysis boundary
 

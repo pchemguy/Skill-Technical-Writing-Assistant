@@ -42,4 +42,4 @@ All ordered modules were implemented and individually committed. Module pushes w
 
 ## Revision campaign
 
-The approved revision campaign is governed by [REVISION_PLAN.md](REVISION_PLAN.md), based on commit `1cc08a2`. It clarifies acquisition, review/revision authority, contextual-reference diagnosis, reasoning standards, and docstrings; integrates outline validation into review; and scopes revision checking to changes. Post-revision review and evidence are recorded in [REVISION_REVIEW.md](REVISION_REVIEW.md). The ordered modules above continue to describe the whole project.
+The approved revision campaign is governed by [REVISION_PLAN_1cc08a2.md](revision_plans/REVISION_PLAN_1cc08a2.md), based on commit `1cc08a2`. It clarifies acquisition, review/revision authority, contextual-reference diagnosis, reasoning standards, and docstrings; integrates outline validation into review; and scopes revision checking to changes. Post-revision review and evidence are recorded in [REVISION_REVIEW.md](REVISION_REVIEW.md). The ordered modules above continue to describe the whole project.

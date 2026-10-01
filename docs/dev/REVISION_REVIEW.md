@@ -1,6 +1,6 @@
 # Post-revision comprehensive skill review
 
-Date: 2026-10-01. Campaign baseline: `1cc08a2`. Scope: the complete standalone skill, its current governing documents, presentation metadata and icon, and revision evidence. The approved [revision plan](REVISION_PLAN.md) will be archived with its baseline suffix after this review. The original [implementation review](REVIEW.md) and its raw trials remain historical snapshots.
+Date: 2026-10-01. Campaign baseline: `1cc08a2`. Scope: the complete standalone skill, its current governing documents, presentation metadata and icon, and revision evidence. The completed plan is archived as [REVISION_PLAN_1cc08a2.md](revision_plans/REVISION_PLAN_1cc08a2.md). The original [implementation review](REVIEW.md) and its raw trials remain historical snapshots.
 
 ## Outcome
 
@@ -109,7 +109,7 @@ python /root/.codex/skills/remote-skills/skill-6ab91e941cbc8191a00ce5e8e34d83fd/
 git diff --check
 ```
 
-The authoring tools are environment facilities, not package dependencies. The independent reviewer observed 20 references and 154 local Markdown links with zero checker errors before report/archive integration. Final integration reruns the same checks; link counts can increase with report navigation and are not acceptance constants. No live runtime or governing caller retains a retired filename. Clearly historical evidence and this migration account may name them.
+The authoring tools are environment facilities, not package dependencies. The independent reviewer observed 20 references and 154 local Markdown links with zero checker errors before report/archive integration. Final report/archive integration passed the same checks; link counts can increase with report navigation and are not acceptance constants. No live runtime or governing caller retains a retired filename. Clearly historical evidence and this migration account may name them.
 
 ## Limits and considered exclusions
 

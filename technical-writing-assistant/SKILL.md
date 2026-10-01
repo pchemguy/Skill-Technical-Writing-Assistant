@@ -15,7 +15,7 @@ Use the smallest workflow that satisfies the request. Reuse supplied context and
 
 1. Identify the requested output and editing authority from the prompt and established context. Ask only questions that materially affect the work; continue independent work while unresolved decisions are pending.
 2. Load the selected focused procedure or the manager for composite work. Review-only tasks produce findings; outline-only tasks produce structures, not automatic prose development.
-3. Before relevant evidence work, retain the established mode or ask the manager's two-mode question when unclear. Non-research work uses supplied content and model knowledge without independent retrieval; do not invent sources or present remembered facts as verified.
+3. Before relevant evidence work, retain the established mode or ask the manager's two-mode question when unclear. Non-research work permits bounded acquisition of explicitly identified task targets through authorized access, but no independent supporting-source retrieval or corroborating search. Respect explicit no-network/no-retrieval/supplied-content-only restrictions; a citation URL alone remains uninspected. Use available content and model knowledge to identify gaps; do not invent sources or present remembered facts as verified.
 4. Execute the procedure, exposing missing inputs and meaning-changing proposals. Use contextual criteria for unfamiliar outlines/maps rather than a predefined special-case catalogue.
 5. Check the result against the brief, source, and applicable completion criteria. Deliver the artifact, material unresolved issues, and actual verification status at a level proportional to the task.
 

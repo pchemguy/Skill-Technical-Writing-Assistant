@@ -13,3 +13,5 @@ Dependency inspection: manager → evidence/source/entry point share the two-mod
 - Task 2: Separate target acquisition from supporting-source retrieval. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
 
 - Task 3: Clarify scoped research outcomes and acquisition boundary. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
+
+- Task 4: Align entry point with bounded target acquisition. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.

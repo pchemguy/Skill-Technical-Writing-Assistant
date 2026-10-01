@@ -238,11 +238,11 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/SKILL.md`.
 **Issues:** F01; O4 remains deferred.
 
-- [ ] Distinguish authorized target acquisition from independent supporting-source retrieval in the execution summary; route detail to the manager.
-- [ ] Retain the two-mode gate and safeguards against invented support. Do not enlarge the entry point into a duplicate policy manual.
-- [ ] Keep the current description, name, and focused routing rows unchanged in this task. The outline routing consolidation occurs atomically with file retirement in task 16, so every reference remains directly routed until it is removed.
-- [ ] Run the linked-target/citation-only/no-network and audit-only scenarios against the reconciled policy group. Record actual acquisition traces where facilities permit them.
-- [ ] Run local link/routing checks, then commit/push.
+- [x] Distinguish authorized target acquisition from independent supporting-source retrieval in the execution summary; route detail to the manager.
+- [x] Retain the two-mode gate and safeguards against invented support. Do not enlarge the entry point into a duplicate policy manual.
+- [x] Keep the current description, name, and focused routing rows unchanged in this task. The outline routing consolidation occurs atomically with file retirement in task 16, so every reference remains directly routed until it is removed.
+- [x] Run the linked-target/citation-only/no-network and audit-only scenarios against the reconciled policy group. Record actual acquisition traces where facilities permit them.
+- [x] Run local link/routing checks, then commit/push.
 
 ### 5. Style guidelines: remove runtime authoring history
 

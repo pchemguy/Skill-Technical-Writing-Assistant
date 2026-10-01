@@ -269,10 +269,10 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/draft-development.md`.
 **Issues:** F05.
 
-- [ ] Replace the dense step with a short “Missing content” decision subsection or separately numbered steps. Identify missing input, distinguish central/substantive content from secondary detail, then select the authorized treatment.
-- [ ] Put central-claim/position protection before the omission branch. Preserve visible content-needs reporting, provisional labeling or deferral, and the prohibition on invented substance.
-- [ ] Run the central-uncertainty clean-draft scenario. Check that routine secondary omissions do not create an approval gate and central choices are not silently resolved.
-- [ ] Commit/push.
+- [x] Replace the dense step with a short “Missing content” decision subsection or separately numbered steps. Identify missing input, distinguish central/substantive content from secondary detail, then select the authorized treatment.
+- [x] Put central-claim/position protection before the omission branch. Preserve visible content-needs reporting, provisional labeling or deferral, and the prohibition on invented substance.
+- [x] Run the central-uncertainty clean-draft scenario. Check that routine secondary omissions do not create an approval gate and central choices are not silently resolved.
+- [x] Commit/push.
 
 ### 8. Structural revision: restore the contextual preference
 

@@ -8,7 +8,7 @@
 
 **Format and facilities:** Markdown instructions, optional OpenAI YAML/SVG presentation, and the existing Python 3.11+ development checker. The portable skill acquires no new executable dependency.
 
-**Requirements:** [SPEC.md](SPEC.md), [CAPABILITY_MAP.md](CAPABILITY_MAP.md), and the user-supplied attachment `technical-writing-assistant-review(2).md` (retained outside this repository). The user-directed outline consolidation and revision-check rename/clarification amend the current decomposition. F01 proposes a deliberate amendment to the current acquisition policy; it is not already authorized by the specification merely because this plan recommends it.
+**Requirements:** [SPEC.md](SPEC.md), [CAPABILITY_MAP.md](CAPABILITY_MAP.md), and the user-supplied attachment `technical-writing-assistant-review(2).md` (retained outside this repository). The user-directed outline consolidation and revision-check rename/clarification amend the current decomposition. The contextual-reference check below adds explicit compositional and revision-quality coverage within existing modules. F01 proposes a deliberate amendment to the current acquisition policy; it is not already authorized by the specification merely because this plan recommends it.
 
 **Status:** Analysis and proposed revision plan only. No runtime skill instructions, metadata, specification, or historical review evidence have been revised by this planning change. Only this synthesized plan is published; the attached report is not included.
 
@@ -116,6 +116,21 @@ Use explicit “revision check” wording in manager recipes and routing whereve
 
 Acceptance examples: a revision that changes “12 of 20 samples improved under condition A” to “The samples improved” must flag the lost denominator and condition; a draft from notes must not turn an unapproved launch date into a commitment; a review-only request must receive no fabricated comparison pass. Retain the calculation-factor and citation-association examples already in the module.
 
+## User-directed check: references to unavailable context
+
+Add explicit coverage of unresolved contextual references and standalone completeness. The two “supplied” style passages in F04 are concrete instances; this check also covers references to authoring conversations, agreements, inputs, and revision history that the intended reader cannot identify or access.
+
+Examples to examine include “the supplied guidelines/examples,” “as discussed earlier,” “the agreed approach,” “continue as before,” and “in the prior/earlier/previous revision.” These phrases are diagnostic cues, not banned wording. A reference to an earlier revision is valid when that revision is identified and available to the intended reader, or when the relevant comparison is stated in the current artifact. It is defective when an unavailable revision is needed to understand an operative instruction, rationale, or claimed change.
+
+The check should:
+
+- Identify the referent and determine whether it is available at the intended reading boundary: passage, standalone document, or independently loaded skill reference. Do not assume the reader has the authoring conversation or revision history.
+- Distinguish valid references to the current supplied draft, identifiable earlier sections, accessible sources, or available revisions from unresolved references. Do not demand links for ordinary local anaphora or invent a source, agreement, or prior revision.
+- State the reader consequence and propose a scoped repair: state the operative instruction directly, identify and provide the necessary reference, summarize the relevant comparison from available material, or remove unnecessary authoring history.
+- Preserve substantive provenance and required comparison information. If the referent is unavailable and necessary, report the limitation or seek the missing material rather than pretending to verify it.
+
+`composition-analysis.md` owns diagnosis of this defect across the selected levels. The planned `revision-check.md` checks whether the assistant's changes introduced such references or left a relevant diagnosed instance unresolved; its scope remains the changed material and consequential dependencies. F04 retains its direct cleanup of the known style passages. Reconcile the capability map and specification with this explicit coverage without adding a module or a keyword blacklist.
+
 ## Recommended F01 policy
 
 Approve this recommendation as part of the plan before implementing the affected instructions. Choosing the stricter alternative requires revising this task group, not silently treating target acquisition as already allowed by the old wording.
@@ -152,6 +167,7 @@ Use these exact inputs or equivalent fixtures carrying the same distinctions. Re
 | Reasoning type | Compare “All tested units met X; this unit was tested; therefore it met X” with “The pilot pattern suggests A may help under the tested condition; further evidence is needed.” Test the first as a deductive inference and the second for support strength/scope, not deductive certainty. No unsupported causal conclusion receives a pass. | Argument review |
 | Selectable outline review coverage | Use the same outline for separate evaluative-only, validation-only, and comprehensive requests. Evaluative-only output stays within quality assessment; validation-only output checks stated criteria and available source fidelity without a full rewrite or unsolicited design alternatives. Comprehensive output covers both and consolidates a shared issue rather than reporting it twice. Retain uncertainty for unavailable sources and conventional headings where appropriate. | Merged outline review and its routing/handoffs |
 | Revision effects and scope | Compare “12 of 20 samples improved under condition A” with “The samples improved”; identify lost quantity/scope/condition. Separately compare source notes with a developed draft containing an unauthorized launch commitment, and run a findings-only review with no revised text. Check change fidelity in the first two, skip revision checking in the third, and do not independently research unchanged claims. | Revision check and manager routing |
+| Contextual references and revision history | Inspect standalone instructions containing “the supplied guidelines,” “as agreed earlier,” and “in the prior/earlier/previous revision” with no identifiable referents. Flag the unavailable dependencies and propose direct wording or an identified reference without inventing history. Contrast with “use the supplied draft” when the draft is present, a resolvable earlier-section reference, and a comparison with an identified available revision. In a source/revision pair, detect a newly introduced unresolved history reference without auditing every unchanged sentence. | Composition analysis and revision check |
 | Existing docstring convention | Supply a Python project using a consistent NumPy-style convention, plus a changed signature. Update relevant content in that convention; do not convert to Google style. A separate no-convention case uses Google style. Do not change or execute implementation. | Software documentation |
 
 Inspection checks suffice for F04, F10, F12, the O2 gloss, and metadata wording. Do not manufacture semantic tests that merely search for the implemented sentence, or rerun every historical sample after a one-word fix.
@@ -201,7 +217,7 @@ Each module task consumes the approved dispositions and current source, produces
 
 - [ ] Distinguish authorized target acquisition from independent supporting-source retrieval in the execution summary; route detail to the manager.
 - [ ] Retain the two-mode gate and safeguards against invented support. Do not enlarge the entry point into a duplicate policy manual.
-- [ ] Keep the current description, name, and focused routing rows unchanged in this task. The outline routing consolidation occurs atomically with file retirement in task 15, so every reference remains directly routed until it is removed.
+- [ ] Keep the current description, name, and focused routing rows unchanged in this task. The outline routing consolidation occurs atomically with file retirement in task 16, so every reference remains directly routed until it is removed.
 - [ ] Run the linked-target/citation-only/no-network and audit-only scenarios against the reconciled policy group. Record actual acquisition traces where facilities permit them.
 - [ ] Run local link/routing checks, then commit/push.
 
@@ -215,7 +231,17 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Read the module without project history and check that no missing authoring input appears required. Keep historical provenance in the existing capability-map development section.
 - [ ] Commit/push.
 
-### 6. Draft development: make the decision branches explicit
+### 6. Composition analysis: diagnose unavailable contextual references
+
+**Files:** `technical-writing-assistant/references/composition-analysis.md`.
+**Issues:** User-directed contextual-reference coverage; generalize the compositional defect illustrated by F04.
+
+- [ ] Add a diagnostic dimension for referent availability and standalone completeness, covering supplied inputs, prior discussions/agreements, and “in the prior/earlier/previous revision.” Evaluate the intended reader's available context rather than the assistant's authoring history.
+- [ ] Explain valid local/input/history references and missing-context defects; use the contextual-reference contract above. Preserve review-only authority and do not infer that every occurrence of “supplied,” “earlier,” or “previous” is defective.
+- [ ] Give actionable repair options and distinguish unnecessary authoring history from a necessary but unavailable comparison. Never fabricate the missing referent or claim it was inspected.
+- [ ] Run the invalid/valid-reference scenario for diagnosis; reserve the introduced-reference comparison for the revision-check task. Check standalone usability, then commit/push this module.
+
+### 7. Draft development: make the decision branches explicit
 
 **Files:** `technical-writing-assistant/references/draft-development.md`.
 **Issues:** F05.
@@ -225,7 +251,7 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Run the central-uncertainty clean-draft scenario. Check that routine secondary omissions do not create an approval gate and central choices are not silently resolved.
 - [ ] Commit/push.
 
-### 7. Structural revision: restore the contextual preference
+### 8. Structural revision: restore the contextual preference
 
 **Files:** `technical-writing-assistant/references/structural-revision.md`.
 **Issues:** F06.
@@ -234,7 +260,7 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Retain checks for adequate development and accidental fragmentation after splitting. Do not pad purposeful short units.
 - [ ] Inspect warning/transition and expository mismatch cases; commit/push.
 
-### 8. Outline review: incorporate validation and heading exceptions
+### 9. Outline review: incorporate validation and heading exceptions
 
 **Files:** `technical-writing-assistant/references/outline-review.md`; read `outline-validation.md` as migration input without changing or deleting it in this task.
 **Issues:** User-directed consolidation, F07, F08 criterion labels, O2 input criteria.
@@ -247,7 +273,7 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Account for every substantive section of the old validation module before retirement. Test the three coverage requests and the four-dimension scenario; check “Methods”/“Results” and a misleading “Reliability” heading.
 - [ ] Check module length after consolidation; add a contents list if it improves navigation. Commit/push the completed merged module. Leave the old file present until all live callers and governing inventory are migrated.
 
-### 9. Argument review: reasoning-type standards
+### 10. Argument review: reasoning-type standards
 
 **Files:** `technical-writing-assistant/references/argument-review.md`.
 **Issues:** F09.
@@ -256,7 +282,7 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Retain unstated premises, term/scope shifts, causal alternatives, certainty, counterarguments, and absence-of-evidence checks.
 - [ ] Run the deductive/provisional comparison scenario; ensure unsupported certainty remains a defect. Commit/push.
 
-### 10. Language revision: local actor wording
+### 11. Language revision: local actor wording
 
 **Files:** `technical-writing-assistant/references/language-revision.md`.
 **Issues:** F10.
@@ -264,7 +290,7 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Replace the unknown grammatical “agent” with “actor” and preserve the rule against invented identity.
 - [ ] Inspect the local meaning and consistency with passive-voice guidance. Avoid global replacement; commit/push.
 
-### 11. Software documentation: separate docstring decisions
+### 12. Software documentation: separate docstring decisions
 
 **Files:** `technical-writing-assistant/references/software-documentation.md`.
 **Issues:** F11.
@@ -274,7 +300,7 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Put declared or consistently established project style before the Google-style Python default. Preserve predominant conventions for other languages.
 - [ ] Run established-NumPy/no-convention cases and verify content alignment without format churn or invented behavior. Commit/push.
 
-### 12. Outline context exploration: gloss the working contract
+### 13. Outline context exploration: gloss the working contract
 
 **Files:** `technical-writing-assistant/references/outline-context-exploration.md`.
 **Issues:** O2.
@@ -283,7 +309,7 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Retain proportionality and examples of lightweight use. Align “contextual contract” output wording with the same concept. Route outline review and validation activities to the merged `outline-review.md`, rather than the retiring validation file.
 - [ ] Inspect that an ordinary outline can proceed without a schema or second intake; commit/push.
 
-### 13. Outline generation: consume ordinary criteria
+### 14. Outline generation: consume ordinary criteria
 
 **Files:** `technical-writing-assistant/references/outline-generation.md`.
 **Issues:** O2 handoff consistency.
@@ -291,20 +317,21 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Gloss or link the working contract as agreed representation criteria in the input paragraph. Do not require loading exploration when the prompt already supplies the needed criteria.
 - [ ] Retain all source/proposal and relationship boundaries. Hand quality assessment and validation checks to the relevant activities of the merged `outline-review.md`; avoid requiring two duplicate passes. Commit/push after checking the handoff.
 
-### 14. Revision check: rename and narrow the comparative procedure
+### 15. Revision check: rename and narrow the comparative procedure
 
 **Files:** rename `technical-writing-assistant/references/revision-verification.md` to `technical-writing-assistant/references/revision-check.md`. Update only the necessary live links and corresponding names in `technical-writing-assistant/SKILL.md`, calling references, `docs/dev/CAPABILITY_MAP.md`, `docs/dev/SPEC.md`, and `docs/dev/PLAN.md` as part of this migration.
 **Issues:** User-directed revision-check clarification, outline consolidation handoff, and change-fidelity boundary.
 
 - [ ] Implement the comparative contract above in the reference: source/brief/change authority as inputs; requested-change completion, essential-content fidelity, unintended meaning shifts, protected material, introduced defects, and unresolved prior findings as checks.
+- [ ] Explicitly check for introduced unresolved contextual references, including “in the prior/earlier/previous revision,” and relevant previously diagnosed instances. Apply the availability and repair criteria above; valid references remain acceptable.
 - [ ] Narrow general composition/style/evidence checks to the changed material and consequential dependencies. Reuse earlier findings; do not require independent fact-checking or a second comprehensive audit.
 - [ ] Handle drafts from notes, review-only work with no revised artifact, and unavailable source material explicitly. Keep outcomes proportional to the available comparison rather than claiming universal quality.
 - [ ] Use `outline-review.md#validation-checks` for relevant prior outline checks while retaining the distinct comparison against the brief and original material.
 - [ ] Rename the file, heading, routing description, live hyperlinks, and governing module entries atomically. Caller changes in this task are migration maintenance, not unrelated procedural revisions; do not publish a commit with dangling old links. Preserve historical review/trial filenames as snapshot evidence.
-- [ ] Run the source/revision, notes/draft, and findings-only scenarios. Check calculation factors, citation associations, and commitment status; do not treat plausible unchanged claims as newly verified.
-- [ ] Run local link/routing/map checks. This rename alone preserves inventory; outline file retirement in task 15 changes it. Commit/push the completed module and migration links.
+- [ ] Run the source/revision, notes/draft, and findings-only scenarios. Include the introduced contextual-reference comparison. Check calculation factors, citation associations, and commitment status; do not treat plausible unchanged claims as newly verified.
+- [ ] Run local link/routing/map checks. This rename alone preserves inventory; outline file retirement in task 16 changes it. Commit/push the completed module and migration links.
 
-### 15. Retire the redundant file and reconcile decomposition
+### 16. Retire the redundant file and reconcile decomposition
 
 **Files:** delete `technical-writing-assistant/references/outline-validation.md`; update `technical-writing-assistant/SKILL.md`, `docs/dev/SPEC.md`, `docs/dev/CAPABILITY_MAP.md`, and `docs/dev/PLAN.md` for the new decomposition.
 **Issues:** User-directed consolidation, inventory consistency, and F08/O2 migration completeness.
@@ -315,7 +342,7 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Run local links/routing/map checks immediately on the complete retirement change. Confirm 20 reference files, 19 unique focused targets and routing rows, one manager, and 17 recipes. The existing checker derives its inventory; change it only if an actual defect prevents correct checking.
 - [ ] Commit/push the retirement and necessary governing-document reconciliation together so no broken live links or inventory mismatch is published.
 
-### 16. Presentation metadata: broaden the summary
+### 17. Presentation metadata: broaden the summary
 
 **Files:** `technical-writing-assistant/agents/openai.yaml`.
 **Issues:** O3.
@@ -324,7 +351,7 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Check current repository scalar/length constraints with the existing checker; retain the name, invocation, prompt, brand, icon paths, and implicit-invocation policy unless another verified defect requires change.
 - [ ] Commit/push. Do not claim client-display validation from textual checking.
 
-### 17. README: inventory and completed example
+### 18. README: inventory and completed example
 
 **Files:** `README.md`.
 **Issues:** F12, O1.
@@ -334,23 +361,24 @@ Each module task consumes the approved dispositions and current source, produces
 - [ ] Optionally pair it with one located review-only finding: a heading promises reliability but content describes installation; state consequence and remedy without a full rewrite. Keep the entire orientation addition compact.
 - [ ] Label these as illustrative examples, not newly observed trial outputs. Check counts against actual routing and inventory; commit/push.
 
-### 18. Reconcile governing documents and record new evidence
+### 19. Reconcile governing documents and record new evidence
 
 **Files:** `docs/dev/SPEC.md`, `docs/dev/CAPABILITY_MAP.md`, `docs/dev/PLAN.md`; create `docs/dev/REVISION_REVIEW.md` and revision-case/output files under `docs/dev/validation/` as needed.
-**Issues:** F01 policy integration, F02 mirrored recipe, F08 distinctions, O2 terminology, outline consolidation, and campaign evidence.
+**Issues:** F01 policy integration, F02 mirrored recipe, F08 distinctions, O2 terminology, outline consolidation, contextual-reference coverage, and campaign evidence.
 
 - [ ] Integrate the approved acquisition boundary into the full specification and map; retain both evidence modes and the clarification rule.
 - [ ] Align the mirrored software-review recipe and any equivalent ambiguous provenance wording. Preserve authoring-guideline provenance in development documentation.
+- [ ] Add explicit referent-availability and standalone-completeness coverage to the composition-analysis and revision-check capability descriptions and specification, including unavailable prior revisions; preserve their distinct diagnostic and comparative scopes.
 - [ ] Reconcile first-use working-contract terminology without retroactively editing the received report or raw historical outputs.
 - [ ] Add a compact pointer from the full implementation plan to this revision campaign; do not replace its whole-project scope with a feature-only account.
 - [ ] Record actual new scenarios, results, repairs, unrun branches, and limits in the revision review. Preserve the historical REVIEW.md as the prior campaign record; add a dated pointer if useful.
 - [ ] Run `python tools/check_package.py`, an available offline skill validator/inventory, and `git diff --check`. Confirm 19 focused references, one manager, 19 focused routes, and 17 recipes. Do not turn link counts into fixed acceptance constants.
-- [ ] Perform a whole-boundary editorial check of revised acquisition rules, authority, vocabulary, topic-sentence exceptions, docstring precedence, standalone usability, selectable outline-review coverage, and the distinct change-comparison role of `revision-check.md`.
+- [ ] Perform a whole-boundary editorial check of revised acquisition rules, authority, vocabulary, topic-sentence exceptions, docstring precedence, standalone usability and contextual-reference availability, selectable outline-review coverage, and the distinct change-comparison role of `revision-check.md`.
 - [ ] Commit/push the final reconciliation and evidence. Verify that remote `main` matches local HEAD and the working tree is clean.
 
 ## Completion criteria and excluded work
 
-The revision is complete when every accepted issue has its scoped remediation and relevant check, cross-file policies agree, all validation responsibilities survive consolidation, revision checking is scoped to the assistant's changes, and no live caller references the retired validation module or old revision filename, and actual validation evidence supports the bounded completion report. O4 must remain recorded as deliberately deferred, not accidentally omitted. Failed or unavailable scenarios must be disclosed rather than counted as passes.
+The revision is complete when every accepted issue has its scoped remediation and relevant check, cross-file policies agree, all validation responsibilities survive consolidation, revision checking is scoped to the assistant's changes, unresolved contextual references have explicit diagnostic and introduced-defect coverage, and no live caller references the retired validation module or old revision filename, and actual validation evidence supports the bounded completion report. O4 must remain recorded as deliberately deferred, not accidentally omitted. Failed or unavailable scenarios must be disclosed rather than counted as passes.
 
 Excluded: implementing this plan during the planning turn; redesigning the package beyond the specified outline consolidation; adding a status enum, new special-case outline profiles, or mandatory records; expanding a style pass into independent factual research; installation or universal client-support claims; and blanket rewording of all headings, slashes, punctuation, or safeguards.
 

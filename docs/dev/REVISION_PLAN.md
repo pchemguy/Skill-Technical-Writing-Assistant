@@ -328,9 +328,9 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/outline-context-exploration.md`.
 **Issues:** O2.
 
-- [ ] Define “working contract” at first use as the task's agreed representation criteria, not a required formal document.
-- [ ] Retain proportionality and examples of lightweight use. Align “contextual contract” output wording with the same concept. Route outline review and validation activities to the merged `outline-review.md`, rather than the retiring validation file.
-- [ ] Inspect that an ordinary outline can proceed without a schema or second intake; commit/push.
+- [x] Define “working contract” at first use as the task's agreed representation criteria, not a required formal document.
+- [x] Retain proportionality and examples of lightweight use. Align “contextual contract” output wording with the same concept. Route outline review and validation activities to the merged `outline-review.md`, rather than the retiring validation file.
+- [x] Inspect that an ordinary outline can proceed without a schema or second intake; commit/push.
 
 ### 14. Outline generation: consume ordinary criteria
 

@@ -31,3 +31,5 @@ Dependency inspection: manager → evidence/source/entry point share the two-mod
 - Task 11: Clarify unknown actor wording in language revision. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
 
 - Task 12: Separate docstring maintenance, style precedence, and coverage. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
+
+- Task 13: Define lightweight representation criteria and merged review handoff. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.

@@ -15,13 +15,13 @@ Use the request, available source material, existing outline or map, known audie
 3. Identify consequential choices: scope, governing sources, dimensions, kinds of nodes, relationships, granularity, ordering, and intended completeness. Ask targeted questions only where the answer changes the result.
 4. Propose representations that fit the actual relationships. A hierarchy suits containment; a table suits comparable dimensions; a relationship map suits cross-cutting dependencies. Combine them when useful. These examples do not limit permitted forms.
 5. Compare trade-offs: readability, traceability, repetition, maintenance, precision, and effort. Do not invent dependencies or categories to fill a preferred template.
-6. Establish a lightweight working contract in prose or Markdown. Include only needed criteria: purpose/audience; source authority and limits; elements/relationships; useful fields or representation; scope/exclusions; completeness, consistency, and usefulness checks.
+6. Establish the working contract: the task's agreed representation criteria, retained in ordinary prose or Markdown only as needed. This is not a required formal document. Include only needed criteria: purpose/audience; source authority and limits; elements/relationships; useful fields or representation; scope/exclusions; completeness, consistency, and usefulness checks.
 7. State assumptions, open decisions, and what counts as an unsupported addition. Proceed with low-risk editorial choices within scope; ask about unresolved substantive choices before dependent generation.
-8. Hand the contract to [outline generation](outline-generation.md), [outline review](outline-review.md), or [outline validation](outline-validation.md), depending on the requested entry point.
+8. Hand the contract to [outline generation](outline-generation.md) or [outline review](outline-review.md) with evaluative and/or validation coverage, depending on the requested entry point.
 
 ## Outputs and boundaries
 
-Return a contextual contract, selected or proposed representation, rationale, and open decisions. Keep simple tasks simple: a document outline may need only purpose and section sequence. Substantial maps may need typed relationships and source references. Do not require a mandatory node schema, JSON record, or separate workflow for each special case.
+Return agreed representation criteria, selected or proposed representation, rationale, and open decisions. Keep simple tasks simple: a document outline may need only purpose and section sequence. Substantial maps may need typed relationships and source references. Do not require a mandatory node schema, JSON record, or separate workflow for each special case.
 
 [Composition exploration](composition-exploration.md) asks how a text could be organized and developed. This workflow asks what a structured representation must capture. Cooperate when an outline will guide prose without duplicating both intakes.
 

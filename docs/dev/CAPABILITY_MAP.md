@@ -43,7 +43,7 @@ Use one standalone skill with a compact `SKILL.md`, focused references, and `man
 
 The entry point provides activation, essential safeguards, and direct routing. Focused requests load their relevant references directly without requiring the full manager workflow. Composite requests load `manager.md`, which selects the smallest sufficient workflow, sequences work, tracks decisions, and consolidates findings.
 
-Define evidence modes in the manager. A directly invoked evidence workflow uses the relevant mode-selection section when needed without initiating a complete composite workflow. Shared guidance supplies editorial criteria; genre references supply contextual conventions. They are loaded only when useful.
+Define evidence modes in the manager; bounded acquisition of explicitly requested task targets is distinct from corroborating research. A directly invoked evidence workflow uses the relevant mode-selection section when needed without initiating a complete composite workflow. Shared guidance supplies editorial criteria; genre references supply contextual conventions. They are loaded only when useful.
 
 The standalone package directory is `technical-writing-assistant/`; development documentation remains outside it under `docs/dev/`. The package uses ordinary text and Markdown and does not depend on a particular host, installation directory, connector, or vendor-specific API. Optional OpenAI presentation metadata is separate from the portable skill core.
 
@@ -56,8 +56,8 @@ The following filenames are package boundaries, not a requirement to execute eve
 | `manager.md` | Define task modes, select and coordinate workflows, resolve overlapping findings, retain decisions, and consolidate results. Include practical workflow recipes. | Coordinates substantive work; does not duplicate detailed editorial procedures. |
 | `writing-brief.md` | Establish purpose, audience, genre, dialect, register, constraints, source authority, revision depth, and deliverables. Reuse supplied information and established preferences. | Defines the task; does not require a questionnaire before every edit. |
 | `material-assessment.md` | Assess maturity, completeness, contradictions, missing context, and suitability for the requested work. Produce initial diagnosis and priorities. | Performs triage; detailed composition, argument, and evidence examinations belong to their respective modules. |
-| `style-guidelines.md` | Maintain authoritative style guidance and the checklist derived from the supplied guidelines, including contextual qualifications. | Provides shared editorial criteria; does not prescribe document organization or establish factual correctness. |
-| `composition-analysis.md` | Diagnose composition at sentence, paragraph, section, and document levels. Produce located findings, reader consequences, and proposed remedies. | Analyzes existing composition; does not automatically rewrite it or redesign its substantive argument. |
+| `style-guidelines.md` | Maintain self-contained editorial defaults and a relevant-criteria checklist with contextual qualifications. | Provides shared editorial criteria; does not prescribe document organization or establish factual correctness. |
+| `composition-analysis.md` | Diagnose composition at sentence, paragraph, section, and document levels. Produce located findings, reader consequences, and proposed remedies, including unresolved contextual references and standalone completeness. | Analyzes existing composition; does not automatically rewrite it or redesign its substantive argument. |
 | `composition-exploration.md` | Develop alternative framing, organizing principles, outlines, emphasis, and explanatory or argumentative sequences. Explain trade-offs and recommend an approach. | Explores alternatives before substantial restructuring or drafting; does not manufacture support for the selected approach. |
 | `outline-context-exploration.md` | Establish what an outline or map must represent, its purpose, audience, sources, organizing dimensions, relationships, detail, and success criteria. Propose alternatives when these are unclear. | Resolves contextual structural choices; reuses established information and does not require exploration for every task. |
 | `outline-generation.md` | Generate a structure using agreed contextual criteria. Support hierarchies, tables, relationship maps, or combinations; distinguish source-derived content from proposed additions. | Does not invent requirements, unsupported relationships, or established project scope; does not automatically develop full prose. |
@@ -84,7 +84,7 @@ Specialization emerges from the task context rather than a predefined catalogue 
 
 ### Contextual exploration and working contract
 
-Use the request, supplied materials, and established decisions first. When consequential choices remain unclear, explore alternatives and their trade-offs with the user. Establish a small task-specific working contract in ordinary prose or Markdown:
+Use the request, supplied materials, and established decisions first. When consequential choices remain unclear, explore alternatives and their trade-offs with the user. A working contract means the task's agreed representation criteria, retained only as needed in ordinary prose or Markdown; no formal document is required. Establish relevant criteria from the request:
 
 - What is represented, for what purpose, and for which audience.
 - Which sources govern the content and what their authority and limitations are.
@@ -106,7 +106,7 @@ Adapt the representation to the relationships in the material. Do not force a hi
 | Granularity | Are nodes fragmented or overloaded? Is the decomposition sufficiently consistent for the task? |
 | Boundaries | Do responsibilities or topics overlap? Is coverage duplicated or ownership unclear? |
 | Sequence | Do prerequisites, dependencies, logical progression, and audience needs inform the order? |
-| Node quality | Are titles informative, purposes clear, and intended content sufficiently explained? |
+| Node quality | Are titles useful and accurate, purposes clear, and intended content explained? Conventional Methods/Results headings may be effective. |
 | Traceability | Can elements be related to supplied requirements and source materials? Are proposed additions distinguishable? |
 
 For substantial work, nodes may include purpose, scope, exclusions, source references, dependencies, and unresolved questions. Keep simple outlines lightweight. Review should produce located findings, consequences, suggested remedies, and any substantive decisions required; it should not automatically rewrite the structure.
@@ -146,6 +146,7 @@ Across these levels, examine logical and semantic flow: missing steps, contradic
 | Internal development | Are assertions sufficiently explained, supported, exemplified, qualified, or interpreted? Are there unsupported jumps or premature conclusions? |
 | Transitions | Are relationships between sentences, paragraphs, and sections clear and accurate? Does a connective express a real relationship? |
 | Logical and semantic progression | Are reasoning steps missing? Are there contradictions, ambiguous relationships, topic drift, or meaning and scope changes? |
+| Contextual references | Can intended readers identify and access references to supplied inputs, prior agreements, or earlier revisions at the intended reading boundary? Diagnose unavailable dependencies, not words such as "previous" in isolation. State operative content directly, identify the reference, summarize an available comparison, or remove unnecessary authoring history; never invent a missing referent. |
 | Information order | Do definitions, context, assumptions, and prerequisites appear before readers need them? Does familiar information prepare for new information? |
 | Hierarchy and grouping | Are major and subordinate ideas distinguishable? Is related material grouped? Do section boundaries reflect meaningful divisions? |
 | Emphasis and proportion | Do important ideas receive appropriate prominence and development? Are central points buried or minor details dominant? Are qualifications near their claims? |
@@ -165,7 +166,7 @@ Each actionable finding identifies its location and problem, the reader conseque
 
 ## Shared style policy
 
-The supplied Writing Style Guidelines for Technical and Business Texts form the basis of `style-guidelines.md`. Preserve their coverage while applying the contextual qualifications below. The reference owns editorial criteria; focused workflows apply the relevant sections without duplicating them.
+The initial design incorporated user-provided editorial guidance. Its operative defaults and contextual qualifications are stated below and in `style-guidelines.md`; using them requires no access to the authoring conversation. Focused workflows apply relevant criteria without duplicating them.
 
 ### Mechanics and grammar
 
@@ -189,11 +190,11 @@ Maintain grammatical and logical parallelism in lists, coordinated and correlati
 
 Use complete sentences in continuous prose. Permit purposeful fragments in headings, labels, tables, and concise list items. Attach participles, infinitives, and other modifiers to the appropriate subject; avoid dangling or ambiguous constructions.
 
-Remove unnecessary words and redundancy. Use an effective mix of simple, compound, and complex sentences. The supplied examples of short sentences at 5–10 words and longer sentences at 20–30 words are diagnostic guidance, not quotas. Avoid monotonous sequences and complexity that burdens comprehension; do not force variation where precision calls for repetition.
+Remove unnecessary words and redundancy. Use an effective mix of simple, compound, and complex sentences. Short sentences of 5–10 words and longer sentences of 20–30 words are diagnostic examples, not quotas. Avoid monotonous sequences and complexity that burdens comprehension; do not force variation where precision calls for repetition.
 
 ### Paragraph structure
 
-Center each paragraph on one controlling idea. Prefer a sound topic sentence that accurately represents and introduces its contents, and ensure subsequent sentences develop that idea. The supplied range of three sentences to half a page is a heuristic, not a requirement to pad or arbitrarily split text.
+Center each paragraph on one controlling idea. Prefer a sound topic sentence that accurately represents and introduces its contents, and ensure subsequent sentences develop that idea. A paragraph length of three sentences to half a page is a heuristic, not a requirement to pad or arbitrarily split text.
 
 Use purposeful transitions and appropriate paragraph boundaries. In long passages, use meaningful headings and subheadings to organize content; a heading does not cure an overloaded paragraph. A clear short paragraph should not be expanded merely to meet a target.
 
@@ -254,9 +255,9 @@ Independently research and inspect sources, fact-check relevant claims, assess e
 
 ### Review without external research
 
-Use supplied material and information available from model training to identify evidence gaps, questionable claims, suitable evidence types, prospective sources, and verification steps. Conduct no independent external research. Distinguish observations grounded in supplied material from suggestions based on model knowledge. Remembered facts and prospective sources are not independently verified; do not invent uncertain bibliographic details.
+Use supplied material and information available from model training to identify evidence gaps, questionable claims, suitable evidence types, prospective sources, and verification steps. Conduct no independent external research. Acquire explicitly identified task targets through permitted access, including relevant repository files and explicitly requested appendices. Acquisition enables inspection, not independent claim verification. Do not retrieve citation-only support, follow bibliographies, or search for corroboration. Explicit no-network, no-retrieval, and supplied-content-only restrictions override even target acquisition. Clarify consequential ambiguity about a URL's role; report access failures rather than substitute memory. Distinguish observations grounded in supplied material from suggestions based on model knowledge. Remembered facts and prospective sources are not independently verified; do not invent uncertain bibliographic details.
 
-Assessing supplied evidence can occur within either mode and does not require a separate third mode. Distinguish inspected supplied material from externally verified evidence, uninspected supplied references, inference, and proposed support. A prospective source must never be presented as verified support merely because it appears promising.
+Assessing supplied evidence can occur within either mode and does not require a separate third mode. Distinguish inspected source content, independently assessed claims and evidence, supplied but uninspected references, inference, and prospective support. Provenance/access, source-to-claim relationship, researched-claim outcome, and criterion outcome answer different questions. Inspected content can support, partially support, contradict, or not address a claim; unavailable content is not assessed. Overall researched claims can be supported, partially supported, contradicted, or unresolved within scoped evidence. Applicable criteria can be satisfied, partly satisfied with identified subparts, failed, or not assessable. Uninspected, unresolved, unsupported, and false are not interchangeable. A prospective source must never be presented as verified support merely because it appears promising.
 
 ### Selection and persistence
 
@@ -268,27 +269,30 @@ The manager owns mode definitions and selection. Evidence review works within th
 
 ## Practical composite workflows
 
-These are adaptable recipes, not mandatory pipelines. Select an entry point from the request and supplied material. Honor explicit instructions about whether the user wants diagnosis, alternatives, rewritten text, or research. Use the brief only to resolve material uncertainties.
+Initial assessment means readiness triage only when needed, not the detailed review. Comprehensive review considers every relevant dimension and explains material exclusions or unavailable coverage. Revision changes only what needs repair; a sound structure needs no forced reorganization. Both workflows honor the selected evidence mode and preserve essential content and authorial position. Substantive revision requires existing authority; missing information is not permission to invent it. Revision checks compare changed material with its source and instructions. Findings-only branches instead check their own findings for accuracy and consistency.
 
-| Workflow | Typical sequence | Practical result |
+Shared style and genre guidance supply criteria, not compulsory extra stages. Named steps refer to their corresponding focused modules directly discoverable from the entry point.
+
+| Workflow | Typical sequence | Result |
 |---|---|---|
-| Focused language edit | Brief as needed → language revision → relevant terminology checks → verification | Revised passage with substantive uncertainties preserved or flagged. |
-| Composition audit | Composition analysis → optional composition alternatives | Located findings and prioritized recommendations; rewritten text only when requested. |
-| Structural revision | Composition analysis → exploration if needed → structural revision → verification | Reorganized text with clearer paragraph and section purposes and accurate transitions. |
-| Comprehensive editorial review | Assessment → relevant genre guidance → composition, argument, evidence, and consistency reviews → consolidation | Prioritized findings separating editorial defects, substantive weaknesses, and evidence needs. |
-| Full revision of an existing draft | Assessment → selected reviews → structural revision → language revision → terminology reconciliation → verification | Revised document plus significant changes and unresolved questions. |
-| Bullets or brainstorming to developed text | Brief → assessment → composition exploration → argument and evidence review → draft development → revision → verification | Organized prose grounded in supplied ideas, with missing support and assumptions visible. |
-| Argument strengthening | Argument review → evidence review → external research if selected → composition exploration → authorized revision → verification | Stronger argument, or an explanation of why available support cannot sustain the proposed conclusion. |
-| Fact-checking and evidence repair | Evidence mode selection → claim identification → evidence assessment → source research when permitted → proposed corrections → verification | Claim-by-claim account of support, contradictions, gaps, and appropriate wording. In non-research mode, report a gap review rather than completed fact-checking. |
-| Audience or genre transformation | New brief → applicable genre guidance → composition analysis and exploration → structural revision or development → language revision → verification | Text adapted to new readership and purpose while retaining essential meaning and qualifications. |
-| Concision and executive-summary development | Identify indispensable content → select emphasis and structure → compress or develop summary → verify against source | Shorter text retaining reasoning and qualifications necessary to understand its conclusions. |
-| Software documentation review | Software guidance → inspect supplied implementation and documentation → composition and consistency review → revision → verification | Clearer documentation with discrepancies and unperformed behavior checks identified. |
-| Scientific manuscript revision | Scientific guidance → composition, argument, and evidence review → structural and language revision → verification | Better reporting and interpretation without unsupported methods, results, or certainty. |
-| Generate a structured outline or map | Brief and source assessment as needed → explore unresolved structural choices → establish contextual criteria → generation → outline review with relevant evaluative and validation checks | A context-appropriate standalone structure with proposed additions and unresolved gaps visible. |
-| Review an existing outline or map | Identify purpose, sources, and criteria → context exploration if needed → outline review with requested evaluative and/or validation coverage → prioritized findings | Conceptual recommendations distinguished from source or structural validation failures; no regeneration unless requested. |
-| Repair an outline or map | Review and validation → authorized revision through applicable outline workflows → repeat affected checks | A repaired structure with significant changes and unresolved issues recorded. |
-| Derive a specialized map from source materials | Inspect materials → explore needed elements and relationships → contextual contract → generation → outline review including source and coverage checks | A specialized map adapted to its context, such as a skill capability map, with source-derived content, proposals, and status distinguished. |
-| Outline to developed text | Review and validate the outline as needed → argument and evidence work where relevant → draft development → revision → verification | Developed prose grounded in the outline and sources, with missing support and qualifications retained. |
+| Focused language edit | Brief as needed → language revision → relevant terminology checks → revision check | Revised passage preserving or flagging substantive uncertainties. |
+| Composition audit | Composition analysis → optional composition exploration | Located findings and priorities; rewrite only when requested. |
+| Structural revision | Composition analysis → exploration if needed → structural revision → revision check | Reorganized text with accurate purposes and transitions. |
+| Comprehensive editorial review | Scope and genre conventions → relevant composition, language/style, argument, evidence, and terminology/consistency assessment → consolidation | Located, prioritized findings, reader consequences, remedies, and assessment limits; no automatic rewrite. |
+| Comprehensive draft revision | Revision scope → diagnosis of relevant defects → structure, reasoning, language, and terminology changes as needed within authority → revision check | Revised draft, significant changes, and unresolved substantive questions. |
+| Bullets or brainstorming to prose | Brief → assessment → composition exploration → relevant argument/evidence review → draft development → revision → revision check | Grounded developed text with support gaps visible. |
+| Argument strengthening | Argument review → evidence review → research if selected → composition exploration → authorized revision → revision check | Stronger argument, or an account of why support cannot sustain it. |
+| Fact-checking and evidence repair | Mode selection → claim identification → evidence review → source research when permitted → proposed corrections → revision check if implemented | Claim-linked support, contradictions, gaps, and wording. In non-research mode, label it a gap review. |
+| Audience or genre transformation | New brief → genre guidance → composition analysis/exploration → structural revision or development → language revision → revision check | Adapted text retaining essential meaning and qualifications. |
+| Concision or executive summary | Identify indispensable content → select emphasis/structure → compress or develop summary → revision check | Shorter text preserving essential reasoning, numerical factors, and qualifications. |
+| Software documentation review | Software guidance → inspect available code/docs → diagnose composition/consistency → consolidate findings → revise when authorized → revision check if revised | Findings and recommended repairs; authorized revisions when requested; unperformed behavior checks remain explicit. |
+| Scientific manuscript revision | Scientific guidance → selected composition, argument, evidence review → structural/language revision → revision check | Clear reporting without unsupported methods, results, or certainty. |
+| Generate an outline or map | Brief/source assessment as needed → explore unresolved structural choices → contextual criteria → outline generation → outline review with relevant evaluative and validation checks | Context-appropriate structure with proposals and gaps visible. |
+| Review an outline or map | Purpose/sources/criteria → context exploration if needed → outline review with requested evaluative and/or validation coverage → priorities | Editorial recommendations distinguished from validation failures; no automatic regeneration. |
+| Repair an outline or map | Review/validation → authorized revision through outline generation or targeted repairs → recheck affected criteria | Repaired structure with changes and open issues recorded. |
+| Derive a specialized map | Inspect sources → explore elements/relationships → contextual contract → outline generation → outline review including source/coverage checks | Context-adapted map, with source content, proposals, and status distinguished. |
+| Outline to developed text | Review/validate as needed → relevant argument/evidence work → draft development → revision → revision check | Prose grounded in the outline and sources without invented support. |
+
 
 The manager revisits earlier stages when findings justify it. An unsupported conclusion may require a narrower argument; a paragraph split may expose a missing explanation; external research may require changing the outline. Consolidate duplicate findings and resolve disagreements between workflows before presenting recommendations.
 
@@ -296,6 +300,6 @@ Do not make every handoff an approval gate. Ordinary work proceeds within the us
 
 ## Implementation status and validation boundary
 
-The package implements 19 focused references and one manager (20 reference files), including three outline modules with validation integrated into review, and directly routes to each from SKILL.md. The manager implements both evidence modes and all 17 composite recipes. The shared style guidance retains the supplied coverage and contextual qualifications; detailed composition and outline procedures apply the boundaries above.
+The package implements 19 focused references and one manager (20 reference files), including three outline modules with validation integrated into review, and directly routes to each from SKILL.md. The manager implements both evidence modes and all 17 composite recipes. The shared style guidance retains the agreed coverage and contextual qualifications; detailed composition and outline procedures apply the boundaries above.
 
-Structural validation and representative task execution assess different properties. Package checks demonstrate format and resource integrity; sample outputs can reveal behavior on the sampled tasks. Neither establishes universal writing quality, successful live research, installation, or behavior across hosts and models. The full review, resolved findings, and sample execution limits are recorded in [REVIEW.md](REVIEW.md). Subsequent work should extend evaluation from real use and repair observed weaknesses without replacing contextual judgment with a fixed profile catalogue.
+Structural validation and representative task execution assess different properties. Package checks demonstrate format and resource integrity; sample outputs can reveal behavior on the sampled tasks. Neither establishes universal writing quality, successful live research, installation, or behavior across hosts and models. The initial implementation review is recorded in [REVIEW.md](REVIEW.md); the revision campaign, resolution checks, and new sample limits are recorded in [REVISION_REVIEW.md](REVISION_REVIEW.md). Subsequent work should extend evaluation from real use and repair observed weaknesses without replacing contextual judgment with a fixed profile catalogue.

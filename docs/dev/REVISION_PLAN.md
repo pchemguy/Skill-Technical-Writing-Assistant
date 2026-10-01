@@ -389,16 +389,16 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `docs/dev/SPEC.md`, `docs/dev/CAPABILITY_MAP.md`, `docs/dev/PLAN.md`; create `docs/dev/REVISION_REVIEW.md` and revision-case/output files under `docs/dev/validation/` as needed.
 **Issues:** F01 policy integration, F02 mirrored recipe, comprehensive-review/revision clarification, F08 distinctions, O2 terminology, outline consolidation, contextual-reference coverage, and campaign evidence.
 
-- [ ] Integrate the approved acquisition boundary into the full specification and map; retain both evidence modes and the clarification rule.
-- [ ] Align the mirrored comprehensive editorial review and comprehensive draft revision recipes with the manager, including their distinct outputs, relevant coverage, as-needed changes, and revision-check boundary.
-- [ ] Align the mirrored software-review recipe and any equivalent ambiguous provenance wording. Preserve authoring-guideline provenance in development documentation.
-- [ ] Add explicit referent-availability and standalone-completeness coverage to the composition-analysis and revision-check capability descriptions and specification, including unavailable prior revisions; preserve their distinct diagnostic and comparative scopes.
-- [ ] Reconcile first-use working-contract terminology without retroactively editing the received report or raw historical outputs.
-- [ ] Add a compact pointer from the full implementation plan to this revision campaign; do not replace its whole-project scope with a feature-only account.
-- [ ] Record actual new scenarios, results, repairs, unrun branches, and limits in the revision review. Preserve the historical REVIEW.md as the prior campaign record; add a dated pointer if useful.
-- [ ] Run `python tools/check_package.py`, an available offline skill validator/inventory, and `git diff --check`. Confirm 19 focused references, one manager, 19 focused routes, and 17 recipes. Do not turn link counts into fixed acceptance constants.
-- [ ] Perform a whole-boundary editorial check of revised acquisition rules, authority, vocabulary, topic-sentence exceptions, docstring precedence, standalone usability and contextual-reference availability, selectable outline-review coverage, and the distinct change-comparison role of `revision-check.md`.
-- [ ] Commit/push the final reconciliation and evidence. Verify that remote `main` matches local HEAD and the working tree is clean.
+- [x] Integrate the approved acquisition boundary into the full specification and map; retain both evidence modes and the clarification rule.
+- [x] Align the mirrored comprehensive editorial review and comprehensive draft revision recipes with the manager, including their distinct outputs, relevant coverage, as-needed changes, and revision-check boundary.
+- [x] Align the mirrored software-review recipe and any equivalent ambiguous provenance wording. Preserve authoring-guideline provenance in development documentation.
+- [x] Add explicit referent-availability and standalone-completeness coverage to the composition-analysis and revision-check capability descriptions and specification, including unavailable prior revisions; preserve their distinct diagnostic and comparative scopes.
+- [x] Reconcile first-use working-contract terminology without retroactively editing the received report or raw historical outputs.
+- [x] Add a compact pointer from the full implementation plan to this revision campaign; do not replace its whole-project scope with a feature-only account.
+- [x] Record actual new scenarios, results, repairs, unrun branches, and limits in the revision review. Preserve the historical REVIEW.md as the prior campaign record; add a dated pointer if useful.
+- [x] Run `python tools/check_package.py`, an available offline skill validator/inventory, and `git diff --check`. Confirm 19 focused references, one manager, 19 focused routes, and 17 recipes. Do not turn link counts into fixed acceptance constants.
+- [x] Perform a whole-boundary editorial check of revised acquisition rules, authority, vocabulary, topic-sentence exceptions, docstring precedence, standalone usability and contextual-reference availability, selectable outline-review coverage, and the distinct change-comparison role of `revision-check.md`.
+- [x] Commit/push the final reconciliation and evidence. Verify that remote `main` matches local HEAD and the working tree is clean.
 
 ## Completion criteria and excluded work
 

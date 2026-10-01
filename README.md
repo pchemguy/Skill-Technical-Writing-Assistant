@@ -21,7 +21,7 @@ Focused requests load only relevant references; composite requests use the manag
 - “Independently fact-check these claims and report source limitations.”
 - “Explore what this project map needs to represent, then generate and validate it against the supplied materials.”
 
-Evidence work has exactly two modes: independent external research and verification, or review using supplied material and model knowledge without external research. The assistant asks when relevant and unresolved, retains the choice, and does not treat remembered information as verified. External research and file-format operations depend on authorized facilities provided by the host.
+Evidence work has exactly two modes: independent external research and verification, or review using supplied material and model knowledge without external research. The assistant asks when relevant and unresolved, retains the choice, and does not treat remembered information as verified. Bounded acquisition of an explicitly requested review target is distinct from corroborating research; explicit retrieval restrictions still control. External research and file-format operations depend on authorized facilities provided by the host.
 
 ### Illustrative revision
 
@@ -37,7 +37,8 @@ The sample size and conditions survive; broader applicability remains unestablis
 - [Manager](technical-writing-assistant/references/manager.md): evidence modes, workflow selection, iteration, and 17 composite recipes.
 - [Focused references](technical-writing-assistant/references/): independent procedures and shared guidance.
 - [Capability map](docs/dev/CAPABILITY_MAP.md): scope, boundaries, design rationale, and contextual outline adaptation.
-- [Full review and validation evidence](docs/dev/REVIEW.md): coverage, resolved findings, raw sample outputs, and verification limits.
+- [Initial implementation review](docs/dev/REVIEW.md): historical coverage and sample evidence.
+- [Post-revision comprehensive review](docs/dev/REVISION_REVIEW.md): issue resolution, consistency, migration completeness, new trials, and verification limits.
 - [Specification](docs/dev/SPEC.md) and [implementation plan](docs/dev/PLAN.md): project requirements and the ordered module campaign.
 
 The skill preserves quotations, code, equations, identifiers, essential reasoning, numerical factors, and qualifications. Substantive proposals remain explicit. Drafting does not authorize sending messages, publishing, or changing software.

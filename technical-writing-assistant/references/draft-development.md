@@ -25,8 +25,8 @@ Return developed text in the requested form, plus significant assumptions, unres
 
 ## Examples and failure handling
 
-- Notes say “trial: 12 samples; maybe improved stability.” Draft a provisional observation with its scope, not a demonstrated universal improvement.
-- Notes say “possible Q4 launch; budget not agreed.” Do not write “We will launch in Q4” or invent an approved cost. Keep planning status visible.
+- Notes say "trial: 12 samples; maybe improved stability". Draft a provisional observation with its scope, not a demonstrated universal improvement.
+- Notes say "possible Q4 launch; budget not agreed". Do not write "We will launch in Q4" or invent an approved cost. Keep planning status visible.
 - Bullets contain a conclusion but no reasoning. Develop what is supported and flag the missing premise instead of adding an invented explanation.
 - Contradictory figures require reconciliation; do not average them without a justified basis. Unreadable source notes require clarification for affected content.
 

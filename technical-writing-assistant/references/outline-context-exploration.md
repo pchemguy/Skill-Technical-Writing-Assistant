@@ -27,9 +27,9 @@ Return a contextual contract, selected or proposed representation, rationale, an
 
 ## Examples and failure handling
 
-- “Map responsibilities across these service manuals” may require a responsibility matrix rather than a table of contents. Explore ownership and interactions instead of forcing section hierarchy.
-- “Create a skill capability map from this project” can call for scope, inputs, outputs, boundaries, routing, and status. Derive these fields from the task; filenames alone do not establish implemented behavior.
-- “Outline a five-minute explanation of these results” is usually clear enough to proceed with audience-appropriate section order. Do not demand a formal contract questionnaire.
+- "Map responsibilities across these service manuals" may require a responsibility matrix rather than a table of contents. Explore ownership and interactions instead of forcing section hierarchy.
+- "Create a skill capability map from this project" can call for scope, inputs, outputs, boundaries, routing, and status. Derive these fields from the task; filenames alone do not establish implemented behavior.
+- "Outline a five-minute explanation of these results" is usually clear enough to proceed with audience-appropriate section order. Do not demand a formal contract questionnaire.
 - Incomplete sources permit a bounded map or a proposed extension, not an unqualified assertion of exhaustive coverage.
 
 ## Completion checks

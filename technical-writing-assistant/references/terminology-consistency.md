@@ -25,10 +25,10 @@ Return corrected text or located findings, with a terminology record only if use
 
 ## Examples and failure handling
 
-- A document defines “MFC” as mass-flow controller, then uses it for mass-flow control. Confirm whether the device or operation is intended before standardizing.
-- “Response time” and “throughput” are not interchangeable. Repeating either does not justify replacing it with the other for variety.
+- A document defines "MFC" as mass-flow controller, then uses it for mass-flow control. Confirm whether the device or operation is intended before standardizing.
+- "Response time" and "throughput" are not interchangeable. Repeating either does not justify replacing it with the other for variety.
 - `process_batch` in code must not become `processBatch` because prose uses camel case elsewhere.
-- “m” and “mm” cannot be normalized by changing the unit symbol alone; the value must be converted with a justified basis.
+- "m" and "mm" cannot be normalized by changing the unit symbol alone; the value must be converted with a justified basis.
 - If a formal standard's terminology conflicts with author shorthand, propose the resolution and explain its effect rather than assume a source from memory is authoritative.
 
 ## Completion checks

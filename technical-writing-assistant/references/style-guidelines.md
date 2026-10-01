@@ -83,10 +83,10 @@ Apply mechanics and sentence criteria through [language revision](language-revis
 
 ## Examples and completion criteria
 
-- List lead-in “The process requires” with items “calibration,” “to validate,” and “operators record readings” mixes grammatical roles. Make the items parallel without changing which activities are required.
-- “Samples were stored at 4 °C” may appropriately emphasize the method. Retain the passive voice when adding an unspecified actor would distract or invent information.
-- Repeating “confidence interval” preserves a precise concept. Replacing it with “certainty range” for variation changes terminology and may mislead.
+- List lead-in "The process requires" with items "calibration", "to validate", and "operators record readings" mixes grammatical roles. Make the items parallel without changing which activities are required.
+- "Samples were stored at 4 °C" may appropriately emphasize the method. Retain the passive voice when adding an unspecified actor would distract or invent information.
+- Repeating "confidence interval" preserves a precise concept. Replacing it with "certainty range" for variation changes terminology and may mislead.
 - A one-sentence warning or transitional paragraph can be effective. Do not pad it to three sentences or add a forced topic sentence.
-- “This proves the method is safe” cannot be softened or strengthened silently when the source supports only a limited observation. Flag the claim issue separately from style.
+- "This proves the method is safe" cannot be softened or strengthened silently when the source supports only a limited observation. Flag the claim issue separately from style.
 
 Finish when the relevant criteria have been applied consistently, necessary exceptions remain purposeful, and no style-driven change has altered meaning, protected material, or the requested voice. A checklist pass establishes editorial checking, not external factual verification.

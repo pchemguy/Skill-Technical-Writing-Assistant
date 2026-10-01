@@ -104,12 +104,12 @@ Do not make every handoff an approval gate. Ordinary authorized edits proceed. S
 
 Deliver the requested artifact and the necessary findings, significant changes, unresolved decisions, and verification limits. A clean paragraph need not include a project report. A substantial review should explain what was inspected and which dimensions were assessed. Distinguish verified source contents, supplied but uninspected material, inference, and prospective evidence.
 
-Check that coverage matches the request, findings agree, essential meaning/support survives, and no unsupported additions or commitments entered the result. Match “complete,” “verified,” and “tested” language to the actual work and its scope. Document source or tool limitations; drafting does not authorize sending or publishing.
+Check that coverage matches the request, findings agree, essential meaning/support survives, and no unsupported additions or commitments entered the result. Match "complete", "verified", and "tested" language to the actual work and its scope. Document source or tool limitations; drafting does not authorize sending or publishing.
 
 ## Examples and failure handling
 
-- “Check parallelism” loads relevant style/language work, not an argument audit or research intake.
-- “Develop these preliminary results into a discussion” may require argument/evidence review and a mode question, while independent organization proceeds. Do not turn a hypothesis into a finding.
-- “Map this unfamiliar process” explores relationships and purpose, not a predefined profile catalogue. Missing sources bound coverage.
-- “Shorten this memo” retains assumptions, quantities, calculation factors, and conditions needed to understand its recommendation.
+- "Check parallelism" loads relevant style/language work, not an argument audit or research intake.
+- "Develop these preliminary results into a discussion" may require argument/evidence review and a mode question, while independent organization proceeds. Do not turn a hypothesis into a finding.
+- "Map this unfamiliar process" explores relationships and purpose, not a predefined profile catalogue. Missing sources bound coverage.
+- "Shorten this memo" retains assumptions, quantities, calculation factors, and conditions needed to understand its recommendation.
 - An external source contradicting the preferred conclusion triggers an explicit correction proposal, not selective omission or a more persuasive unsupported rewrite.

@@ -33,7 +33,7 @@ Use the source material, intended audience, purpose, requested tone, relevant co
 
 Deliver the requested clean draft, annotated revision, or review. For correspondence, provide subject and body separately when useful. If only a draft is requested, do not send, schedule, or publish it.
 
-“Could deliver in June if testing passes” must not become “We guarantee June delivery.” A cost proposal without approved prices should retain proposed terms or placeholders. A shorter memo must preserve the assumptions and numerical factors that explain its recommendation. A formal request may be direct without inventing authority or an ultimatum.
+"Could deliver in June if testing passes" must not become "We guarantee June delivery". A cost proposal without approved prices should retain proposed terms or placeholders. A shorter memo must preserve the assumptions and numerical factors that explain its recommendation. A formal request may be direct without inventing authority or an ultimatum.
 
 If a request requires specialized legal, medical, or financial conclusions beyond available support, distinguish editing from substantive advice and use evidence work within authorized scope; do not add unsupported conclusions to the document.
 

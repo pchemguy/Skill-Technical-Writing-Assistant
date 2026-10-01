@@ -25,8 +25,8 @@ Return located findings with consequence, remedy, priority, and any substantive 
 
 ## Examples and failure handling
 
-- “Operations” contains troubleshooting, while a separate “Problems” section repeats it. Recommend consolidating or clarifying boundaries; show why the overlap impairs navigation.
-- A “Validated capabilities” branch based only on resource filenames has a status/support problem. Flag it even if the tree is neatly balanced.
+- "Operations" contains troubleshooting, while a separate "Problems" section repeats it. Recommend consolidating or clarifying boundaries; show why the overlap impairs navigation.
+- A "Validated capabilities" branch based only on resource filenames has a status/support problem. Flag it even if the tree is neatly balanced.
 - A map of shared services may be sound despite uneven branch depth. Judge whether depth communicates meaningful detail rather than enforcing visual symmetry.
 - A missing item in an excerpted outline is not proof the full outline omits it. Bound the finding to inspected material.
 

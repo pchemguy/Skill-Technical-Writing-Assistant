@@ -26,7 +26,7 @@ Return the requested clean or annotated revision, significant structural changes
 ## Examples and failure handling
 
 - A paragraph describes limitations, then introduces a new method. Split at the purpose change and give the method paragraph an accurate topic sentence; retain the limitations near the claims they qualify.
-- Moving “under simulated loads” away from a performance result can broaden the claim. Keep the condition with the result even if the new paragraph would read more smoothly without it.
+- Moving "under simulated loads" away from a performance result can broaden the claim. Keep the condition with the result even if the new paragraph would read more smoothly without it.
 - A procedure's verification step cannot precede its setup merely because the introduction mentions verification first. Preserve operational order.
 - If a requested outline requires a result the source never supplies, flag the missing content rather than write a plausible conclusion.
 

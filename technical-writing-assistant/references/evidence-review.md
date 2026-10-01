@@ -16,7 +16,7 @@ In review without external research, inspect supplied material and use model kno
 2. Associate each claim with supplied support. Distinguish inspected source content, an uninspected reference, author assertion, inference, model recollection, and prospective support.
 3. Inspect the actual relationship: does the source support this claim, this population, this magnitude, this date, and this certainty? Check surrounding context and limitations, not just matching keywords.
 4. Evaluate evidence fitness within available information: directness, method, scope, currency, independence, and relevance. Publication or official status alone does not make every claim adequately supported.
-5. Report whether inspected support supports, partially supports, contradicts, or does not address the claim. Use “not assessed” for unavailable content; do not call lack of supplied support proof of falsity.
+5. Report whether inspected support supports, partially supports, contradicts, or does not address the claim. Use "not assessed" for unavailable content; do not call lack of supplied support proof of falsity.
 6. Identify gaps and suitable evidence: measurement, primary documentation, comparative data, replication, expert interpretation, or another type justified by the claim. Suggest prospective sources or search questions without inventing bibliographic details.
 7. In research mode, pass specific claims and questions to source research; incorporate inspected results and conflicts. In non-research mode, stop at the gap assessment and plan. Do not label it completed fact-checking.
 8. Propose proportionate wording or an author decision. Mark changes to certainty, scope, causation, or conclusion as substantive. Track corrections through [revision verification](revision-verification.md).
@@ -27,7 +27,7 @@ For a small task, return claim-linked findings in prose. For substantial work, u
 
 ## Examples and failure handling
 
-- “The process cuts costs by 40%” with a source reporting 40% lower processing time has a quantity mismatch, not verified cost savings.
+- "The process cuts costs by 40%" with a source reporting 40% lower processing time has a quantity mismatch, not verified cost savings.
 - A remembered report may be a prospective lead; do not fabricate its title, DOI, quotation, or page number.
 - An inaccessible citation remains uninspected. Report what could not be assessed and request content or permitted retrieval rather than infer its support from the title.
 - A study with mixed results should not be selectively summarized as definitive. Preserve limitations and identify conflicting evidence when supplied.

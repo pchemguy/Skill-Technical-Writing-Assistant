@@ -25,8 +25,8 @@ Supply a usable brief, unresolved decisions, and the basis of important assumpti
 
 ## Examples and failure handling
 
-- “Polish this paragraph for a technical report, preserving the numbers” already defines sufficient authority. Edit the paragraph; retain numerical factors and qualifications. Do not ask for a full project history.
-- “Turn these preliminary findings into a press statement” may leave publication status and authorized claims unresolved. Ask about those substantive choices while assessing structure; do not announce confirmed results.
+- "Polish this paragraph for a technical report, preserving the numbers" already defines sufficient authority. Edit the paragraph; retain numerical factors and qualifications. Do not ask for a full project history.
+- "Turn these preliminary findings into a press statement" may leave publication status and authorized claims unresolved. Ask about those substantive choices while assessing structure; do not announce confirmed results.
 - Conflicting US/UK house-style instructions require clarification if applicable precedence cannot be established. Minor missing preferences may be handled with consistent existing usage.
 
 ## Completion checks

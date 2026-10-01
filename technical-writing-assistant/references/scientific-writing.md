@@ -25,9 +25,9 @@ Deliver the requested review or revision with significant interpretive proposals
 
 ## Examples and failure handling
 
-- “A higher mean was observed in 12 samples” cannot become “The treatment significantly improves outcomes” without supplied statistical and causal support.
+- "A higher mean was observed in 12 samples" cannot become "The treatment significantly improves outcomes" without supplied statistical and causal support.
 - A methods draft omits calibration details. Flag the omission and request information; do not fill it with standard-looking settings.
-- An abstract says “all participants,” while the results say “18 of 24.” Preserve the denominator and report the inconsistency.
+- An abstract says "all participants", while the results say "18 of 24". Preserve the denominator and report the inconsistency.
 - A paragraph may appropriately use passive voice to foreground a procedure. Do not add a fictitious actor to satisfy an active-voice preference.
 - If the supplied analyses conflict, preserve the uncertainty and seek reconciliation. Do not select the most favorable result or fabricate a p-value.
 

@@ -25,9 +25,9 @@ Deliver the outline/map in the requested form, with assumptions, material gaps, 
 
 ## Examples and failure handling
 
-- A skill project containing a declared “fact checking” capability but no procedure can be mapped as declared with a documentation gap. Do not report verified fact-checking behavior.
+- A skill project containing a declared "fact checking" capability but no procedure can be mapped as declared with a documentation gap. Do not report verified fact-checking behavior.
 - A dependency map with shared prerequisites may require cross-links or a table. Do not duplicate a prerequisite under every branch and imply separate ownership.
-- A proposal outline can contain “[cost estimate needed]” when costs are unavailable. Do not fill it with plausible invented numbers.
+- A proposal outline can contain "[cost estimate needed]" when costs are unavailable. Do not fill it with plausible invented numbers.
 - If the requested format cannot express important relationships, explain the trade-off and propose an adaptation; do not silently discard them.
 
 ## Completion checks

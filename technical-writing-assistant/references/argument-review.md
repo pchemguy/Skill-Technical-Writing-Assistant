@@ -25,9 +25,9 @@ Return prioritized findings with claim/location, reconstructed reasoning where n
 
 ## Examples and failure handling
 
-- “Error rates fell after training; training caused the decrease” requires ruling out relevant alternatives or qualifying causation. Do not independently assert an alternative cause without evidence.
-- “Ten users preferred A, so all users will prefer A” has a generalization and certainty problem. Recommend a population-limited statement and identify sampling questions.
-- “The nominal mass equals explosive yield” may confuse quantities. Identify the incompatible comparison and route the factors and source claims to evidence review; preserve essential calculations in any shorter revision.
+- "Error rates fell after training; training caused the decrease" requires ruling out relevant alternatives or qualifying causation. Do not independently assert an alternative cause without evidence.
+- "Ten users preferred A, so all users will prefer A" has a generalization and certainty problem. Recommend a population-limited statement and identify sampling questions.
+- "The nominal mass equals explosive yield" may confuse quantities. Identify the incompatible comparison and route the factors and source claims to evidence review; preserve essential calculations in any shorter revision.
 - If a premise is merely unfamiliar to the model, label a verification need rather than pronounce it false. If the supplied support defeats the proposed conclusion, explain that strengthening the prose cannot repair the reasoning.
 
 ## Completion checks

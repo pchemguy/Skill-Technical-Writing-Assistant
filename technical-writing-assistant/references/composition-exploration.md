@@ -26,7 +26,7 @@ Return alternatives, their actual organizing differences, trade-offs, a recommen
 
 - A technical decision memo can lead with the recommendation and then compare options, or lead with unresolved requirements before reaching a conditional recommendation. Which is better depends on whether the decision is ready.
 - A scientific explanation can introduce a mechanism before an example or use the example to motivate the mechanism. Neither permits adding an experimental finding absent from the sources.
-- If the supplied material supports only one defensible conclusion, do not offer an unsupported “stronger” version as an equivalent compositional alternative.
+- If the supplied material supports only one defensible conclusion, do not offer an unsupported "stronger" version as an equivalent compositional alternative.
 - If the author requests only alternatives, deliver them without rewriting the full document. If no meaningful alternative improves the text, explain that rather than force options.
 
 ## Completion checks

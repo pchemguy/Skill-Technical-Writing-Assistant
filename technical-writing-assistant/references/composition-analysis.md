@@ -46,7 +46,7 @@ Prefer sound topic sentences in each expository paragraph and check their accura
 
 For each material finding, give location, problem, reader consequence, proposed remedy, and meaning implications. Use severity tied to reader consequence. If requested, add a reverse outline or priorities. Do not present unseen parts as reviewed or prescribe one universal organization for all genres.
 
-A paragraph headed “Reliability” that discusses only installation has a topic/content mismatch. Recommend retitling or relocating based on purpose. “Accuracy improved. Therefore costs fell” may lack a demonstrated causal link; flag the missing argument rather than insert a smoother transition. Route reasoning defects to [argument review](argument-review.md) and support gaps to [evidence review](evidence-review.md).
+A paragraph headed "Reliability" that discusses only installation has a topic/content mismatch. Recommend retitling or relocating based on purpose. "Accuracy improved. Therefore costs fell" may lack a demonstrated causal link; flag the missing argument rather than insert a smoother transition. Route reasoning defects to [argument review](argument-review.md) and support gaps to [evidence review](evidence-review.md).
 
 ## Completion checks
 

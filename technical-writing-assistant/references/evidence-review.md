@@ -29,7 +29,7 @@ For a small task, return claim-linked findings in prose. For substantial work, u
 
 - "The process cuts costs by 40%" with a source reporting 40% lower processing time has a quantity mismatch, not verified cost savings.
 - A remembered report may be a prospective lead; do not fabricate its title, DOI, quotation, or page number.
-- “Review this linked README without fact checking” permits acquiring that target; a citation attached to “cost falls 40%” does not authorize retrieving supporting evidence in non-research mode. “No network” overrides both.
+- "Review this linked README without fact checking" permits acquiring that target; a citation attached to "cost falls 40%" does not authorize retrieving supporting evidence in non-research mode. "No network" overrides both.
 - An inaccessible citation remains uninspected. Report what could not be assessed and request content or permitted retrieval rather than infer its support from the title.
 - A study with mixed results should not be selectively summarized as definitive. Preserve limitations and identify conflicting evidence when supplied.
 

@@ -1,6 +1,6 @@
 interface:
   display_name: "Technical Writing Assistant"
-  short_description: "Edit, develop, and map technical and professional text"
+  short_description: "Review writing; create and assess outlines and maps"
   icon_small: "./assets/icon.svg"
   icon_large: "./assets/icon.svg"
   brand_color: "#245E78"

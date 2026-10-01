@@ -370,9 +370,9 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/agents/openai.yaml`.
 **Issues:** O3.
 
-- [ ] Change only the summary to “Review writing; create and assess outlines and maps.”
-- [ ] Check current repository scalar/length constraints with the existing checker; retain the name, invocation, prompt, brand, icon paths, and implicit-invocation policy unless another verified defect requires change.
-- [ ] Commit/push. Do not claim client-display validation from textual checking.
+- [x] Change only the summary to “Review writing; create and assess outlines and maps.”
+- [x] Check current repository scalar/length constraints with the existing checker; retain the name, invocation, prompt, brand, icon paths, and implicit-invocation policy unless another verified defect requires change.
+- [x] Commit/push. Do not claim client-display validation from textual checking.
 
 ### 18. README: inventory and completed example
 

@@ -259,10 +259,10 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/composition-analysis.md`.
 **Issues:** User-directed contextual-reference coverage; generalize the compositional defect illustrated by F04.
 
-- [ ] Add a diagnostic dimension for referent availability and standalone completeness, covering supplied inputs, prior discussions/agreements, and “in the prior/earlier/previous revision.” Evaluate the intended reader's available context rather than the assistant's authoring history.
-- [ ] Explain valid local/input/history references and missing-context defects; use the contextual-reference contract above. Preserve review-only authority and do not infer that every occurrence of “supplied,” “earlier,” or “previous” is defective.
-- [ ] Give actionable repair options and distinguish unnecessary authoring history from a necessary but unavailable comparison. Never fabricate the missing referent or claim it was inspected.
-- [ ] Run the invalid/valid-reference scenario for diagnosis; reserve the introduced-reference comparison for the revision-check task. Check standalone usability, then commit/push this module.
+- [x] Add a diagnostic dimension for referent availability and standalone completeness, covering supplied inputs, prior discussions/agreements, and “in the prior/earlier/previous revision.” Evaluate the intended reader's available context rather than the assistant's authoring history.
+- [x] Explain valid local/input/history references and missing-context defects; use the contextual-reference contract above. Preserve review-only authority and do not infer that every occurrence of “supplied,” “earlier,” or “previous” is defective.
+- [x] Give actionable repair options and distinguish unnecessary authoring history from a necessary but unavailable comparison. Never fabricate the missing referent or claim it was inspected.
+- [x] Run the invalid/valid-reference scenario for diagnosis; reserve the introduced-reference comparison for the revision-check task. Check standalone usability, then commit/push this module.
 
 ### 7. Draft development: make the decision branches explicit
 

@@ -18,7 +18,7 @@ Use the text, dialect, audience, register, and applicable house style. Return ap
 
 ## Guidance
 
-The supplied Writing Style Guidelines for Technical and Business Texts form the basis of `style-guidelines.md`. Preserve their coverage while applying the contextual qualifications below. The reference owns editorial criteria; focused workflows apply the relevant sections without duplicating them.
+Apply these editorial defaults according to the task, audience, genre, and explicit style requirements. Focused workflows use the relevant sections.
 
 ### Mechanics and grammar
 
@@ -42,11 +42,11 @@ Maintain grammatical and logical parallelism in lists, coordinated and correlati
 
 Use complete sentences in continuous prose. Permit purposeful fragments in headings, labels, tables, and concise list items. Attach participles, infinitives, and other modifiers to the appropriate subject; avoid dangling or ambiguous constructions.
 
-Remove unnecessary words and redundancy. Use an effective mix of simple, compound, and complex sentences. The supplied examples of short sentences at 5–10 words and longer sentences at 20–30 words are diagnostic guidance, not quotas. Avoid monotonous sequences and complexity that burdens comprehension; do not force variation where precision calls for repetition.
+Remove unnecessary words and redundancy. Use an effective mix of simple, compound, and complex sentences. Short sentences of 5–10 words and longer sentences of 20–30 words are diagnostic examples, not quotas. Avoid monotonous sequences and complexity that burdens comprehension; do not force variation where precision calls for repetition.
 
 ### Paragraph structure
 
-Center each paragraph on one controlling idea. Prefer a sound topic sentence that accurately represents and introduces its contents, and ensure subsequent sentences develop that idea. The supplied range of three sentences to half a page is a heuristic, not a requirement to pad or arbitrarily split text.
+Center each paragraph on one controlling idea. Prefer a sound topic sentence that accurately represents and introduces its contents, and ensure subsequent sentences develop that idea. A paragraph length of three sentences to half a page is a heuristic, not a requirement to pad or arbitrarily split text.
 
 Use purposeful transitions and appropriate paragraph boundaries. In long passages, use meaningful headings and subheadings to organize content; a heading does not cure an overloaded paragraph. A clear short paragraph should not be expanded merely to meet a target.
 

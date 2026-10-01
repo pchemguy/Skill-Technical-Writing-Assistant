@@ -249,10 +249,10 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/style-guidelines.md`.
 **Issues:** F04.
 
-- [ ] Replace unexplained “supplied Writing Style Guidelines,” “supplied examples,” and “supplied range” wording with direct editorial defaults and diagnostic examples.
-- [ ] Retain 5–10/20–30-word sentence examples and the three-sentences-to-half-page paragraph heuristic with existing anti-quota/anti-padding qualifications. Preserve all vocabulary, list, paragraph, coherence, and precision coverage.
-- [ ] Read the module without project history and check that no missing authoring input appears required. Keep historical provenance in the existing capability-map development section.
-- [ ] Commit/push.
+- [x] Replace unexplained “supplied Writing Style Guidelines,” “supplied examples,” and “supplied range” wording with direct editorial defaults and diagnostic examples.
+- [x] Retain 5–10/20–30-word sentence examples and the three-sentences-to-half-page paragraph heuristic with existing anti-quota/anti-padding qualifications. Preserve all vocabulary, list, paragraph, coherence, and precision coverage.
+- [x] Read the module without project history and check that no missing authoring input appears required. Keep historical provenance in the existing capability-map development section.
+- [x] Commit/push.
 
 ### 6. Composition analysis: diagnose unavailable contextual references
 

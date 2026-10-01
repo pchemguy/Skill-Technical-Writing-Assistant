@@ -131,6 +131,27 @@ The check should:
 
 `composition-analysis.md` owns diagnosis of this defect across the selected levels. The planned `revision-check.md` checks whether the assistant's changes introduced such references or left a relevant diagnosed instance unresolved; its scope remains the changed material and consequential dependencies. F04 retains its direct cleanup of the known style passages. Reconcile the capability map and specification with this explicit coverage without adding a module or a keyword blacklist.
 
+## User-directed clarification: comprehensive review versus draft revision
+
+Clarify the manager's “Comprehensive editorial review” and “Full draft revision” recipes and their mirrored capability-map descriptions. Review produces findings and recommended remedies; revision produces changed text within the requested authority. Both can assess the same dimensions. The current shorthand obscures that distinction, leaves “selected reviews” unspecified, and can imply mandatory structural changes.
+
+Use these proposed recipe descriptions:
+
+| Workflow | Typical sequence | Result |
+|---|---|---|
+| Comprehensive editorial review | Establish scope and applicable genre conventions → assess composition, language/style, argument, evidence, and terminology/consistency as relevant → consolidate and prioritize findings | Located findings, reader consequences, recommended remedies, and assessment limits. No automatic rewrite. |
+| Comprehensive draft revision | Establish revision scope → diagnose relevant defects → revise structure, reasoning, language, and terminology as needed within authority → check changes against the source and instructions | Revised draft, significant changes, and unresolved substantive questions. |
+
+Clarify the shared terms and boundaries:
+
+- Initial material assessment is triage of completeness and readiness, used when needed; it does not replace detailed review or require a separate intake for every task.
+- Comprehensive review considers every relevant dimension rather than silently selecting a narrow subset. Explain material exclusions or unavailable coverage; do not force inapplicable checks or a compulsory reporting form.
+- Revision applies structural and other changes only where needed. Retain a sound structure and preserve authorial position, essential content, and qualifications unless a change is authorized. Missing substance is not permission to invent it.
+- Evidence review follows the selected research mode in both workflows. Neither “comprehensive” nor “full” independently authorizes external research.
+- Use “revision check” for comparison of the changed artifact with its source and instructions. A findings-only review checks its own findings for accuracy and consistency, without claiming a revision comparison.
+
+Rename “Full draft revision” to “Comprehensive draft revision” in the live recipe and mirrored governing description. This clarifies coverage and output without adding a recipe or changing the total of 17.
+
 ## Recommended F01 policy
 
 Approve this recommendation as part of the plan before implementing the affected instructions. Choosing the stricter alternative requires revising this task group, not silently treating target acquisition as already allowed by the old wording.
@@ -161,6 +182,7 @@ Use these exact inputs or equivalent fixtures carrying the same distinctions. Re
 |---|---|---|
 | Linked target versus citation | Review a pinned linked README without fact checking; separately assess “cost falls 40%” with only a time-reduction excerpt and an uninspected citation URL. First task acquires only target material; second does not retrieve the citation. Explicit no-network variant acquires neither. | Manager/evidence/entry-point policy group |
 | Audit versus rewriting | “Audit these docs; findings only,” with signature/doc mismatch. Return located discrepancies and recommendations, not a replacement document. | Manager |
+| Comprehensive review versus revision | Give the same draft with relevant structural, language, argument, evidence, and terminology issues to a findings-only comprehensive review and an authorized comprehensive revision. The review returns located, prioritized findings and material coverage limits without a replacement draft; the revision repairs authorized defects and compares changes against the source. A sound-structure variant receives no forced restructuring. Neither branch silently enables external research or invents missing substance. | Manager recipes and mirrored capability-map descriptions |
 | Four assessment dimensions | A read excerpt reports lower time but says nothing about cost; another citation is inaccessible; a criterion requires the supplied contents to include comparative cost measurements. Report inspected provenance, non-support of the cost claim, an unresolved overall cost assessment, and failure of that supplied-content criterion. Assessment of the inaccessible citation's contents remains not assessable. Do not call the claim false merely because support is absent. | Evidence/source/merged outline-review group |
 | Clean draft with central uncertainty | Notes: “Central position: recommend system A; comparative benefit is not demonstrated. Secondary detail: possible blue casing, unconfirmed. Confirmed: 12 units operated only under dry conditions.” Request clean prose preserving position. Do not silently delete/confirm the recommendation; flag its support/author decision. Secondary unconfirmed detail may be omitted only within scope. Preserve sample/condition. | Draft development |
 | Contextual defaults and conventional headings | Inspect a coherent one-sentence warning, a brief transition, and accurate “Methods”/“Results” headings. Do not pad, force topic sentences, or rename headings solely for specificity. Separately flag an expository paragraph whose topic sentence misrepresents its content. | Structural/outline review |
@@ -179,11 +201,12 @@ Each module task consumes the approved dispositions and current source, produces
 ### 1. Manager: acquisition, authority, and reporting
 
 **Files:** `technical-writing-assistant/references/manager.md`.
-**Issues:** F01, F02, F03, F08; O2 terminology in outline recipes if needed.
+**Issues:** F01, F02, F03, F08; user-directed comprehensive-review/revision recipe clarification; O2 terminology in outline recipes if needed.
 
 - [ ] Confirm the approved F01 boundary and insert a short target-acquisition rule distinct from evidence-mode selection.
 - [ ] Limit the URL prohibition to supporting/corroborating source retrieval; preserve explicit stricter instructions and the unresolved-mode question.
 - [ ] Rewrite the software-review recipe to inspect → diagnose → consolidate findings → revise only when requested/authorized → check the revision if one exists. Provide results for both branches without a new confirmation gate.
+- [ ] Rewrite the comprehensive editorial review and draft revision rows using the contract above; rename the latter “Comprehensive draft revision.” Define triage versus detailed review, relevant dimension coverage and material exclusions, findings versus changed text, as-needed revision, and the evidence-mode boundary. Preserve 17 recipes.
 - [ ] Replace “verified source contents” with precise inspection/claim-assessment reporting.
 - [ ] Add a compact optional terminology table for the four dimensions in F08. Keep provenance and support separate; no mandatory records.
 - [ ] Adapt outline recipes to use review with evaluative and/or validation activities as needed. Remove automatic review → separate validation passes and retain direct validation-only entry through the same module.
@@ -364,9 +387,10 @@ Each module task consumes the approved dispositions and current source, produces
 ### 19. Reconcile governing documents and record new evidence
 
 **Files:** `docs/dev/SPEC.md`, `docs/dev/CAPABILITY_MAP.md`, `docs/dev/PLAN.md`; create `docs/dev/REVISION_REVIEW.md` and revision-case/output files under `docs/dev/validation/` as needed.
-**Issues:** F01 policy integration, F02 mirrored recipe, F08 distinctions, O2 terminology, outline consolidation, contextual-reference coverage, and campaign evidence.
+**Issues:** F01 policy integration, F02 mirrored recipe, comprehensive-review/revision clarification, F08 distinctions, O2 terminology, outline consolidation, contextual-reference coverage, and campaign evidence.
 
 - [ ] Integrate the approved acquisition boundary into the full specification and map; retain both evidence modes and the clarification rule.
+- [ ] Align the mirrored comprehensive editorial review and comprehensive draft revision recipes with the manager, including their distinct outputs, relevant coverage, as-needed changes, and revision-check boundary.
 - [ ] Align the mirrored software-review recipe and any equivalent ambiguous provenance wording. Preserve authoring-guideline provenance in development documentation.
 - [ ] Add explicit referent-availability and standalone-completeness coverage to the composition-analysis and revision-check capability descriptions and specification, including unavailable prior revisions; preserve their distinct diagnostic and comparative scopes.
 - [ ] Reconcile first-use working-contract terminology without retroactively editing the received report or raw historical outputs.

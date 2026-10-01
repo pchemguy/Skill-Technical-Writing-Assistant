@@ -55,3 +55,5 @@ Per-module completion entries record editorial inspection and structural checks.
 Final reviewer: fresh context, read-only whole-package review against baseline 1cc08a2, all current references and governing documents, and the trial records. Found no high/medium runtime instruction defect. The low-severity concision recipe naming omission was repaired and mirrored; trial snapshots were qualified and the mode-selection ambiguity was recorded. Newly introduced curly quotation marks in runtime examples were normalized to the pulled package style without changing instructions.
 
 - Final module repair: Match evidence examples to package quotation style. Local package and whitespace checks passed; meaning and authority unchanged.
+
+- Final module repair: Match revision comparison examples to package quotation style. Local package and whitespace checks passed; meaning and authority unchanged.

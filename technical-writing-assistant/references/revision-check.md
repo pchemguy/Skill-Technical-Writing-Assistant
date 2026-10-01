@@ -19,7 +19,7 @@ For review-only work with no revised artifact, skip this module. The review chec
 3. Inspect unintended meaning shifts: polarity, quantifiers, certainty, population, scope, time frame, causality, baseline, obligations, commitments, and authorial position. Keep authorized substantive changes identifiable and supported.
 4. Check protected material and dependencies affected by edits: quotations, code, names, identifiers, equations, citation associations, figure/table labels, cross-references, and procedural order. Moved citations must remain associated with the claims they support.
 5. Check introduced local defects and relevant unresolved prior findings. Examine changed headings, topic sentences, boundaries, transitions, and terms using only relevant [style criteria](style-guidelines.md). Reuse earlier diagnoses rather than requiring a second complete composition/style audit.
-6. Check references to unavailable context introduced by the revision or already diagnosed in affected material: “the supplied guidelines,” “as agreed earlier,” or “in the prior/earlier/previous revision.” Can the intended reader identify and access the referent at the artifact's reading boundary? References to an available draft, identifiable section, or identified available revision are valid. State operative content directly, supply the necessary reference, summarize an available comparison, or remove unnecessary authoring history. Do not invent the missing source, agreement, or revision; disclose a necessary unavailable comparison. Use [composition analysis](composition-analysis.md) for deeper diagnosis only when needed.
+6. Check references to unavailable context introduced by the revision or already diagnosed in affected material: "the supplied guidelines," "as agreed earlier," or "in the prior/earlier/previous revision." Can the intended reader identify and access the referent at the artifact's reading boundary? References to an available draft, identifiable section, or identified available revision are valid. State operative content directly, supply the necessary reference, summarize an available comparison, or remove unnecessary authoring history. Do not invent the missing source, agreement, or revision; disclose a necessary unavailable comparison. Use [composition analysis](composition-analysis.md) for deeper diagnosis only when needed.
 7. Check affected evidence and execution language against actual records. Distinguish source inspection, independent claim assessment, model recollection, inference, prospective support, and unperformed checks. Do not treat plausible unchanged source claims as newly verified.
 8. For changed outlines/maps, reuse relevant [outline validation checks](outline-review.md#validation-checks) and contextual criteria while retaining the separate comparison against the source and brief. For software or science, preserve truthful execution/analysis status where changes affect it.
 9. Repair ordinary introduced defects within existing authority and recheck affected content. Surface unresolved substantive choices rather than silently deciding them. Stop when relevant comparisons are satisfied or their limits are explicit.
@@ -30,12 +30,12 @@ Return the checked revision, significant changes, unresolved issues, and actual 
 
 ## Examples and failure handling
 
-- Source: “12 of 20 samples improved under condition A.” Revision: “The samples improved.” Restore the quantity, denominator, and condition unless an authorized summary preserves them elsewhere without misleading readers.
-- Source: “2 kg × 0.4 × factor F.” Shortening to “2 kg × F” loses a material factor. Restore the reasoning even if the conclusion is unchanged.
+- Source: "12 of 20 samples improved under condition A." Revision: "The samples improved." Restore the quantity, denominator, and condition unless an authorized summary preserves them elsewhere without misleading readers.
+- Source: "2 kg × 0.4 × factor F." Shortening to "2 kg × F" loses a material factor. Restore the reasoning even if the conclusion is unchanged.
 - A reordered paragraph retains a citation beside a different claim. Repair the association; citation presence alone is insufficient.
-- Notes say “possible Q4 launch; budget not agreed.” A draft promising a Q4 launch introduces an unauthorized commitment.
-- A revision adds “use the approach agreed in the previous revision” to a standalone instruction without an identifiable available revision. State the approach from available inputs or report the missing decision rather than invent history.
-- A revised README says “examples tested” when only inspection occurred. Restore the actual status. Unresolved contradictions in affected source material remain flagged decisions, not certified consistency.
+- Notes say "possible Q4 launch; budget not agreed." A draft promising a Q4 launch introduces an unauthorized commitment.
+- A revision adds "use the approach agreed in the previous revision" to a standalone instruction without an identifiable available revision. State the approach from available inputs or report the missing decision rather than invent history.
+- A revised README says "examples tested" when only inspection occurred. Restore the actual status. Unresolved contradictions in affected source material remain flagged decisions, not certified consistency.
 
 ## Completion checks
 

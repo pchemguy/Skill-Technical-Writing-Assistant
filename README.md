@@ -1,3 +1,7 @@
+---
+url: https://chatgpt.com/c/6abcb9c4-7980-83eb-85b2-e910c0fdf297
+---
+
 # Technical Writing Assistant
 
 A modular agent skill for software documentation and scientific, technical, and professional writing. It reviews and revises existing material for clarity, structure, terminology, style, composition, and consistency while preserving technical meaning and authorial intent.

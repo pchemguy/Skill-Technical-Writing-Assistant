@@ -279,9 +279,9 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/structural-revision.md`.
 **Issues:** F06.
 
-- [ ] Replace universal “each paragraph” wording with the strong expository topic-sentence default plus brief warning/transition exceptions.
-- [ ] Retain checks for adequate development and accidental fragmentation after splitting. Do not pad purposeful short units.
-- [ ] Inspect warning/transition and expository mismatch cases; commit/push.
+- [x] Replace universal “each paragraph” wording with the strong expository topic-sentence default plus brief warning/transition exceptions.
+- [x] Retain checks for adequate development and accidental fragmentation after splitting. Do not pad purposeful short units.
+- [x] Inspect warning/transition and expository mismatch cases; commit/push.
 
 ### 9. Outline review: incorporate validation and heading exceptions
 

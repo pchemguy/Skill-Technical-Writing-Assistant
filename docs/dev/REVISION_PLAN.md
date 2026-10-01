@@ -337,8 +337,8 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/outline-generation.md`.
 **Issues:** O2 handoff consistency.
 
-- [ ] Gloss or link the working contract as agreed representation criteria in the input paragraph. Do not require loading exploration when the prompt already supplies the needed criteria.
-- [ ] Retain all source/proposal and relationship boundaries. Hand quality assessment and validation checks to the relevant activities of the merged `outline-review.md`; avoid requiring two duplicate passes. Commit/push after checking the handoff.
+- [x] Gloss or link the working contract as agreed representation criteria in the input paragraph. Do not require loading exploration when the prompt already supplies the needed criteria.
+- [x] Retain all source/proposal and relationship boundaries. Hand quality assessment and validation checks to the relevant activities of the merged `outline-review.md`; avoid requiring two duplicate passes. Commit/push after checking the handoff.
 
 ### 15. Revision check: rename and narrow the comparative procedure
 

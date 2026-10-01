@@ -6,7 +6,7 @@ Generate a structured outline or map from a brief, notes, existing documents, or
 
 ## Inputs and missing information
 
-Use available sources and an explicit or sufficiently clear working contract: purpose, scope, representation, detail, and coverage expectations. Resolve consequential uncertainty through [outline context exploration](outline-context-exploration.md). If sources are incomplete, bound the deliverable and show gaps; distinguish a proposed design from a descriptive map.
+Use available sources and explicit or sufficiently clear agreed representation criteria (the working contract): purpose, scope, representation, detail, and coverage expectations. An ordinary prompt can supply these criteria; no separate contract document or exploration intake is required. Resolve consequential uncertainty through [outline context exploration](outline-context-exploration.md). If sources are incomplete, bound the deliverable and show gaps; distinguish a proposed design from a descriptive map.
 
 ## Procedure
 
@@ -17,7 +17,7 @@ Use available sources and an explicit or sufficiently clear working contract: pu
 5. Give each node an informative title and, when needed, a purpose or content note. Include optional scope, exclusions, dependencies, status, or sources only where useful. Keep ordinary outlines lightweight.
 6. Arrange prerequisites and logical progression where order matters. For maps without a sequence, explain the organization rather than imply a procedural order.
 7. Account for required material and exclusions. Flag requirements that have no source content; propose a location or mark a gap without inventing substantive text.
-8. Run a first pass for duplicates, unsupported additions, unclear boundaries, and broken relationships. Use [outline review](outline-review.md) for quality assessment and [outline validation](outline-validation.md) for source and contract checks when requested or needed.
+8. Run a first pass for duplicates, unsupported additions, unclear boundaries, and broken relationships. Use the relevant evaluative and/or validation activities of [outline review](outline-review.md) when requested or needed, sharing inspection and findings rather than requiring duplicate passes.
 
 ## Outputs and handoffs
 

@@ -11,21 +11,20 @@ Implement one module at a time. Check, commit, and push each module before editi
 5. Composition exploration
 6. Outline context exploration
 7. Outline generation
-8. Outline review
-9. Outline validation
-10. Argument review
-11. Evidence review
-12. Source research
-13. Structural revision
-14. Draft development
-15. Language revision
-16. Terminology consistency
-17. Software documentation
-18. Scientific writing
-19. Professional writing
-20. Revision check
-21. Manager
-22. Skill entry point and presentation metadata
+8. Outline review, including validation
+9. Argument review
+10. Evidence review
+11. Source research
+12. Structural revision
+13. Draft development
+14. Language revision
+15. Terminology consistency
+16. Software documentation
+17. Scientific writing
+18. Professional writing
+19. Revision check
+20. Manager
+21. Skill entry point and presentation metadata
 
 For each reference, implement its procedure and failure handling within the capability-map boundary. Include representative examples and completion criteria. Keep shared policy authoritative in the relevant module; use conditional handoffs and relative links.
 

@@ -359,11 +359,11 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** delete `technical-writing-assistant/references/outline-validation.md`; update `technical-writing-assistant/SKILL.md`, `docs/dev/SPEC.md`, `docs/dev/CAPABILITY_MAP.md`, and `docs/dev/PLAN.md` for the new decomposition.
 **Issues:** User-directed consolidation, inventory consistency, and F08/O2 migration completeness.
 
-- [ ] Verify every substantive validation instruction is present in the merged review module and all runtime callers use that module. Earlier tasks must be complete; do not delete the source first.
-- [ ] Combine the two entry-point review/validation rows into one row for the merged module, retaining both intents and validation-only discovery. Remove the obsolete capability-map row and rewrite review scope/boundaries, coordination, and mirrored outline recipes to include selectable validation activity. Update current specification and implementation-order/count statements to the new decomposition.
-- [ ] Delete the old runtime file without a forwarding stub. Retain its old name only in clearly historical evidence or migration descriptions; do not rewrite raw trial records.
-- [ ] Run local links/routing/map checks immediately on the complete retirement change. Confirm 20 reference files, 19 unique focused targets and routing rows, one manager, and 17 recipes. The existing checker derives its inventory; change it only if an actual defect prevents correct checking.
-- [ ] Commit/push the retirement and necessary governing-document reconciliation together so no broken live links or inventory mismatch is published.
+- [x] Verify every substantive validation instruction is present in the merged review module and all runtime callers use that module. Earlier tasks must be complete; do not delete the source first.
+- [x] Combine the two entry-point review/validation rows into one row for the merged module, retaining both intents and validation-only discovery. Remove the obsolete capability-map row and rewrite review scope/boundaries, coordination, and mirrored outline recipes to include selectable validation activity. Update current specification and implementation-order/count statements to the new decomposition.
+- [x] Delete the old runtime file without a forwarding stub. Retain its old name only in clearly historical evidence or migration descriptions; do not rewrite raw trial records.
+- [x] Run local links/routing/map checks immediately on the complete retirement change. Confirm 20 reference files, 19 unique focused targets and routing rows, one manager, and 17 recipes. The existing checker derives its inventory; change it only if an actual defect prevents correct checking.
+- [x] Commit/push the retirement and necessary governing-document reconciliation together so no broken live links or inventory mismatch is published.
 
 ### 17. Presentation metadata: broaden the summary
 

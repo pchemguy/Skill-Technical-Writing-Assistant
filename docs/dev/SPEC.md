@@ -8,10 +8,10 @@ Implement the complete standalone `technical-writing-assistant` skill described 
 
 - Preserve meaning, authorial position, essential reasoning, numerical factors, qualifications, and protected material during ordinary revision. Present substantive changes explicitly.
 - Execute focused modules independently and composite workflows through the manager. Load only relevant resources; handoffs do not create routine approval gates.
-- Implement all 21 references in the map with usable procedures, inputs, missing-information handling, outputs, completion checks, and examples or observable acceptance criteria.
+- Implement all 20 references (19 focused modules and one manager) in the map with usable procedures, inputs, missing-information handling, outputs, completion checks, and examples or observable acceptance criteria.
 - Retain exactly two evidence modes. Ask when evidence work is relevant and the mode is unresolved; reuse existing decisions. Without research, do not independently retrieve sources or treat model knowledge as verified.
 - Diagnose composition across sentence, paragraph, section, and document levels. Prefer sound topic sentences; treat length heuristics as signals, not quotas.
-- Generate, review, validate, and repair outlines/maps using contextual criteria, without a closed catalogue of specialized cases or mandatory schema.
+- Generate, review, validate, and repair outlines/maps using contextual criteria, without a closed catalogue of specialized cases or mandatory schema. Outline review includes evaluative-only, validation-only, or comprehensive coverage with shared intake and consolidated findings.
 - Apply software, scientific, and professional genre guidance without inventing behavior, results, requirements, or commitments.
 - Deliver the requested artifact and material unresolved issues. Distinguish source inspection, external verification, software execution, and editorial checking.
 

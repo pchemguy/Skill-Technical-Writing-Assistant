@@ -32,8 +32,7 @@ Load focused references directly. Load [manager.md](references/manager.md) for c
 | Alternative framing, organization, and outlines | [Composition exploration](references/composition-exploration.md) |
 | Context, relationships, and criteria for an outline or map | [Outline context exploration](references/outline-context-exploration.md) |
 | Generate a structured outline or map | [Outline generation](references/outline-generation.md) |
-| Critique coverage, grouping, boundaries, and usefulness | [Outline review](references/outline-review.md) |
-| Validate structure, source fidelity, and requirement coverage | [Outline validation](references/outline-validation.md) |
+| Review quality and/or validate structure, source fidelity, and requirement coverage | [Outline review](references/outline-review.md) |
 | Reasoning, assumptions, counterarguments, and blind spots | [Argument review](references/argument-review.md) |
 | Claim support, evidence gaps, and prospective sources | [Evidence review](references/evidence-review.md) |
 | Independent external research and fact-checking | [Source research](references/source-research.md) |

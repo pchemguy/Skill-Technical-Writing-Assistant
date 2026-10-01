@@ -37,3 +37,5 @@ Dependency inspection: manager → evidence/source/entry point share the two-mod
 - Task 14: Use ordinary outline criteria and one review handoff. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
 
 - Task 15: Rename revision check and scope it to change quality and fidelity. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
+
+- Task 16: Retire separate outline validation and reconcile package decomposition. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.

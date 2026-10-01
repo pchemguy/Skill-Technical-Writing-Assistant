@@ -310,8 +310,8 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/language-revision.md`.
 **Issues:** F10.
 
-- [ ] Replace the unknown grammatical “agent” with “actor” and preserve the rule against invented identity.
-- [ ] Inspect the local meaning and consistency with passive-voice guidance. Avoid global replacement; commit/push.
+- [x] Replace the unknown grammatical “agent” with “actor” and preserve the rule against invented identity.
+- [x] Inspect the local meaning and consistency with passive-voice guidance. Avoid global replacement; commit/push.
 
 ### 12. Software documentation: separate docstring decisions
 

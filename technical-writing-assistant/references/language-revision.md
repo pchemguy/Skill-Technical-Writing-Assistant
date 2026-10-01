@@ -12,7 +12,7 @@ Use the text, requested dialect/style, audience, revision depth, and protected e
 
 1. Read for meaning before editing. Identify subject, action, quantities, conditions, logical relations, and qualifiers. Preserve quotations, code, identifiers, equations, citation locators, and standardized expressions unless their correction is authorized.
 2. Correct grammar, spelling, punctuation, capitalization, agreement, and modifier attachment according to the selected dialect. Retain appropriate fragments in headings, labels, tables, and concise lists.
-3. Clarify agency, references, information order, and sentence boundaries. Prefer active voice where helpful; retain purposeful passive constructions. If an agent is unknown, do not invent one.
+3. Clarify agency, references, information order, and sentence boundaries. Prefer active voice where helpful; retain purposeful passive constructions. If the actor is unknown, do not invent one.
 4. Replace vague or unnatural wording with precise, conventional expressions without erasing field-specific usage. Check collocations and commonly confused words. Keep established technical terms stable.
 5. Remove redundancy and empty phrasing. Preserve essential reasoning, numerical factors, evidence, conditions, and caveats. Do not turn "may" into "will", association into causation, or advice into a requirement to make a sentence stronger.
 6. Improve sentence variety and readability based on function, not numerical quotas. Split overload where relations remain clear; combine fragments where they develop one idea. Larger changes belong to [structural revision](structural-revision.md).

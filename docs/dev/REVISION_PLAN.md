@@ -345,14 +345,14 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** rename `technical-writing-assistant/references/revision-verification.md` to `technical-writing-assistant/references/revision-check.md`. Update only the necessary live links and corresponding names in `technical-writing-assistant/SKILL.md`, calling references, `docs/dev/CAPABILITY_MAP.md`, `docs/dev/SPEC.md`, and `docs/dev/PLAN.md` as part of this migration.
 **Issues:** User-directed revision-check clarification, outline consolidation handoff, and change-fidelity boundary.
 
-- [ ] Implement the comparative contract above in the reference: source/brief/change authority as inputs; requested-change completion, essential-content fidelity, unintended meaning shifts, protected material, introduced defects, and unresolved prior findings as checks.
-- [ ] Explicitly check for introduced unresolved contextual references, including “in the prior/earlier/previous revision,” and relevant previously diagnosed instances. Apply the availability and repair criteria above; valid references remain acceptable.
-- [ ] Narrow general composition/style/evidence checks to the changed material and consequential dependencies. Reuse earlier findings; do not require independent fact-checking or a second comprehensive audit.
-- [ ] Handle drafts from notes, review-only work with no revised artifact, and unavailable source material explicitly. Keep outcomes proportional to the available comparison rather than claiming universal quality.
-- [ ] Use `outline-review.md#validation-checks` for relevant prior outline checks while retaining the distinct comparison against the brief and original material.
-- [ ] Rename the file, heading, routing description, live hyperlinks, and governing module entries atomically. Caller changes in this task are migration maintenance, not unrelated procedural revisions; do not publish a commit with dangling old links. Preserve historical review/trial filenames as snapshot evidence.
-- [ ] Run the source/revision, notes/draft, and findings-only scenarios. Include the introduced contextual-reference comparison. Check calculation factors, citation associations, and commitment status; do not treat plausible unchanged claims as newly verified.
-- [ ] Run local link/routing/map checks. This rename alone preserves inventory; outline file retirement in task 16 changes it. Commit/push the completed module and migration links.
+- [x] Implement the comparative contract above in the reference: source/brief/change authority as inputs; requested-change completion, essential-content fidelity, unintended meaning shifts, protected material, introduced defects, and unresolved prior findings as checks.
+- [x] Explicitly check for introduced unresolved contextual references, including “in the prior/earlier/previous revision,” and relevant previously diagnosed instances. Apply the availability and repair criteria above; valid references remain acceptable.
+- [x] Narrow general composition/style/evidence checks to the changed material and consequential dependencies. Reuse earlier findings; do not require independent fact-checking or a second comprehensive audit.
+- [x] Handle drafts from notes, review-only work with no revised artifact, and unavailable source material explicitly. Keep outcomes proportional to the available comparison rather than claiming universal quality.
+- [x] Use `outline-review.md#validation-checks` for relevant prior outline checks while retaining the distinct comparison against the brief and original material.
+- [x] Rename the file, heading, routing description, live hyperlinks, and governing module entries atomically. Caller changes in this task are migration maintenance, not unrelated procedural revisions; do not publish a commit with dangling old links. Preserve historical review/trial filenames as snapshot evidence.
+- [x] Run the source/revision, notes/draft, and findings-only scenarios. Include the introduced contextual-reference comparison. Check calculation factors, citation associations, and commitment status; do not treat plausible unchanged claims as newly verified.
+- [x] Run local link/routing/map checks. This rename alone preserves inventory; outline file retirement in task 16 changes it. Commit/push the completed module and migration links.
 
 ### 16. Retire the redundant file and reconcile decomposition
 

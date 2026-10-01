@@ -17,7 +17,7 @@ Use the source text, brief, structural findings or selected approach, protected 
 5. Revise headings, topic sentences, lead-ins, and transitions to match the new content. Express the actual relation: contrast, sequence, qualification, explanation, or inference. Do not create a causal link or missing premise to smooth a move.
 6. Relocate lists, figures, equations, examples, or quotations with their introductions and interpretation. Update references when locations change; preserve identifiers that must remain stable.
 7. Develop connective explanation only within supported meaning. Flag a substantive gap or hand it to [draft development](draft-development.md), [argument review](argument-review.md), or [evidence review](evidence-review.md) as needed.
-8. Compare the revised structure with the source inventory. Recheck local flow after moves and global continuity after all changes. Use [language revision](language-revision.md) for sentence polish and [revision verification](revision-verification.md) for final comparison.
+8. Compare the revised structure with the source inventory. Recheck local flow after moves and global continuity after all changes. Use [language revision](language-revision.md) for sentence polish and [revision check](revision-check.md) for final comparison.
 
 ## Outputs
 

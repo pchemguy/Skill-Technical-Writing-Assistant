@@ -23,7 +23,7 @@ Implement one module at a time. Check, commit, and push each module before editi
 17. Software documentation
 18. Scientific writing
 19. Professional writing
-20. Revision verification
+20. Revision check
 21. Manager
 22. Skill entry point and presentation metadata
 

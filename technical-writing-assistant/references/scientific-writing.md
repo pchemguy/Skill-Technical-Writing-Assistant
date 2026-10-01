@@ -17,7 +17,7 @@ Use the draft, purpose, discipline, audience, supplied data/results/methods, and
 5. Separate observation from interpretation. Examine whether conclusions exceed scope, whether association is framed as causation, and whether mechanisms or generalizations are proposed rather than demonstrated.
 6. Examine discussion, limitations, and implications. Keep qualifications near claims, address relevant alternatives, and distinguish implications from unsupported extrapolation. Use [argument review](argument-review.md) and [evidence review](evidence-review.md) as needed.
 7. Check abstracts and summaries against the main material. Preserve essential conditions and uncertainty; do not introduce new results or make a stronger conclusion than the body supports.
-8. Apply selected composition, language, and terminology workflows. Protect equations, symbols, citations, and technical definitions. Compare changed reporting with the original using [revision verification](revision-verification.md).
+8. Apply selected composition, language, and terminology workflows. Protect equations, symbols, citations, and technical definitions. Compare changed reporting with the original using [revision check](revision-check.md).
 
 ## Outputs
 

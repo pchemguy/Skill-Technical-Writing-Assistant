@@ -17,7 +17,7 @@ Use source notes, the brief, selected composition or outline, available evidence
 5. Handle missing content using the decision order below before polishing the affected passage.
 6. Preserve nuance while integrating fragments: distinguish observation from interpretation, possibility from commitment, example from general claim, and planned work from completed work.
 7. Apply relevant [style guidance](style-guidelines.md) and genre conventions. Keep technical terminology stable, reduce reader burden, and retain indispensable support in summaries.
-8. Compare the draft with the inventory and chosen organization. Use [revision verification](revision-verification.md) before delivery; disclose substantive proposals and unresolved evidence needs.
+8. Compare the draft with the inventory and chosen organization. Use [revision check](revision-check.md) before delivery; disclose substantive proposals and unresolved evidence needs.
 
 ## Missing content
 

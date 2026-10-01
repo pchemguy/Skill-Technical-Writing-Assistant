@@ -44,7 +44,7 @@ Load focused references directly. Load [manager.md](references/manager.md) for c
 | READMEs, tutorials, APIs, architecture, and docstrings | [Software documentation](references/software-documentation.md) |
 | Scientific explanations and manuscripts | [Scientific writing](references/scientific-writing.md) |
 | Reports, proposals, correspondence, and decision briefs | [Professional writing](references/professional-writing.md) |
-| Meaning preservation, completeness, and final checks | [Revision verification](references/revision-verification.md) |
+| Requested-change completion, fidelity, and introduced defects | [Revision check](references/revision-check.md) |
 
 ## Delivery
 

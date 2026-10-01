@@ -17,7 +17,7 @@ Use the documentation, intended users, code/configuration/API/version where supp
 5. Apply genre-specific criteria below, then selected [composition](composition-analysis.md), [terminology](terminology-consistency.md), and [language](language-revision.md) workflows.
 6. Preserve code blocks, identifiers, command flags, paths, and machine-readable syntax. Propose technical corrections separately when authority or behavior is unclear. Do not repair the implementation under the guise of editing its description.
 7. After substantive documentation changes, or supplied-code changes made under separate authority, recheck affected docstrings using the sequence below. This workflow does not authorize implementing or executing software.
-8. Verify revised claims against inspected material and report unresolved behavior, version, or execution questions through [revision verification](revision-verification.md).
+8. Verify revised claims against inspected material and report unresolved behavior, version, or execution questions through [revision check](revision-check.md).
 
 ## Docstring maintenance
 

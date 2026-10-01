@@ -79,7 +79,7 @@ Apply only relevant checks. Style compliance does not establish factual correctn
 
 ## Optional handoffs
 
-Apply mechanics and sentence criteria through [language revision](language-revision.md), terminology criteria through [terminology consistency](terminology-consistency.md), and compositional criteria through [composition analysis](composition-analysis.md) and [structural revision](structural-revision.md). Final checks belong to [revision verification](revision-verification.md). Load only relevant references.
+Apply mechanics and sentence criteria through [language revision](language-revision.md), terminology criteria through [terminology consistency](terminology-consistency.md), and compositional criteria through [composition analysis](composition-analysis.md) and [structural revision](structural-revision.md). Final checks belong to [revision check](revision-check.md). Load only relevant references.
 
 ## Examples and completion criteria
 

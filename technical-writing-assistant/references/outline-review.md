@@ -59,7 +59,7 @@ Return located findings with reader consequence, remedy, priority, substantive i
 
 State what was checked, material failures, unresolved choices, and limits. "Complete against the supplied requirements" is narrower than "complete". Do not claim unperformed automated checks. When both activities identify the same issue, report it once with its editorial consequence and criterion basis rather than in duplicate lists.
 
-Offer a revised sample only when requested or useful to explain a recommendation; do not replace the whole artifact in review-only work. Use [outline generation](outline-generation.md) for an authorized redesign. Recheck affected criteria and dependencies after repair; use [revision verification](revision-verification.md) for comparison of changed material against its source and instructions, without repeating the full review.
+Offer a revised sample only when requested or useful to explain a recommendation; do not replace the whole artifact in review-only work. Use [outline generation](outline-generation.md) for an authorized redesign. Recheck affected criteria and dependencies after repair; use [revision check](revision-check.md) for comparison of changed material against its source and instructions, without repeating the full review.
 
 ## Examples and failure handling
 

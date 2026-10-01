@@ -19,7 +19,7 @@ In review without external research, inspect supplied material and use model kno
 5. Report whether inspected support supports, partially supports, contradicts, or does not address the claim. Use "not assessed" for unavailable content; do not call lack of supplied support proof of falsity.
 6. Identify gaps and suitable evidence: measurement, primary documentation, comparative data, replication, expert interpretation, or another type justified by the claim. Suggest prospective sources or search questions without inventing bibliographic details.
 7. In research mode, pass specific claims and questions to source research; incorporate inspected results and conflicts. In non-research mode, stop at the gap assessment and plan. Do not label it completed fact-checking.
-8. Propose proportionate wording or an author decision. Mark changes to certainty, scope, causation, or conclusion as substantive. Track corrections through [revision verification](revision-verification.md).
+8. Propose proportionate wording or an author decision. Mark changes to certainty, scope, causation, or conclusion as substantive. Track corrections through [revision check](revision-check.md).
 
 ## Outputs
 

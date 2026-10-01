@@ -17,7 +17,7 @@ Use the text, requested dialect/style, audience, revision depth, and protected e
 5. Remove redundancy and empty phrasing. Preserve essential reasoning, numerical factors, evidence, conditions, and caveats. Do not turn "may" into "will", association into causation, or advice into a requirement to make a sentence stronger.
 6. Improve sentence variety and readability based on function, not numerical quotas. Split overload where relations remain clear; combine fragments where they develop one idea. Larger changes belong to [structural revision](structural-revision.md).
 7. Adjust register and contractions to audience and instructions. Default to clear professional language; do not inflate ordinary words into ornate formality.
-8. Compare each material edit with the source and check surrounding flow. Separate meaning-changing proposals and unresolved ambiguities from clean wording repairs. Use [terminology consistency](terminology-consistency.md) for recurring terms and [revision verification](revision-verification.md) for the final comparison.
+8. Compare each material edit with the source and check surrounding flow. Separate meaning-changing proposals and unresolved ambiguities from clean wording repairs. Use [terminology consistency](terminology-consistency.md) for recurring terms and [revision check](revision-check.md) for the final comparison.
 
 ## Outputs
 

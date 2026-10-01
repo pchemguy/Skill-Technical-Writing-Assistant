@@ -17,7 +17,7 @@ Use the source material, intended audience, purpose, requested tone, relevant co
 5. Adapt register to the audience and relationship. Prefer clear professional language, respectful directness, and concise explanations. Avoid inflated formality, unsupported urgency, or softened obligations that change their meaning.
 6. Apply [composition analysis](composition-analysis.md), [structural revision](structural-revision.md), and [language revision](language-revision.md) as needed. For a summary, preserve essential reasoning, factors, conditions, and qualifications, not only the recommendation.
 7. Check names, dates, amounts, attachments mentioned, and references against supplied material. Evidence mode governs external verification. Flag absent attachments without assuming they do not exist elsewhere.
-8. Use [revision verification](revision-verification.md) to compare commitments, requests, terms, and authorial position before delivery.
+8. Use [revision check](revision-check.md) to compare commitments, requests, terms, and authorial position before delivery.
 
 ## Genre checks
 

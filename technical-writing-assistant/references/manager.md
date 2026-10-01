@@ -73,7 +73,7 @@ Retain the answer within the task unless changed. While awaiting it, continue st
 5. For outlines/maps, establish contextual criteria through [outline context exploration](outline-context-exploration.md) if needed. Adapt representation to actual relationships without a closed list of specialized cases.
 6. Resolve evidence mode before dependent evidence work. Keep reasoning critique available without pretending to have empirically verified its premises.
 7. Execute focused procedures and retain their useful outputs: location, issue, consequence, remedy, source/status, and unresolved decisions. Use ordinary text/Markdown; formal registers are optional.
-8. Apply authorized repairs, compare results with source material, and consolidate delivery. Use [revision verification](revision-verification.md) for delivered revisions; diagnosis-only work needs a consistency/scope check rather than an invented rewritten artifact.
+8. Apply authorized repairs, compare results with source material, and consolidate delivery. Use [revision check](revision-check.md) for delivered revisions; diagnosis-only work needs a consistency/scope check rather than an invented rewritten artifact.
 
 ## Composite workflow recipes
 

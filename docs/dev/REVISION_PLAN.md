@@ -203,15 +203,15 @@ Each module task consumes the approved dispositions and current source, produces
 **Files:** `technical-writing-assistant/references/manager.md`.
 **Issues:** F01, F02, F03, F08; user-directed comprehensive-review/revision recipe clarification; O2 terminology in outline recipes if needed.
 
-- [ ] Confirm the approved F01 boundary and insert a short target-acquisition rule distinct from evidence-mode selection.
-- [ ] Limit the URL prohibition to supporting/corroborating source retrieval; preserve explicit stricter instructions and the unresolved-mode question.
-- [ ] Rewrite the software-review recipe to inspect → diagnose → consolidate findings → revise only when requested/authorized → check the revision if one exists. Provide results for both branches without a new confirmation gate.
-- [ ] Rewrite the comprehensive editorial review and draft revision rows using the contract above; rename the latter “Comprehensive draft revision.” Define triage versus detailed review, relevant dimension coverage and material exclusions, findings versus changed text, as-needed revision, and the evidence-mode boundary. Preserve 17 recipes.
-- [ ] Replace “verified source contents” with precise inspection/claim-assessment reporting.
-- [ ] Add a compact optional terminology table for the four dimensions in F08. Keep provenance and support separate; no mandatory records.
-- [ ] Adapt outline recipes to use review with evaluative and/or validation activities as needed. Remove automatic review → separate validation passes and retain direct validation-only entry through the same module.
-- [ ] Name change-comparison stages “revision check.” Skip that stage for findings-only branches with no revised artifact; retain their own findings-consistency check. Do not convert the stage into a fresh full review.
-- [ ] Inspect recipe title/output agreement and the continued presence of 17 recipes. Commit and push this module.
+- [x] Confirm the approved F01 boundary and insert a short target-acquisition rule distinct from evidence-mode selection.
+- [x] Limit the URL prohibition to supporting/corroborating source retrieval; preserve explicit stricter instructions and the unresolved-mode question.
+- [x] Rewrite the software-review recipe to inspect → diagnose → consolidate findings → revise only when requested/authorized → check the revision if one exists. Provide results for both branches without a new confirmation gate.
+- [x] Rewrite the comprehensive editorial review and draft revision rows using the contract above; rename the latter “Comprehensive draft revision.” Define triage versus detailed review, relevant dimension coverage and material exclusions, findings versus changed text, as-needed revision, and the evidence-mode boundary. Preserve 17 recipes.
+- [x] Replace “verified source contents” with precise inspection/claim-assessment reporting.
+- [x] Add a compact optional terminology table for the four dimensions in F08. Keep provenance and support separate; no mandatory records.
+- [x] Adapt outline recipes to use review with evaluative and/or validation activities as needed. Remove automatic review → separate validation passes and retain direct validation-only entry through the same module.
+- [x] Name change-comparison stages “revision check.” Skip that stage for findings-only branches with no revised artifact; retain their own findings-consistency check. Do not convert the stage into a fresh full review.
+- [x] Inspect recipe title/output agreement and the continued presence of 17 recipes. Commit and push this module.
 
 ### 2. Evidence review: acquisition role and source relationships
 

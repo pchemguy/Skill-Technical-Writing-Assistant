@@ -41,11 +41,20 @@ Use available authorized host tools. If suitable tools or source access are unav
 
 ### Review without external research
 
-Use supplied material and model knowledge to identify evidence gaps, questionable claims, suitable evidence types, prospective sources, and verification steps. Conduct no independent external research. Supplied source contents can be inspected; an external URL alone remains uninspected unless its contents are already available. Do not independently retrieve it in this mode. Request contents or a mode change when needed.
+Use supplied material and model knowledge to identify evidence gaps, questionable claims, suitable evidence types, prospective sources, and verification steps. Conduct no independent external research. Acquire explicitly identified task targets through permitted access, including relevant repository files and appendices explicitly requested for inspection. This makes the material available for review; it does not independently verify its claims. Do not retrieve citation-only support, follow bibliographies, or search for corroboration in this mode. A supporting URL alone remains uninspected. Respect explicit no-network, no-retrieval, and supplied-content-only restrictions even for targets. If a URL's role is consequentially unclear, clarify it while continuing unaffected work. Report acquisition failures and request accessible contents rather than substitute memory.
 
 Distinguish observations grounded in inspected supplied material from model recollection and proposed support. Remembered facts and bibliographic leads are unverified; do not invent titles, quotations, DOIs, pages, or source metadata.
 
-Assess supplied evidence in either mode; this is not a third mode. Keep provenance separate from support strength: inspected evidence may support, partially support, contradict, or fail to address a claim.
+Assess available evidence in either mode; target acquisition and source inspection are not a third mode. Keep the following questions distinct; use labels only when useful, not as mandatory records.
+
+| Dimension | Question and outcomes |
+|---|---|
+| Provenance/access | What was inspected, supplied but uninspected, inferred, recalled, or proposed? |
+| Source-to-claim relationship | Does inspected content support, partially support, contradict, or not address the claim? Unavailable content is not assessed. |
+| Researched-claim outcome | Is the claim supported, partially supported, contradicted, or unresolved within the scoped inspected evidence? |
+| Criterion outcome | Is an applicable requirement satisfied, partly satisfied, failed, or not assessable? This is not a claim-truth label. |
+
+Uninspected, unresolved, unsupported, and false are not interchangeable. Inspection establishes what a source says; independent claim verification requires relevant evidence and an actual assessment.
 
 ### Selection and persistence
 
@@ -68,27 +77,29 @@ Retain the answer within the task unless changed. While awaiting it, continue st
 
 ## Composite workflow recipes
 
+Initial assessment means readiness triage only when needed, not the detailed review. Comprehensive review considers every relevant dimension and explains material exclusions or unavailable coverage. Revision changes only what needs repair; a sound structure needs no forced reorganization. Both workflows honor the selected evidence mode and preserve essential content and authorial position. Substantive revision requires existing authority; missing information is not permission to invent it. Revision checks compare changed material with its source and instructions. Findings-only branches instead check their own findings for accuracy and consistency.
+
 Shared style and genre guidance supply criteria, not compulsory extra stages. Named steps refer to their corresponding focused modules directly discoverable from SKILL.md.
 
 | Workflow | Typical sequence | Result |
 |---|---|---|
-| Focused language edit | Brief as needed → language revision → relevant terminology checks → verification | Revised passage preserving or flagging substantive uncertainties. |
+| Focused language edit | Brief as needed → language revision → relevant terminology checks → revision check | Revised passage preserving or flagging substantive uncertainties. |
 | Composition audit | Composition analysis → optional composition exploration | Located findings and priorities; rewrite only when requested. |
-| Structural revision | Composition analysis → exploration if needed → structural revision → verification | Reorganized text with accurate purposes and transitions. |
-| Comprehensive editorial review | Assessment → relevant genre guidance → selected composition, argument, evidence, and consistency reviews → consolidation | Prioritized editorial, substantive, and evidence findings. |
-| Full draft revision | Assessment → selected reviews → structural revision → language revision → terminology reconciliation → verification | Revised document, significant changes, and unresolved questions. |
-| Bullets or brainstorming to prose | Brief → assessment → composition exploration → relevant argument/evidence review → draft development → revision → verification | Grounded developed text with support gaps visible. |
-| Argument strengthening | Argument review → evidence review → research if selected → composition exploration → authorized revision → verification | Stronger argument, or an account of why support cannot sustain it. |
-| Fact-checking and evidence repair | Mode selection → claim identification → evidence review → source research when permitted → proposed corrections → verification | Claim-linked support, contradictions, gaps, and wording. In non-research mode, label it a gap review. |
-| Audience or genre transformation | New brief → genre guidance → composition analysis/exploration → structural revision or development → language revision → verification | Adapted text retaining essential meaning and qualifications. |
+| Structural revision | Composition analysis → exploration if needed → structural revision → revision check | Reorganized text with accurate purposes and transitions. |
+| Comprehensive editorial review | Scope and genre conventions → relevant composition, language/style, argument, evidence, and terminology/consistency assessment → consolidation | Located, prioritized findings, reader consequences, remedies, and assessment limits; no automatic rewrite. |
+| Comprehensive draft revision | Revision scope → diagnosis of relevant defects → structure, reasoning, language, and terminology changes as needed within authority → revision check | Revised draft, significant changes, and unresolved substantive questions. |
+| Bullets or brainstorming to prose | Brief → assessment → composition exploration → relevant argument/evidence review → draft development → revision → revision check | Grounded developed text with support gaps visible. |
+| Argument strengthening | Argument review → evidence review → research if selected → composition exploration → authorized revision → revision check | Stronger argument, or an account of why support cannot sustain it. |
+| Fact-checking and evidence repair | Mode selection → claim identification → evidence review → source research when permitted → proposed corrections → revision check if implemented | Claim-linked support, contradictions, gaps, and wording. In non-research mode, label it a gap review. |
+| Audience or genre transformation | New brief → genre guidance → composition analysis/exploration → structural revision or development → language revision → revision check | Adapted text retaining essential meaning and qualifications. |
 | Concision or executive summary | Identify indispensable content → select emphasis/structure → compress or develop summary → verify against source | Shorter text preserving essential reasoning, numerical factors, and qualifications. |
-| Software documentation review | Software guidance → inspect available code/docs → composition/consistency review → revision → verification | Clearer docs, discrepancies, and unperformed behavior checks. |
-| Scientific manuscript revision | Scientific guidance → selected composition, argument, evidence review → structural/language revision → verification | Clear reporting without unsupported methods, results, or certainty. |
-| Generate an outline or map | Brief/source assessment as needed → explore unresolved structural choices → contextual criteria → outline generation → review → validation | Context-appropriate structure with proposals and gaps visible. |
-| Review an outline or map | Purpose/sources/criteria → context exploration if needed → outline review → outline validation → priorities | Editorial recommendations distinguished from validation failures; no automatic regeneration. |
+| Software documentation review | Software guidance → inspect available code/docs → diagnose composition/consistency → consolidate findings → revise when authorized → revision check if revised | Findings and recommended repairs; authorized revisions when requested; unperformed behavior checks remain explicit. |
+| Scientific manuscript revision | Scientific guidance → selected composition, argument, evidence review → structural/language revision → revision check | Clear reporting without unsupported methods, results, or certainty. |
+| Generate an outline or map | Brief/source assessment as needed → explore unresolved structural choices → contextual criteria → outline generation → outline review with relevant evaluative and validation checks | Context-appropriate structure with proposals and gaps visible. |
+| Review an outline or map | Purpose/sources/criteria → context exploration if needed → outline review with requested evaluative and/or validation coverage → priorities | Editorial recommendations distinguished from validation failures; no automatic regeneration. |
 | Repair an outline or map | Review/validation → authorized revision through outline generation or targeted repairs → recheck affected criteria | Repaired structure with changes and open issues recorded. |
-| Derive a specialized map | Inspect sources → explore elements/relationships → contextual contract → outline generation → review → source/coverage validation | Context-adapted map, with source content, proposals, and status distinguished. |
-| Outline to developed text | Review/validate as needed → relevant argument/evidence work → draft development → revision → verification | Prose grounded in the outline and sources without invented support. |
+| Derive a specialized map | Inspect sources → explore elements/relationships → contextual contract → outline generation → outline review including source/coverage checks | Context-adapted map, with source content, proposals, and status distinguished. |
+| Outline to developed text | Review/validate as needed → relevant argument/evidence work → draft development → revision → revision check | Prose grounded in the outline and sources without invented support. |
 
 ## Coordination and iteration
 
@@ -102,7 +113,7 @@ Do not make every handoff an approval gate. Ordinary authorized edits proceed. S
 
 ## Delivery and completion
 
-Deliver the requested artifact and the necessary findings, significant changes, unresolved decisions, and verification limits. A clean paragraph need not include a project report. A substantial review should explain what was inspected and which dimensions were assessed. Distinguish verified source contents, supplied but uninspected material, inference, and prospective evidence.
+Deliver the requested artifact and the necessary findings, significant changes, unresolved decisions, and verification limits. A clean paragraph need not include a project report. A substantial review should explain what was inspected and which dimensions were assessed. Distinguish inspected source contents, independently assessed claims and their evidence, supplied but uninspected material, inference, and prospective evidence. Inspection alone does not establish truth.
 
 Check that coverage matches the request, findings agree, essential meaning/support survives, and no unsupported additions or commitments entered the result. Match "complete", "verified", and "tested" language to the actual work and its scope. Document source or tool limitations; drafting does not authorize sending or publishing.
 

@@ -45,3 +45,5 @@ Dependency inspection: manager → evidence/source/entry point share the two-mod
 - Task 18: Correct README inventory and demonstrate a bounded revision. Inspected changed instructions and applicable plan criteria; package checker and whitespace check passed.
 
 - Final module repair: Name concision comparison as revision check. Local package and whitespace checks passed; meaning and authority unchanged.
+
+- Final module repair: Match composition diagnostic examples to package quotation style. Local package and whitespace checks passed; meaning and authority unchanged.
